@@ -1,0 +1,580 @@
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?peintre ?date_naissance
+  6 WHERE
+  7   { ?peintre  rdf:type  p:Peintre
+  8     OPTIONAL
+  9       { ?s  p:date_naissance  ?date_naissance }
+ 10   }
+ 11 LIMIT   20
+_
+-----------------------------------------------------------------
+| peintre      | date_naissance                                 |
+=================================================================
+| p:Joshua_Sir | "1938"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Joshua_Sir | "1620"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Joshua_Sir | "1720"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Joshua_Sir | "1623"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Joshua_Sir | "1628"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Joshua_Sir | "1638"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Joshua_Sir | "6 decembre 1841"                              |
+| p:Joshua_Sir | "15 decembre 1807"                             |
+| p:Joshua_Sir | "1807"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Joshua_Sir | "1490"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Joshua_Sir | "27 septembre"                                 |
+| p:Joshua_Sir | "17 fevrier 1837"                              |
+| p:Joshua_Sir | "janvier 1629"                                 |
+| p:Joshua_Sir | "16 mars 1766"                                 |
+| p:Joshua_Sir | "15 juin 1594"                                 |
+| p:Joshua_Sir | "19 juillet 1834"                              |
+| p:Joshua_Sir | "17 aout 1578"                                 |
+| p:Joshua_Sir | "14 septembre 1797"                            |
+| p:Joshua_Sir | "1768"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Joshua_Sir | "14 janvier 1841"                              |
+-----------------------------------------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?peintre ?pays_naissance
+  6 WHERE
+  7   { ?peintre  rdf:type          p:Peintre ;
+  8               p:pays_naissance  ?pays_naissance
+  9     FILTER ( lang(?pays_naissance) = "it" )
+ 10   }
+ 11 LIMIT   20
+_
+-------------------------------------------------------------------------
+| peintre                                            | pays_naissance   |
+=========================================================================
+| p:Joshua_Sir                                       | "Regno Unito"@it |
+| p:GREUZE_Jean-Baptiste                             | "Belgio"@it      |
+| p:Hilaire_Germain_Edgar                            | "Francia"@it     |
+| p:GAUFFIER_Louis                                   | "Francia"@it     |
+| <http://www.ex.fr/p#MONNOYER_Jean-Baptiste_l'Aine> | "Francia"@it     |
+| p:DAVID_Jacques-Louis                              | "Francia"@it     |
+| p:RYCKHALS_Francoys                                | "Olanda"@it      |
+| p:RAOUX_Jean                                       | "Francia"@it     |
+| p:Gerrit                                           | "Olanda"@it      |
+| p:DOLCI_Carlo                                      | "Italia"@it      |
+| p:Pierre_Frederic                                  | "Francia"@it     |
+| p:VEERENDAEL_Nicolaes_van                          | "Belgio"@it      |
+| p:Jean_le_Pere                                     | "Francia"@it     |
+| p:LARGILLIERE_Nicolas_de                           | "Francia"@it     |
+| p:BIMAR_Pierre_Charles_Henri                       | "Francia"@it     |
+| p:VELDE_Willem_Van                                 | "Olanda"@it      |
+| p:BAZILLE_Frederic                                 | "Francia"@it     |
+| p:COURT_Joseph_Desire                              | "Francia"@it     |
+| p:Marcelin_Gilbert                                 | "Francia"@it     |
+| p:COT_Pierre_Auguste                               | "Francia"@it     |
+-------------------------------------------------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?peintre ?date_deces
+  6 WHERE
+  7   { ?peintre  rdf:type      p:Peintre ;
+  8               p:date_deces  ?date_deces
+  9   }
+ 10 LIMIT   20
+_
+-------------------------------------------------------------------------------------------------------
+| peintre                                            | date_deces                                     |
+=======================================================================================================
+| p:Joshua_Sir                                       | "23 fevrier 1792"                              |
+| p:GREUZE_Jean-Baptiste                             | "4 mars 1805"                                  |
+| p:Hilaire_Germain_Edgar                            | "27 septembre 1917"                            |
+| p:GAUFFIER_Louis                                   | "20 octobre 1801"                              |
+| <http://www.ex.fr/p#MONNOYER_Jean-Baptiste_l'Aine> | "20 fevrier 1699"                              |
+| p:DAVID_Jacques-Louis                              | "29 decembre 1825"                             |
+| p:RYCKHALS_Francoys                                | "INCONNU"                                      |
+| p:RAOUX_Jean                                       | "10 fevrier 1734"                              |
+| p:Gerrit                                           | "14 juin 1698"                                 |
+| p:DOLCI_Carlo                                      | "17 janvier 1686"                              |
+| p:Pierre_Frederic                                  | "13 janvier 1877"                              |
+| p:VEERENDAEL_Nicolaes_van                          | "11 aout 1691"                                 |
+| p:Jean_le_Pere                                     | "1589"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:LARGILLIERE_Nicolas_de                           | "20 mars 1746"                                 |
+| p:BIMAR_Pierre_Charles_Henri                       | "1886"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:VELDE_Willem_Van                                 | "16 avril 1707"                                |
+| p:BAZILLE_Frederic                                 | "28 novembre 1870"                             |
+| p:COURT_Joseph_Desire                              | "23 janvier 1865"                              |
+| p:Marcelin_Gilbert                                 | "18 février 1902"                              |
+| p:COT_Pierre_Auguste                               | "2 aout 1883"                                  |
+-------------------------------------------------------------------------------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?s ?label
+  6 WHERE
+  7   { ?s  rdf:type    p:Peinture ;
+  8         rdfs:label  ?label
+  9     FILTER regex(?label, "^[C|M]")
+ 10   }
+_
+---------------------------------------------------------------------------------------------------------------------
+| s                                                     | label                                                     |
+=====================================================================================================================
+| p:Ciel_et_Enfer                                       | "Ciel et Enfer"                                           |
+| p:Meleagre                                            | "Meleagre tue le sanglier de Calydon"                     |
+| <http://www.ex.fr/p#Cours_d'eau>                      | "Cours d'eau, effet du matin"                             |
+| p:Marine                                              | "Marine, plage avec figures"                              |
+| p:Marine                                              | "Marine (\"La petite flotte\")"                           |
+| p:Michel-Ange                                         | "Michel-Ange dans son atelier"                            |
+| <http://www.ex.fr/p#vieux_chantent,enfants_piaillent> | "Comme les vieux chantent, les enfants piaillent"         |
+| p:Cascade                                             | "Cascade dans un bois de chene"                           |
+| p:Chiaruccia                                          | "Chiaruccia"                                              |
+| p:Montaigne                                           | "Montaigne visitant le Tasse"                             |
+| p:Mireil_a_Saint-Trophime                             | "Mireille faisant l'aumone a la sortie de Saint-Trophime" |
+| p:mere_des_Gracques                                   | "Cornelie, mere des Gracques"                             |
+| p:Marche_aux_chevaux                                  | "Marche aux chevaux"                                      |
+---------------------------------------------------------------------------------------------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?s ?label
+  6 WHERE
+  7   { ?s  rdf:type    p:Peinture ;
+  8         rdfs:label  ?label
+  9     FILTER regex(?label, "e$")
+ 10   }
+ 11 LIMIT   10
+_
+-------------------------------------------------------------------------------------------------
+| s                                         | label                                             |
+=================================================================================================
+| <http://www.ex.fr/p#L'Osteria>            | "L'Osteria au fumeur de pipe"                     |
+| <http://www.ex.fr/p#L'Atelier_du_peintre> | "L'Atelier du peintre"                            |
+| p:Le_repos                                | "Le repos devant l'auberge"                       |
+| p:Le_petit_Samuel                         | "Le petit Samuel en priere"                       |
+| p:Portrait_jeune_EdgarClarke              | "Portrait du jeune Edgar Clarke"                  |
+| p:Gave_deborde                            | "Gave deborde"                                    |
+| p:Jeune_femme                             | "Jeune femme assise devant la fenetre, dit l'Ete" |
+| p:Pygmalion_amoureux_de_sa_statue         | "Pygmalion amoureux de sa statue"                 |
+| p:Vue_du_port                             | "Vue du port de Ripa Grande"                      |
+| p:Paysage_avec_une_cascade                | "Paysage avec une cascade"                        |
+-------------------------------------------------------------------------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?peinture ?annee_creation
+  6 WHERE
+  7   { ?peinture  rdf:type         p:Peinture ;
+  8               p:annee_creation  ?annee_creation
+  9     FILTER bound(?annee_creation)
+ 10   }
+ 11 LIMIT   20
+_
+----------------------------------------------------------------------------------------------------
+| peinture                                        | annee_creation                                 |
+====================================================================================================
+| p:Ciel_et_Enfer                                 | "1850"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Le_pont                                       | "1776"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Meleagre                                      | "1704"^^<http://www.w3.org/2001/XMLSchema#int> |
+| <http://www.ex.fr/p#L'Osteria>                  | "1638 - 1642"                                  |
+| <http://www.ex.fr/p#Fleurs,fruits_objets_d'art> | "1665"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Portrait_de_lady_Holland_avec_son_fils        | "1794"^^<http://www.w3.org/2001/XMLSchema#int> |
+| <http://www.ex.fr/p#L'Atelier_du_peintre>       | "1853"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Le_repos                                      | "1660"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Le_petit_Samuel                               | "1777"^^<http://www.w3.org/2001/XMLSchema#int> |
+| <http://www.ex.fr/p#Cours_d'eau>                | "1824"^^<http://www.w3.org/2001/XMLSchema#int> |
+| <http://www.ex.fr/p#Interieur_d'un_cabaret>     | "1666"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Portrait_jeune_EdgarClarke                    | "1802"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Gave_deborde                                  | "1865"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Agesilas_et_ses_enfants                       | "1779"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Jeune_femme                                   | "1879"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Guirlande                                     | "1647"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Pygmalion_amoureux_de_sa_statue               | "1717"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Tabagie_2                                     | "1640"^^<http://www.w3.org/2001/XMLSchema#int> |
+| <http://www.ex.fr/p#Venus_et_l'Amour>           | "1575-1580"                                    |
+| <http://www.ex.fr/p#Venus_et_l'Amour>           | "1575 - 1580"                                  |
+----------------------------------------------------------------------------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?peinture ?annee_creation
+  6 WHERE
+  7   { ?peinture  rdf:type         p:Peinture ;
+  8               p:annee_creation  ?annee_creation
+  9     FILTER ( ( ?annee_creation > 1600 ) && ( ?annee_creation < 1700 ) )
+ 10   }
+_
+-----------------------------------------------------------------------------------------------------------
+| peinture                                               | annee_creation                                 |
+===========================================================================================================
+| <http://www.ex.fr/p#Fleurs,fruits_objets_d'art>        | "1665"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Le_repos                                             | "1660"^^<http://www.w3.org/2001/XMLSchema#int> |
+| <http://www.ex.fr/p#Interieur_d'un_cabaret>            | "1666"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Guirlande                                            | "1647"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Tabagie_2                                            | "1640"^^<http://www.w3.org/2001/XMLSchema#int> |
+| <http://www.ex.fr/p#Grand_Marche-l'eglise_Saint-Bavon> | "1690"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:La_Vierge_au_lys                                     | "1642"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Marine                                               | "1657"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Loth_et_ses_filles                                   | "1615"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Interieur_rustique                                   | "1640"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Nature_morte                                         | "1659"^^<http://www.w3.org/2001/XMLSchema#int> |
+| <http://www.ex.fr/p#l'auberge>                         | "1658"^^<http://www.w3.org/2001/XMLSchema#int> |
+| <http://www.ex.fr/p#vieux_chantent,enfants_piaillent>  | "1662"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Sainte_Famille-saint_Jean-Baptiste                   | "1633"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Venus_et_Adonis                                      | "1626"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Vase_de_fleurs                                       | "1674"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:Marche_aux_chevaux                                   | "1660"^^<http://www.w3.org/2001/XMLSchema#int> |
+-----------------------------------------------------------------------------------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?peintre ?date_naissance
+  6 WHERE
+  7   { ?peintre  p:date_naissance  ?date_naissance
+  8     FILTER NOT EXISTS { ?peintre  p:date_deces  ?date_deces }
+  9   }
+_
+-----------------------------------------------------------------------------------
+| peintre                        | date_naissance                                 |
+===================================================================================
+| p:WIJCK_Thomas                 | "1616"^^<http://www.w3.org/2001/XMLSchema#int> |
+| p:ROBERT_FLEURY_Joseph_Nicolas | "8 aout 1797"                                  |
+-----------------------------------------------------------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?sculpteur ?nom
+  6 WHERE
+  7   { ?sculpteur  rdf:type  p:Sculpteur
+  8     OPTIONAL
+  9       { ?sculpteur  p:nom  ?nom }
+ 10   }
+ 11 LIMIT   6
+_
+---------------------------------------
+| sculpteur               | nom       |
+=======================================
+| p:CLEVE_Corneille_van   | "CLEVE"   |
+| p:RICHIER_Germaine      | "RICHIER" |
+| p:MENGUE_Jean_Marie     | "MENGUE"  |
+| p:BARYE_Antoine_Louis   | "BARYE"   |
+| p:HOUDON_Jean_Antoine   | "HOUDON"  |
+| p:BOSIO_François_Joseph | "BOSIO"   |
+---------------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?peinture ?domaine
+  6 WHERE
+  7   { ?peinture  rdf:type  p:Peinture ;
+  8               p:domaine  ?domaine
+  9     OPTIONAL
+ 10       { ?peinture  p:annee_creation  ?annee_creation }
+ 11     FILTER ( ( ! bound(?annee_creation) ) && ( lang(?domaine) = "fr" ) )
+ 12   }
+_
+-----------------------------------------------------------------------------------
+| peinture                                 | domaine                              |
+===================================================================================
+| p:Vue_du_port                            | "Peinture hollandaise 17e siecle"@fr |
+| <http://www.ex.fr/p#La_voiture_d'enfant> | "Peinture francaise 19e siecle"@fr   |
+| p:Jeune_Martyre_morte                    | "Peinture_francaise_17e_siecle"@fr   |
+| <http://www.ex.fr/p#L'Enfance>           | "Peinture francaise 18e siecle"@fr   |
+| <http://www.ex.fr/p#L'alchimiste>        | "Peinture_francaise_17e_siecle"@fr   |
+| p:Eve-serpent                            | "Peinture francaise 19e siecle"@fr   |
+| p:Etude_academique                       | "Peinture_francaise_18e_siecle"@fr   |
+| p:Enfance_de_Bacchus                     | "Peinture francaise 18e siecle"@fr   |
+| p:Pauline_Denis                          | "Peinture francaise 20e siecle"@fr   |
+-----------------------------------------------------------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?s ?label
+  6 WHERE
+  7   { ?s  rdfs:label  ?label
+  8       { ?s  rdf:type  p:Sculpture }
+  9     UNION
+ 10       { ?s  rdf:type  p:Peinture }
+ 11   }
+ 12 LIMIT   20
+_
+---------------------------------------------------------------------------------------------------------------------------
+| s                                                  | label                                                              |
+===========================================================================================================================
+| p:Cheval-lion                                      | "Cheval surpris par un lion"                                       |
+| p:Une_plage                                        | "Une plage"                                                        |
+| p:La_Mare                                          | "La Mare"                                                          |
+| p:Ulysse                                           | "Le retour d'Ulysse"                                               |
+| p:sculpteur_Antonio_Canova                         | "Portrait du sculpteur Antonio Canova"                             |
+| p:Les_fagots                                       | "Les fagots"                                                       |
+| <http://www.ex.fr/p#l'auberge>                     | "Deux muletiers a l'auberge"                                       |
+| p:Paysage_avec_une_cascade                         | "Paysage avec une cascade"                                         |
+| p:Eve-serpent                                      | "Eve tentee par le serpent"                                        |
+| p:Tabagie_1                                        | "Tabagie (\"L'homme au chapeau blanc\")"                           |
+| p:Souvenir_des_Pyrenees                            | "Le Gouter champetre, Souvenir des Pyrenees"                       |
+| p:eglise_de_nuit                                   | "Interieur d_une eglise de nuit"                                   |
+| p:Paysage_au_pont                                  | "Paysage au pont"                                                  |
+| p:Tabagie_2                                        | "Tabagie (\"Les amusements des matelots\")"                        |
+| <http://www.ex.fr/p#l'eglise_San_Martino>          | "Interieur de l'eglise souterraine de San Martino in Monte a Rome" |
+| p:Albayde                                          | "Albayde"                                                          |
+| <http://www.ex.fr/p#L'Enfance>                     | "L'Enfance"                                                        |
+| p:Le_pont                                          | "Le pont"                                                          |
+| p:Portrait_du_peintre_Van                          | "Portrait du peintre Van Wyck Coklers"                             |
+| <http://www.ex.fr/p#Gibier,chien,fleurs_et_fruits> | "Gibier, chien, fleurs et fruits"                                  |
+---------------------------------------------------------------------------------------------------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?sculpture
+  6 WHERE
+  7   { ?sculpture  rdf:type  p:Sculpture }
+_
+--------------------------------
+| sculpture                    |
+================================
+| p:Chauve-souris              |
+| <http://www.ex.fr/p#L'Hiver> |
+| p:Thesee                     |
+| p:Icare                      |
+| p:Henri_IV_enfant            |
+| p:Cheval-lion                |
+| p:Lion_au_serpent            |
+| p:Hercule                    |
+| p:Polypheme                  |
+--------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?class (COUNT(?individu) AS ?nbreIndividus)
+  6 WHERE
+  7   { ?individu  rdf:type  ?class }
+  8 GROUP BY ?class
+_
+-----------------------------------------
+| class                 | nbreIndividus |
+=========================================
+| p:Peinture            | 109           |
+| p:Sculpteur           | 6             |
+| p:Musee               | 1             |
+| p:Sculpture           | 9             |
+| p:Parcours_Thematique | 14            |
+| p:Peintre             | 78            |
+-----------------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?class (COUNT(?individu) AS ?nbreParClasse)
+  6 WHERE
+  7   { ?individu  rdf:type  ?class }
+  8 GROUP BY ?class
+  9 HAVING ( COUNT(?individu) > 1 )
+_
+-----------------------------------------
+| class                 | nbreParClasse |
+=========================================
+| p:Peinture            | 109           |
+| p:Sculpteur           | 6             |
+| p:Sculpture           | 9             |
+| p:Parcours_Thematique | 14            |
+| p:Peintre             | 78            |
+-----------------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?cl ?individu ?label
+  6 WHERE
+  7   { BIND(p:Parcours_Thematique AS ?cl)
+  8     ?individu  rdf:type   ?cl ;
+  9               rdfs:label  ?label
+ 10   }
+_
+---------------------------------------------------------------------
+| cl                    | individu        | label                   |
+=====================================================================
+| p:Parcours_Thematique | p:thematique_4  | "LES FLEURS"            |
+| p:Parcours_Thematique | p:thematique_2  | "LE NU"                 |
+| p:Parcours_Thematique | p:thematique_8  | "LA VIE D'ARTISTE"      |
+| p:Parcours_Thematique | p:thematique_6  | "ECRIVAINS ET LECTEURS" |
+| p:Parcours_Thematique | p:thematique_3  | "LES HEROS"             |
+| p:Parcours_Thematique | p:thematique_13 | "LES ENFANTS"           |
+| p:Parcours_Thematique | p:thematique_9  | "LES MONSTRES"          |
+| p:Parcours_Thematique | p:thematique_11 | "LES ANIMAUX"           |
+| p:Parcours_Thematique | p:thematique_7  | "ETOFFES ET TISSUS"     |
+| p:Parcours_Thematique | p:thematique_5  | "LES FRUITS"            |
+| p:Parcours_Thematique | p:thematique_14 | "EAU"                   |
+| p:Parcours_Thematique | p:thematique_1  | "PEINTURE INTERIEURES"  |
+| p:Parcours_Thematique | p:thematique_12 | "LE VIN"                |
+| p:Parcours_Thematique | p:thematique_10 | "ANGES"                 |
+---------------------------------------------------------------------
+
+***************************************** REQUETE SUIVANTE : *************************************************************************
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 SELECT  ?s ?o
+  6 WHERE
+  7   { ?s  rdf:type  ?o }
+  8 LIMIT   20
+_
+-------------------------------------------------------------
+| s                                           | o           |
+=============================================================
+| p:Une_plage                                 | p:Peinture  |
+| p:RICHARD_Alexandre_Louis_Marie_Theodore    | p:Peintre   |
+| p:Jean_le_Pere                              | p:Peintre   |
+| p:Bacchus_et_Erigone                        | p:Peinture  |
+| <http://www.ex.fr/p#NEEFFS_Pieter_l'Ancien> | p:Peintre   |
+| p:CLEVE_Corneille_van                       | p:Sculpteur |
+| p:GLAIZE_Auguste_Barthelemy                 | p:Peintre   |
+| p:Polypheme                                 | p:Sculpture |
+| p:Bonjour_M.Courbet                         | p:Peinture  |
+| p:POL_Christiaen_van                        | p:Peintre   |
+| p:TROY_Jean-Francois_de                     | p:Peintre   |
+| p:MORISOT_Berthe_Marie_Pauline              | p:Peintre   |
+| p:Louise_de_Stolberg                        | p:Peinture  |
+| p:Etude_academique                          | p:Peinture  |
+| p:COT_Pierre_Auguste                        | p:Peintre   |
+| p:METSU_Gabriel                             | p:Peintre   |
+| p:BIMAR_Pierre_Charles_Henri                | p:Peintre   |
+| p:Pygmalion_amoureux_de_sa_statue           | p:Peinture  |
+| p:WIJCK_Thomas                              | p:Peintre   |
+| p:Tabagie_1                                 | p:Peinture  |
+-------------------------------------------------------------
+
+------------------------------------- CONSTRUCT : -------------------------------------------------------------
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 CONSTRUCT 
+  6   { 
+  7     ?i rdf:type p:Sculpture .
+  8     ?i rdfs:label ?label .
+  9     ?i p:annee_creation ?annee_creation .
+ 10   }
+ 11 WHERE
+ 12   { ?i  rdf:type          p:Sculpture ;
+ 13         rdfs:label        ?label ;
+ 14         p:annee_creation  ?annee_creation
+ 15   }
+
+@prefix p:     <http://www.ex.fr/p#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+p:Lion_au_serpent  a      p:Sculpture ;
+        rdfs:label        "Lion au serpent" ;
+        p:annee_creation  "1872"^^xsd:int .
+
+p:Hercule  a              p:Sculpture ;
+        rdfs:label        "Hercule portant le sanglier d'Erymanthe " ;
+        p:annee_creation  "1825"^^xsd:int .
+
+<http://www.ex.fr/p#L'Hiver>
+        a                 p:Sculpture ;
+        rdfs:label        "L'Hiver" ;
+        p:annee_creation  "1783"^^xsd:int .
+
+p:Chauve-souris  a        p:Sculpture ;
+        rdfs:label        "La Chauve-souris" ;
+        p:annee_creation  "1946"^^xsd:int .
+
+p:Polypheme  a            p:Sculpture ;
+        rdfs:label        "Polypheme" ;
+        p:annee_creation  "1680 - 1681" .
+
+p:Cheval-lion  a          p:Sculpture ;
+        rdfs:label        "Cheval surpris par un lion" ;
+        p:annee_creation  "1872 - 1874" .
+
+p:Icare  a                p:Sculpture ;
+        rdfs:label        "Icare" ;
+        p:annee_creation  "1887"^^xsd:int .
+
+p:Thesee  a               p:Sculpture ;
+        rdfs:label        "Thesee combattant le centaure Bienor" , "Thesee combattant le Minotaure" ;
+        p:annee_creation  "1874"^^xsd:int .
+
+-------------------------------------- DESCRIBE : ------------------------------------------------------------
+
+  1 PREFIX  p:    <http://www.ex.fr/p#>
+  2 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  3 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  4 
+  5 DESCRIBE ?Portrait_F1
+  6 WHERE
+  7   { ?Portrait_F1  rdf:type  p:Peinture ;
+  8               rdfs:label  "Le retour d'Ulysse"
+  9   }
+_
+@prefix p:     <http://www.ex.fr/p#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+p:Ulysse  a               p:Peinture ;
+        rdfs:label        "Le retour d'Ulysse" ;
+        p:annee_creation  "1779"^^xsd:int ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture_francaise_18e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2006.4.1" ;
+        p:titre_peinture  "Il ritorno di Odisseo"@it , "Le retour d'Ulysse"@fr .

@@ -1,0 +1,1151 @@
+@prefix p:     <http://www.ex.fr/p#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ex.fr/p#Ariane dans l'ile de Naxos>
+        a                 "Peinture" ;
+        p:annee_creation  "1725"^^xsd:int ;
+        p:domaine         "Peinture francaise 18e siecle"@fr ;
+        p:est_regroupé    <TH_le_vin> ;
+        p:id              "JFD?Tro" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "806.11" ;
+        p:titre           "Ariane dans l'ile de Naxos"@fr .
+
+<http://www.ex.fr/p#RYCKHALS_Francois Marius>
+        a                 "Peintre" ;
+        p:date_deces      "1679" ;
+        p:date_naissance  "17 decembre 1775" ;
+        p:id              "FRM?Ryc" ;
+        p:nom             "RYCKHALS" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Interieur rustique> ;
+        p:prenom          "Francois Marius" .
+
+<http://www.ex.fr/p#DIAZ DE LA PENA_Narcisse_Virgile>
+        a                 "Peintre" ;
+        p:date_deces      "18 novembre 1876" ;
+        p:date_naissance  "20 aout 1807" ;
+        p:id              "NVI_Ddp" ;
+        p:nom             "DIAZ DE LA PENA" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Les rendez-vous d'amour> ;
+        p:prenom          "Narcisse_Virgile" .
+
+<http://www.ex.fr/p#Jeune femme assise devant la fenetre, dit l'Ete>
+        a                 "Peinture" ;
+        p:annee_creation  "1879"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_peinture_interieurs> , <TH_les_fleurs> ;
+        p:id              "BMP?Mor" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "07.5.1" ;
+        p:titre           "Jeune femme assise devant la fenetre, dit l'Ete"@fr .
+
+<http://www.ex.fr/p#Sainte Famille avec saint Jean-Baptiste>
+        a                 "Peinture" ;
+        p:annee_creation  "1633"^^xsd:int ;
+        p:domaine         "Peinture francaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_les_enfants> ;
+        p:id              "JAC?Ste" ;
+        p:matiere         "Huile_sur_ardoise"@fr ;
+        p:num_inventaire  "2001.6.1" ;
+        p:titre           "Sainte Famille avec saint Jean-Baptiste"@fr .
+
+<http://www.ex.fr/p#Les fagots>
+        a                 "Peinture" ;
+        p:annee_creation  "1704"^^xsd:int ;
+        p:domaine         "Peinture hollandaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_eau> ;
+        p:id              "NIC?Ber" ;
+        p:matiere         "1670 - 1680"@fr ;
+        p:num_inventaire  "836.4.3" ;
+        p:titre           "Les fagots"@fr .
+
+<http://www.ex.fr/p#Chasse au sanglier>
+        a                 "Peinture" ;
+        p:annee_creation  "1675"^^xsd:int ;
+        p:domaine         "Peinture francaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "ABR_Hon" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "835.2.1" ;
+        p:titre           "Chasse au sanglier"@fr .
+
+<http://www.ex.fr/p#Trois vaches au paturage>
+        a                 "Peinture" ;
+        p:annee_creation  "1648"^^xsd:int ;
+        p:domaine         "Peinture francaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "PAU_Pot" ;
+        p:matiere         "Huile_sur_bois"@fr ;
+        p:num_inventaire  "836.4.15" ;
+        p:titre           "Trois vaches au paturage"@fr .
+
+p:ZAMPIERI_Domenico  a    "Peintre" ;
+        p:date_deces      "6 avril 1641" ;
+        p:date_naissance  "21 octobre 1581" ;
+        p:id              "DOM!Zam" ;
+        p:nom             "ZAMPIERI" ;
+        p:pays_naissance  "Italie" ;
+        p:peint           <Portrait du cardinal Jean de Bonsy (1554-1621), évêque de Beziers> ;
+        p:prenom          "Domenico" .
+
+<http://www.ex.fr/p#Diomède roi de Thrace, tué par Hercule et dévoré par ses propres chevaux>
+        a                 "Peinture" ;
+        p:annee_creation  "1742"^^xsd:int ;
+        p:domaine         "Peinture Italienne 18e siecle"@fr ;
+        p:id              "JBI!Pie" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2012.19.23" ;
+        p:titre           "Diomède roi de Thrace, tué par Hercule et dévoré par ses propres chevaux"@fr .
+
+p:GAUFFIER_Louis  a       "Peintre" ;
+        p:date_deces      "20 octobre 1801" ;
+        p:date_naissance  "10 juin 1762" ;
+        p:id              "LSO?Gau" ;
+        p:nom             "GAUFFIER" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Portrait du peintre Van Wyck Coklers> ;
+        p:prenom          "Louis" .
+
+p:TH_les_fleurs  a        p:Parcours_Thematique ;
+        rdfs:label        "TH_les_fleurs" ;
+        p:Nom_thematique  "TH_les_fleurs"@fr ;
+        p:est_exposé      <musee_Fabre> .
+
+<http://www.ex.fr/p#SUBLEYRAS_Pierre Hubert>
+        a                 "Peintre" ;
+        p:date_deces      "28 mai 1749" ;
+        p:date_naissance  "25 novembre 1699" ;
+        p:id              "PHU_Sub" ;
+        p:nom             "SUBLEYRAS" ;
+        p:pays_naissance  "France" ;
+        p:peint           <la venerable Baptistine Vernazza> ;
+        p:prenom          "Pierre Hubert" .
+
+<http://www.ex.fr/p#Les Baigneuses>
+        a                 "Peinture" ;
+        p:annee_creation  "1853"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_le_Nu> ;
+        p:id              "GUS?Cou" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.19" ;
+        p:titre           "Les Baigneuses"@fr .
+
+<http://www.ex.fr/p#Gibier, chien, fleurs et fruits>
+        a                 "Peinture" ;
+        p:annee_creation  "1748"^^xsd:int ;
+        p:domaine         "Peinture francaise 18e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "JCA_Lou" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2012.19.21" ;
+        p:titre           "Gibier, chien, fleurs et fruits"@fr .
+
+<http://www.ex.fr/p#PIERRE_Jean Baptiste Marie >
+        a                 "Peintre" ;
+        p:date_deces      "15 mai 1789" ;
+        p:date_naissance  "6 mars 1714" ;
+        p:id              "JBI!Pie" ;
+        p:nom             "PIERRE" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Diomède roi de Thrace, tué par Hercule et dévoré par ses propres chevaux> ;
+        p:prenom          "Jean Baptiste Marie " .
+
+<http://www.ex.fr/p#COUSIN_Jean le Pere>
+        a                 "Peintre" ;
+        p:date_deces      "1589" ;
+        p:date_naissance  "1490" ;
+        p:id              "JLP?Cou" ;
+        p:nom             "COUSIN" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Allegorie de la Charite> ;
+        p:prenom          "Jean le Pere" .
+
+<http://www.ex.fr/p#RIMINI_Pietro da>
+        a                 "Peintre" ;
+        p:date_deces      "1350" ;
+        p:date_naissance  "1280" ;
+        p:id              "PDA_Rim" ;
+        p:nom             "RIMINI" ;
+        p:pays_naissance  "Italie" ;
+        p:peint           <La Dormition de la Vierge> ;
+        p:prenom          "Pietro da" .
+
+<http://www.ex.fr/p#La poule blanche>
+        a                 "Peinture" ;
+        p:annee_creation  "1660"^^xsd:int ;
+        p:domaine         "Peinture francaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "MEL_Hon" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "837.1.39" ;
+        p:titre           "La poule blanche"@fr .
+
+p:TH_ecrivains_lecteurs
+        a                 p:Parcours_Thematique ;
+        rdfs:label        "TH_ecrivains_lecteurs" ;
+        p:Nom_thematique  "TH_ecrivains_lecteurs"@fr ;
+        p:est_exposé      <musee_Fabre> .
+
+<http://www.ex.fr/p#VOLLON_Alexis >
+        a                 "Peintre" ;
+        p:date_deces      " 27 août 1900 " ;
+        p:date_naissance  " 23 avril 1833 " ;
+        p:id              "ALX!Vol" ;
+        p:nom             "VOLLON" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Nature morte> ;
+        p:prenom          "Alexis " .
+
+<http://www.ex.fr/p#Baigneuses pres d'une cascade en montagne>
+        a                 "Peinture" ;
+        p:annee_creation  "1770"^^xsd:int ;
+        p:domaine         "Peinture suisse 18e siecle"@fr ;
+        p:est_regroupé    <TH_eau> ;
+        p:id              "CAS?Wol" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2012.19.34" ;
+        p:titre           "Baigneuses pres d'une cascade en montagne"@fr .
+
+<http://www.ex.fr/p#Les Arts, la Richesse, les Plaisirs, la Philosophie (esquisse)>
+        a                 "Peinture" ;
+        p:annee_creation  "1801"^^xsd:int ;
+        p:domaine         "Peinture francaise 18e siecle"@fr ;
+        p:est_regroupé    <TH_anges> ;
+        p:id              "PPA_Pru" ;
+        p:matiere         "Huile_sur_toile_marouflee_sur_bois"@fr ;
+        p:num_inventaire  "836.4.48" ;
+        p:titre           "Les Arts, la Richesse, les Plaisirs, la Philosophie (esquisse)"@fr .
+
+<http://www.ex.fr/p#HILLEMACHER_Eugene Ernest>
+        a                 "Peintre" ;
+        p:date_deces      "3 mars 1887" ;
+        p:date_naissance  "13 octobre 1818" ;
+        p:id              "EUG_Hil" ;
+        p:nom             "HILLEMACHER" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Clotilde de Surville> ;
+        p:prenom          "Eugene Ernest" .
+
+<http://www.ex.fr/p#MORISOT_Berthe Marie Pauline>
+        a                 "Peintre" ;
+        p:date_deces      "21 feverier 1865" ;
+        p:date_naissance  "2 mars 1895" ;
+        p:id              "BMP?Mor" ;
+        p:nom             "MORISOT" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Jeune femme assise devant la fenetre, dit l'Ete> ;
+        p:prenom          "Berthe Marie Pauline" .
+
+p:TH_peinture_interieurs
+        a                 p:Parcours_Thematique ;
+        rdfs:label        "TH_peinture_interieurs" ;
+        p:Nom_thematique  "TH_peinture_interieurs"@fr ;
+        p:est_exposé      <musee_Fabre> .
+
+<http://www.ex.fr/p#Eve tentee par le serpent>
+        a                 "Peinture" ;
+        p:annee_creation  "1791"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_Les_monstres> ;
+        p:id              "PRR?Del" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "860.2.2" ;
+        p:titre           "Eve tentee par le serpent"@fr .
+
+<http://www.ex.fr/p#TROY_Jean-Francois de>
+        a                 "Peintre" ;
+        p:date_deces      "26 janvier 1752" ;
+        p:date_naissance  "26 janvier 1752" ;
+        p:id              "JFD?Tro" ;
+        p:nom             "TROY" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Ariane dans l'ile de Naxos> ;
+        p:prenom          "Jean-Francois de" .
+
+<http://www.ex.fr/p#BERRE_Jean Baptiste>
+        a                 "Peintre" ;
+        p:date_deces      "5 juillet 1838" ;
+        p:date_naissance  "11 fevrier 1777 " ;
+        p:id              "JBA_Ber" ;
+        p:nom             "BERRE" ;
+        p:pays_naissance  "Belgique" ;
+        p:peint           <Paysage avec animaux> ;
+        p:prenom          "Jean Baptiste" .
+
+p:Peintre  rdfs:subClassOf  p:Artiste .
+
+<http://www.ex.fr/p#Fabre_Francois Xavier>
+        a                 "Peintre" ;
+        p:date_deces      "16 mars 1837" ;
+        p:date_naissance  "1 avril 1766" ;
+        p:id              "FRX_Fab" ;
+        p:nom             "Fabre" ;
+        p:pays_naissance  "Montpellier" ;
+        p:peint           <Le retour d'Ulysse> ;
+        p:prenom          "Francois Xavier" .
+
+<http://www.ex.fr/p#Nature morte>
+        a                 "Peinture" ;
+        p:annee_creation  "1933"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_fruits> ;
+        p:id              "ALX!Vol" ;
+        p:matiere         "Huile sur toile "@fr ;
+        p:num_inventaire  "33.5.14" ;
+        p:titre           "Nature morte"@fr .
+
+<http://www.ex.fr/p#Paysage avec animaux>
+        a                 "Peinture" ;
+        p:annee_creation  "1835"^^xsd:int , "1821"^^xsd:int ;
+        p:domaine         "Peinture francaise 18e siecle"@fr , "Peinture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "JRA_Bra" , "JBA_Ber" ;
+        p:matiere         "Huile_sur_bois"@fr , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "825.1.166" , "836.4.4" ;
+        p:titre           "Paysage avec animaux"@fr .
+
+<http://www.ex.fr/p#L'Abreuvoir>
+        a                 "Peinture" ;
+        p:annee_creation  "1850"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "CON_Tro" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.93" ;
+        p:titre           "L'Abreuvoir"@fr .
+
+<http://www.ex.fr/p#HOUDON_Jean Antoine>
+        a                 "Sculpteur" ;
+        p:Créa            <Leone con serpente> , <L'Hiver> , <Cheval surpris par un lion> ;
+        p:date_deces      "15 juillet 1828" ;
+        p:date_naissance  "25 mars 1741" ;
+        p:id              "JAN/Houd" ;
+        p:nom             "HOUDON" ;
+        p:pays_naissance  "France" ;
+        p:prenom          "Jean Antoine" .
+
+<http://www.ex.fr/p#MARSEUS VAN SCHRIECK_Otto>
+        a                 "Peintre" ;
+        p:date_deces      "22 juin 1678" ;
+        p:date_naissance  "1619" ;
+        p:id              "VSC_Mar" ;
+        p:nom             "MARSEUS VAN SCHRIECK" ;
+        p:pays_naissance  "Irlande" ;
+        p:peint           <Une tige de chardons> ;
+        p:prenom          "Otto" .
+
+<http://www.ex.fr/p#LAURENS_Jules Joseph Augustin>
+        a                 "Peintre" ;
+        p:date_deces      "5 mai 1901" ;
+        p:date_naissance  "27 juillet 1825" ;
+        p:id              "JJO/Lau" ;
+        p:nom             "LAURENS" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Le_Chemin des Sables a Fontainebleau> ;
+        p:prenom          "Jules Joseph Augustin" .
+
+<http://www.ex.fr/p#Meleagre tue le sanglier de Calydon>
+        a                 "Peinture" ;
+        p:annee_creation  "1704"^^xsd:int ;
+        p:domaine         "Peinture francaise 18e siecle"@fr ;
+        p:est_regroupé    <TH_Les_monstres> ;
+        p:id              "JVA?Shc" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2012.19.28" ;
+        p:titre           "Meleagre tue le sanglier de Calydon"@fr .
+
+p:TH_les_enfants  a       p:Parcours_Thematique ;
+        rdfs:label        "TH_les_enfants" ;
+        p:Nom_thematique  "TH_les_enfants"@fr ;
+        p:est_exposé      <musee_Fabre> .
+
+p:TH_vie_artiste  a       p:Parcours_Thematique ;
+        rdfs:label        "TH_vie_artiste" ;
+        p:Nom_thematique  "TH_vie_artiste"@fr ;
+        p:est_exposé      <musee_Fabre> .
+
+p:TH_fruits  a            p:Parcours_Thematique ;
+        rdfs:label        "TH_fruits" ;
+        p:Nom_thematique  "TH_fruits"@fr ;
+        p:est_exposé      <musee_Fabre> .
+
+<http://www.ex.fr/p#LAGRENEE_Louis Jean François l'Aîné >
+        a                 "Peintre" ;
+        p:date_deces      "19 juin 1805" ;
+        p:date_naissance  " 30 décembre 1724" ;
+        p:id              "LJFA!La" ;
+        p:nom             "LAGRENEE" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Alexandre consulte l'oracle d'Apollon> ;
+        p:prenom          "Louis Jean François l'Aîné " .
+
+p:TH_le_vin  a            p:Parcours_Thematique ;
+        rdfs:label        "TH_le_vin" ;
+        p:Nom_thematique  "TH_le_vin"@fr ;
+        p:est_exposé      <musee_Fabre> .
+
+<http://www.ex.fr/p#NEGRETTI_Jacopo Palma le Jeune>
+        a                 "Peintre" ;
+        p:date_deces      "17 octobre 1628" ;
+        p:date_naissance  "1550" ;
+        p:id              "JPA_Neg" ;
+        p:nom             "NEGRETTI" ;
+        p:pays_naissance  "Italie" ;
+        p:peint           <Le Martyre de saint Donatienet ses ompagnons à Carthage> ;
+        p:prenom          "Jacopo Palma le Jeune" .
+
+p:BRASCASSAT_Jacques_Raymond
+        a                 "Peintre" ;
+        p:date_deces      "28 fevrier 1867" ;
+        p:date_naissance  "30 aout 1804" ;
+        p:id              "JRA_Bra" ;
+        p:nom             "BRASCASSAT" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Paysage avec animaux> ;
+        p:prenom          "Jacques_Raymond" .
+
+p:DIDIER_Jules  a         "Peintre" ;
+        p:date_deces      "20 novembre 1678" ;
+        p:date_naissance  "Septembre 1626" ;
+        p:id              "JUL/Did" ;
+        p:nom             "DIDIER" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Une foret de pins a Castel Fusano> ;
+        p:prenom          "Jules" .
+
+<http://www.ex.fr/p#SCHUPPEN_Jacob van>
+        a                 "Peintre" ;
+        p:date_deces      "29 janvier 1751" ;
+        p:date_naissance  "26 janvier 1670" ;
+        p:id              "JVA?Shc" ;
+        p:nom             "SCHUPPEN" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Meleagre tue le sanglier de Calydon> ;
+        p:prenom          "Jacob van" .
+
+p:TROYON_Constant  a      "Peintre" ;
+        p:date_deces      "21 feverier 1865" ;
+        p:date_naissance  "28 aout 1810" ;
+        p:id              "CON_Tro" ;
+        p:nom             "TROYON" ;
+        p:pays_naissance  "France" ;
+        p:peint           <L'Abreuvoir> ;
+        p:prenom          "Constant" .
+
+p:musee_Fabre  a          p:Musee ;
+        p:Adresse         "39 Boulevard Bonne Nouvelle, 34000 Montpellier"@fr ;
+        p:date_ouverture  "3 Decembre 1828" ;
+        p:surface         "9200"^^<int> .
+
+p:POTTER_Paulus  a        "Peintre" ;
+        p:date_deces      "20 novembre 1678" ;
+        p:date_naissance  "20 novembre 1625" ;
+        p:id              "PAU_Pot" ;
+        p:nom             "POTTER" ;
+        p:pays_naissance  "Pays Bas" ;
+        p:peint           <Trois vaches au paturage> ;
+        p:prenom          "Paulus" .
+
+p:TH_les_heros  a         p:Parcours_Thematique ;
+        rdfs:label        "TH_les_heros" ;
+        p:Nom_thematique  "TH_les_heros"@fr ;
+        p:est_exposé      <musee_Fabre> .
+
+<http://www.ex.fr/p#Thesee combattant le centaure_Bienor>
+        a                 "Sculpture" ;
+        p:annee_creation  "1874"^^xsd:int ;
+        p:domaine         "Sculpture française 19e siècle"@fr ;
+        p:est_regroupé    <TH_Les_monstres> ;
+        p:id              "LHE/Bary" ;
+        p:matiere         "Bronze"@fr ;
+        p:num_inventaire  "876.3.73" ;
+        p:titre           "Thesee combattant le centaure_Bienor"@fr .
+
+<http://www.ex.fr/p#ALLEMAND_Louis Hector>
+        a                 "Peintre" ;
+        p:date_deces      "13 septembre 1886" ;
+        p:date_naissance  "5 aout 1809" ;
+        p:id              "LHE/All" ;
+        p:nom             "ALLEMAND" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Le paturage> ;
+        p:prenom          "Louis Hector" .
+
+p:VOUET_Simon  a          "Peintre" ;
+        p:date_deces      "30 juin 1649" ;
+        p:date_naissance  "9 janvier 1590" ;
+        p:id              "SIM_Vou" ;
+        p:nom             "VOUET" ;
+        p:pays_naissance  "Italie" ;
+        p:peint           <Allegorie de la Prudence> ;
+        p:prenom          "Simon" .
+
+<http://www.ex.fr/p#CARDI_Lodovico il Cigoli>
+        a                 "Peintre" ;
+        p:date_deces      "18 juin 1613" ;
+        p:date_naissance  "22 septembre 1559 " ;
+        p:id              "LIC_Car" ;
+        p:nom             "CARDI" ;
+        p:pays_naissance  "Italie" ;
+        p:peint           <La Fuite en Egypte> ;
+        p:prenom          "Lodovico il Cigoli" .
+
+<http://www.ex.fr/p#HELMONT_Mattheus van>
+        a                 "Peintre" ;
+        p:date_deces      "29 avril 1657" ;
+        p:date_naissance  "1623" ;
+        p:id              "MAV?Hel" ;
+        p:nom             "HELMONT" ;
+        p:pays_naissance  "Belgique" ;
+        p:peint           <L'alchimiste> ;
+        p:prenom          "Mattheus van" .
+
+p:TH_eau  a               p:Parcours_Thematique ;
+        rdfs:label        "TH_eau" ;
+        p:Nom_thematique  "TH_eau"@fr ;
+        p:est_exposé      <musee_Fabre> .
+
+<http://www.ex.fr/p#Une tige de chardons>
+        a                 "Peinture" ;
+        p:annee_creation  "1667"^^xsd:int ;
+        p:domaine         "Peinture francaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "VSC_Mar" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "837.1.55" ;
+        p:titre           "Une tige de chardons"@fr .
+
+<http://www.ex.fr/p#L'Ange Gabriel>
+        a                 "Peinture" ;
+        p:annee_creation  "1632"^^xsd:int ;
+        p:domaine         "Peinture francaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_anges> ;
+        p:id              "FDE_Zur" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "852.1.2" ;
+        p:titre           "L'Ange Gabriel"@fr .
+
+p:TH_Les_monstres  a      p:Parcours_Thematique ;
+        rdfs:label        "TH_Les_monstres" ;
+        p:Nom_thematique  "TH_Les_monstres"@fr ;
+        p:est_exposé      <musee_Fabre> .
+
+<http://www.ex.fr/p#Paysage au patre jouant de la flute>
+        a                 "Peinture" ;
+        p:annee_creation  "1647"^^xsd:int ;
+        p:domaine         "Peinture francaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "LAD_Lhy" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "837.1.50" ;
+        p:titre           "Paysage au patre jouant de la flute"@fr .
+
+<http://www.ex.fr/p#COPPOLA_Giovanni Andrea>
+        a                 "Peintre" ;
+        p:date_deces      "1659" ;
+        p:date_naissance  "1592" ;
+        p:id              "GAN_Cop" ;
+        p:nom             "COPPOLA" ;
+        p:pays_naissance  "Italie" ;
+        p:peint           <Adoration des bergers> ;
+        p:prenom          "Giovanni Andrea" .
+
+<http://www.ex.fr/p#Les garrigues du pic Saint-Loup>
+        a                 "Peinture" ;
+        p:annee_creation  "1859"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "AEU/Cas" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "895.1.2" ;
+        p:titre           "Les garrigues du pic Saint-Loup"@fr .
+
+p:Artiste  rdfs:subClassOf  rdfs:Class .
+
+<http://www.ex.fr/p#Une foret de pins a Castel Fusano>
+        a                 "Peinture" ;
+        p:annee_creation  "1869"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "JUL/Did" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "876.3.31" ;
+        p:titre           "Une foret de pins a Castel Fusano"@fr .
+
+<http://www.ex.fr/p#Fleurs, fruits objets d'art>
+        a                 "Peinture" ;
+        p:annee_creation  "1665"^^xsd:int ;
+        p:domaine         "Peinture francaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_vie_artiste> ;
+        p:id              "JBL?Mno" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2012.19.19" ;
+        p:titre           "Fleurs, fruits objets d'art"@fr .
+
+p:BAZILLE_Frederic  a     "Peintre" ;
+        p:date_deces      "28 novembre 1870" ;
+        p:date_naissance  "6 decembre 1841" ;
+        p:id              "FRR?Baz" ;
+        p:nom             "BAZILLE" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Etude de nu, dit Nu couche> ;
+        p:prenom          "Frederic" .
+
+p:WOLF_Caspar  a          "Peintre" ;
+        p:date_deces      "6 octobre 1783" ;
+        p:date_naissance  "1735" ;
+        p:id              "CAS?Wol" ;
+        p:nom             "WOLF" ;
+        p:pays_naissance  "suisse" ;
+        p:peint           <Baigneuses pres d'une cascade en montagne> ;
+        p:prenom          "Caspar" .
+
+<http://www.ex.fr/p#Hercule portant le sanglier d'Erymanthe>
+        a                 "Sculpture" ;
+        p:annee_creation  "1825"^^xsd:int ;
+        p:domaine         "Sculpture française 19e siècle"@fr ;
+        p:est_regroupé    <TH_les_heros> ;
+        p:id              "LHE/Bary" ;
+        p:matiere         "Bronze"@fr ;
+        p:num_inventaire  "08.2.3" ;
+        p:titre           "Hercule portant le sanglier d'Erymanthe"@fr .
+
+<http://www.ex.fr/p#BOSIO_Francois Joseph>
+        a                 "Sculpteur" ;
+        p:Créa            <Henri IV enfant> ;
+        p:date_deces      "1768" ;
+        p:date_naissance  "16 septembre 1902" ;
+        p:id              "FJO/Bosi" ;
+        p:nom             "BOSIO" ;
+        p:pays_naissance  "France" ;
+        p:prenom          "Francois Joseph" .
+
+<http://www.ex.fr/p#Sainte Catherine d'Alexandrie portee au tombeau>
+        a                 "Peinture" ;
+        p:annee_creation  "1839"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_anges> ;
+        p:id              "HEI_Leh" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "892.4.8" ;
+        p:titre           "Sainte Catherine d'Alexandrie portee au tombeau"@fr .
+
+<http://www.ex.fr/p#Le Martyre de saint Donatienet ses ompagnons à Carthage>
+        a                 "Peinture" ;
+        p:annee_creation  "1593"^^xsd:int ;
+        p:domaine         "Peinture francaise 16e siecle"@fr ;
+        p:est_regroupé    <TH_anges> ;
+        p:id              "JPA_Neg" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2012.19.22" ;
+        p:titre           "Le Martyre de saint Donatienet ses ompagnons à Carthage"@fr .
+
+p:Oeuvre  rdfs:subClassOf  rdfs:Class .
+
+<http://www.ex.fr/p#Cheval surpris par un lion>
+        a                 "Sculpture" ;
+        p:annee_creation  "1874"^^xsd:int ;
+        p:domaine         "Sculpture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "JAN/Houd" ;
+        p:matiere         "Bronze"@fr ;
+        p:num_inventaire  "876.3.7" ;
+        p:titre           "Cheval surpris par un lion"@fr .
+
+<http://www.ex.fr/p#Fleurs, fruits et objets d'art>
+        a                 "Peinture" ;
+        p:annee_creation  "1704"^^xsd:int ;
+        p:domaine         "Peinture francaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_fruits> ;
+        p:id              "JBL!Mwo" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2012.19.19" ;
+        p:titre           "Fleurs, fruits et objets d'art"@fr .
+
+<http://www.ex.fr/p#Les rendez-vous d'amour>
+        a                 "Peinture" ;
+        p:annee_creation  "1849"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_anges> ;
+        p:id              "NVI_Ddp" ;
+        p:matiere         "Huile_sur_papier_maroufle_sur_toile"@fr ;
+        p:num_inventaire  "868.1.30" ;
+        p:titre           "Les rendez-vous d'amour"@fr .
+
+<http://www.ex.fr/p#ZURBARAN_Francisco de>
+        a                 "Peintre" ;
+        p:date_deces      "27 aout 1664" ;
+        p:date_naissance  "7 novembre 1598" ;
+        p:id              "FDE_Zur" ;
+        p:nom             "ZURBARAN" ;
+        p:pays_naissance  "Espagne" ;
+        p:peint           <L'Ange Gabriel> ;
+        p:prenom          "Francisco de" .
+
+p:Peinture  rdfs:subClassOf  p:Oeuvre .
+
+<http://www.ex.fr/p#la venerable Baptistine Vernazza>
+        a                 "Peinture" ;
+        p:annee_creation  "1739"^^xsd:int ;
+        p:domaine         "Peinture francaise 18e siecle"@fr ;
+        p:est_regroupé    <TH_ecrivains_lecteurs> ;
+        p:id              "PHU_Sub" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  " 61.3.1" ;
+        p:titre           "la venerable Baptistine Vernazza"@fr .
+
+p:HONDIUS_Abraham  a      "Peintre" ;
+        p:date_deces      "17 septembre 1691" ;
+        p:date_naissance  "1631" ;
+        p:id              "ABR_Hon" ;
+        p:nom             "HONDIUS" ;
+        p:pays_naissance  "Pays_Bas" ;
+        p:peint           <Chasse au sanglier> ;
+        p:prenom          "Abraham" .
+
+<http://www.ex.fr/p#Etude de nu, dit Nu couche>
+        a                 "Peinture" ;
+        p:annee_creation  "1864"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_les_fleurs> ;
+        p:id              "FRR?Baz" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "18.1.1" ;
+        p:titre           "Etude de nu, dit Nu couche"@fr .
+
+<http://www.ex.fr/p#PIAZZETTA_Giovanni Battista>
+        a                 "Peintre" ;
+        p:date_deces      "28 avril 1754" ;
+        p:date_naissance  "13 feverier 1682" ;
+        p:id              "GBA_Pia" ;
+        p:nom             "PIAZZETTA" ;
+        p:pays_naissance  "Italie" ;
+        p:peint           <Le chanteur> ;
+        p:prenom          "Giovanni Battista" .
+
+<http://www.ex.fr/p#Le Martyre de sainte Cecile>
+        a                 "Peinture" ;
+        p:annee_creation  "1625"^^xsd:int ;
+        p:domaine         "Peinture francaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_anges> ;
+        p:id              "ANO_Nym" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "825.1.166" ;
+        p:titre           "Le Martyre de sainte Cecile"@fr .
+
+<http://www.ex.fr/p#Alexandre consulte l'oracle d'Apollon>
+        a                 "Peinture" ;
+        p:annee_creation  "1789"^^xsd:int ;
+        p:domaine         "Peinture francaise 18e siecle"@fr ;
+        p:id              "LJFA!La" ;
+        p:matiere         "Huile sur bois"@fr ;
+        p:num_inventaire  "2012.19.15" ;
+        p:titre           "Alexandre consulte l'oracle d'Apollon"@fr .
+
+p:Polypheme  a            "Sculpture" ;
+        p:annee_creation  "1681"^^xsd:int ;
+        p:domaine         "Sculpture française 17e siècle"@fr ;
+        p:est_regroupé    <TH_les_heros> ;
+        p:id              "COR/Clev" ;
+        p:matiere         "Terre cuite patinee"@fr ;
+        p:num_inventaire  "877.1.3" ;
+        p:titre           "Polypheme"@fr .
+
+<http://www.ex.fr/p#Portrait du peintre Van Wyck Coklers>
+        a                 "Peinture" ;
+        p:annee_creation  "1797"^^xsd:int ;
+        p:domaine         "Peinture francaise 18 siecle"@fr ;
+        p:est_regroupé    <TH_vie_artiste> ;
+        p:id              "LSO?Gau" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "825.1.112" ;
+        p:titre           "Portrait du peintre Van Wyck Coklers"@fr .
+
+<http://www.ex.fr/p#La Formation De L'Homme par Promethee aide du secours de Minerve>
+        a                 "Peinture" ;
+        p:annee_creation  "1702"^^xsd:int ;
+        p:domaine         "Peinture francaise 18e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "LDE_Sil" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2012.19.29" ;
+        p:titre           "La Formation De L'Homme par Promethee aide du secours de Minerve"@fr .
+
+<http://www.ex.fr/p#L'alchimiste>
+        a                 "Peinture" ;
+        p:annee_creation  "1668"^^xsd:int ;
+        p:domaine         "Peinture Belgue 17e siecle"@fr ;
+        p:est_regroupé    <TH_peinture_interieurs> ;
+        p:id              "MAV?Hel" ;
+        p:matiere         "Huile sur bois"@fr ;
+        p:num_inventaire  "895.7.54" ;
+        p:titre           "L'alchimiste"@fr .
+
+<http://www.ex.fr/p#PRUDHON_Pierre Paul>
+        a                 "Peintre" ;
+        p:date_deces      "14 feverier 1823" ;
+        p:date_naissance  "29 mars 1807" ;
+        p:id              "PPA_Pru" ;
+        p:nom             "PRUDHON" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Les Arts, la Richesse, les Plaisirs, la Philosophie (esquisse)> ;
+        p:prenom          "Pierre Paul" .
+
+p:COURBET_Gustave  a      "Peintre" ;
+        p:date_deces      "31 decembre 1877" ;
+        p:date_naissance  "10 mars 1819" ;
+        p:id              "GUS?Cou" ;
+        p:nom             "COURBET" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Les Baigneuses> ;
+        p:prenom          "Gustave" .
+
+p:Icare  a                "Sculpture" ;
+        p:annee_creation  "1887"^^xsd:int ;
+        p:domaine         "Sculpture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_les_heros> ;
+        p:id              "JMA/Meng" ;
+        p:matiere         "Marbre"@fr ;
+        p:num_inventaire  "D889.2.1" ;
+        p:titre           "Icare"@fr .
+
+<http://www.ex.fr/p#DELORME_Pierre Claude Francois>
+        a                 "Peintre" ;
+        p:date_deces      "1859" ;
+        p:date_naissance  "1783" ;
+        p:id              "PRR?Del" ;
+        p:nom             "DELORME" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Eve tentee par le serpent> ;
+        p:prenom          "Pierre Claude Francois" .
+
+p:STELLA_Jacques  a       "Peintre" ;
+        p:date_deces      "29 avril 1657" ;
+        p:date_naissance  "29 septembre 1596" ;
+        p:id              "JAC?Ste" ;
+        p:nom             "STELLA" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Sainte Famille avec saint Jean-Baptiste> ;
+        p:prenom          "Jacques" .
+
+p:TH_anges  a             p:Parcours_Thematique ;
+        rdfs:label        "TH_anges" ;
+        p:Nom_thematique  "TH_anges"@fr ;
+        p:est_exposé      <musee_Fabre> .
+
+p:TH_les_animaux  a       p:Parcours_Thematique ;
+        rdfs:label        "TH_les_animaux" ;
+        p:Nom_thematique  "TH_les_animaux"@fr ;
+        p:est_exposé      <musee_Fabre> .
+
+<http://www.ex.fr/p#Portrait du cardinal Jean de Bonsy (1554-1621), évêque de Beziers>
+        a                 "Peinture" ;
+        p:annee_creation  "1900"^^xsd:int ;
+        p:domaine         "Peinture Italienne 17e siecle"@fr ;
+        p:est_regroupé    <TH_ Etoffes_et_tissus> ;
+        p:id              "DOM!Zam" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "00.7.2" ;
+        p:titre           "Portrait du cardinal Jean de Bonsy (1554-1621), évêque de Beziers"@fr .
+
+<http://www.ex.fr/p#LA_HYRE_Laurent de>
+        a                 "Peintre" ;
+        p:date_deces      "20 novembre 1678" ;
+        p:date_naissance  "27 feverier 1606" ;
+        p:id              "LAD_Lhy" ;
+        p:nom             "LA_HYRE" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Paysage au patre jouant de la flute> ;
+        p:prenom          "Laurent de" .
+
+<http://www.ex.fr/p#Le retour d'Ulysse>
+        a                 "Peinture" ;
+        p:annee_creation  "1779"^^xsd:int ;
+        p:domaine         "Peinture_francaise_18e_siecle"@fr ;
+        p:est_regroupé    <TH_les_heros> ;
+        p:id              "FRX_Fab" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2006.4.1" ;
+        p:titre           "Le retour d'Ulysse"@fr .
+
+p:HONDECOETER_Melchior
+        a                 "Peintre" ;
+        p:date_deces      "28 decemebre 1656" ;
+        p:date_naissance  "1636" ;
+        p:id              "MEL_Hon" ;
+        p:nom             "HONDECOETER" ;
+        p:pays_naissance  "Irlande" ;
+        p:peint           <La poule blanche> ;
+        p:prenom          "Melchior" .
+
+<http://www.ex.fr/p#Le chanteur>
+        a                 "Peinture" ;
+        p:annee_creation  "1720"^^xsd:int ;
+        p:domaine         "Peinture francaise 18e siecle"@fr ;
+        p:est_regroupé    <TH_ecrivains_lecteurs> ;
+        p:id              "GBA_Pia" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "73.2.1" ;
+        p:titre           "Le chanteur"@fr .
+
+<http://www.ex.fr/p#CLEVE_Corneille van>
+        a                 "Sculpteur" ;
+        p:Créa            <Polypheme> ;
+        p:date_deces      "30 décembre 1732" ;
+        p:date_naissance  "10 juin 1645" ;
+        p:id              "COR/Clev" ;
+        p:nom             "CLEVE" ;
+        p:pays_naissance  "France" ;
+        p:prenom          "Corneille van" .
+
+<http://www.ex.fr/p#MONNOYER_Jean Baptiste l'Aine>
+        a                 "Peintre" ;
+        p:date_deces      "20 fevrier 1699" ;
+        p:date_naissance  "12 janvier 1636" ;
+        p:id              "JBL?Mno" ;
+        p:nom             "MONNOYER" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Fleurs, fruits objets d'art> ;
+        p:prenom          "Jean Baptiste l'Aine" .
+
+<http://www.ex.fr/p#La Fuite en Egypte>
+        a                 "Peinture" ;
+        p:annee_creation  "1612"^^xsd:int ;
+        p:domaine         "Peinture francaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_anges> ;
+        p:id              "LIC_Car" ;
+        p:matiere         "Huile_sur_cuivre"@fr ;
+        p:num_inventaire  "837.1.25" ;
+        p:titre           "La Fuite en Egypte"@fr .
+
+p:Parcours_Thematique
+        rdfs:subClassOf  rdfs:Class .
+
+<http://www.ex.fr/p#Adoration des bergers>
+        a                 "Peinture" ;
+        p:annee_creation  "1640"^^xsd:int ;
+        p:domaine         "Peinture francaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_anges> ;
+        p:id              "GAN_Cop" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "825.1.166" ;
+        p:titre           "Adoration des bergers"@fr .
+
+<http://www.ex.fr/p#La Dormition de la Vierge>
+        a                 "Peinture" ;
+        p:annee_creation  "1320"^^xsd:int ;
+        p:domaine         "Peinture francaise 14e siecle"@fr ;
+        p:est_regroupé    <TH_anges> ;
+        p:id              "PDA_Rim" ;
+        p:matiere         "Tempera_a_l'oeuf_et_feuille_d'or_sur_bois"@fr ;
+        p:num_inventaire  "825.1.122" ;
+        p:titre           "La Dormition de la Vierge"@fr .
+
+<http://www.ex.fr/p#Nature morte aux couteaux noirs>
+        a                 "Peinture" ;
+        p:annee_creation  "1896"^^xsd:int ;
+        p:domaine         "Peinture francaise 20e siecle"@fr ;
+        p:est_regroupé    <TH_le_vin> ;
+        p:id              "HEN?Mai" ;
+        p:matiere         "Huile sur toile sur bois"@fr ;
+        p:num_inventaire  "D05.2.3" ;
+        p:titre           "Nature morte aux couteaux noirs"@fr .
+
+p:BERCHEM_Nicolaes  a     "Peintre" ;
+        p:date_deces      "18 fevrier 1683" ;
+        p:date_naissance  "1620" ;
+        p:id              "NIC?Ber" ;
+        p:nom             "BERCHEM" ;
+        p:pays_naissance  "Pays-Bas" ;
+        p:peint           <Les fagots> ;
+        p:prenom          "Nicolaes" .
+
+<http://www.ex.fr/p#Leone con serpente>
+        a                 "Sculpture" ;
+        p:annee_creation  "1872"^^xsd:int ;
+        p:domaine         "Sculpture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "JAN/Houd" ;
+        p:matiere         "Bronze"@fr ;
+        p:num_inventaire  "876.3.80" ;
+        p:titre           "Leone con serpente"@fr .
+
+p:Sculpteur  rdfs:subClassOf  p:Artiste .
+
+<http://www.ex.fr/p#TH_ Etoffes_et_tissus>
+        a                 p:Parcours_Thematique ;
+        rdfs:label        "TH_ Etoffes_et_tissus" ;
+        p:Nom_thematique  "TH_ Etoffes_et_tissus"@fr ;
+        p:est_exposé      <musee_Fabre> .
+
+<http://www.ex.fr/p#SILVESTRE_Louis de>
+        a                 "Peintre" ;
+        p:date_deces      "11 avril  1760" ;
+        p:date_naissance  "23 juin 1675" ;
+        p:id              "LDE_Sil" ;
+        p:nom             "SILVESTRE" ;
+        p:pays_naissance  "France" ;
+        p:peint           <La Formation De L'Homme par Promethee aide du secours de Minerve> ;
+        p:prenom          "Louis de" .
+
+<http://www.ex.fr/p#L'Hiver>
+        a                 "Sculpture" ;
+        p:annee_creation  "1867"^^xsd:int ;
+        p:domaine         "Sculpture francaise 18e siecle"@fr ;
+        p:est_regroupé    <TH_le_Nu> ;
+        p:id              "JAN/Houd" ;
+        p:matiere         "Marbre"@fr ;
+        p:num_inventaire  "828.5.1" ;
+        p:titre           "L'Hiver"@fr .
+
+<http://www.ex.fr/p#Thesee combattant le Minotaure>
+        a                 "Sculpture" ;
+        p:annee_creation  "1874"^^xsd:int ;
+        p:domaine         "Sculpture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_Les_monstres> ;
+        p:id              "LHE/Bary" ;
+        p:matiere         "Bronze"@fr ;
+        p:num_inventaire  "876.3.72" ;
+        p:titre           "Thesee combattant le Minotaure"@fr .
+
+<http://www.ex.fr/p#Le paturage>
+        a                 "Peinture" ;
+        p:annee_creation  "1867"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "LHE/All" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "897.1.2" ;
+        p:titre           "Le paturage"@fr .
+
+<http://www.ex.fr/p#Interieur rustique>
+        a                 "Peinture" ;
+        p:annee_creation  "1640"^^xsd:int ;
+        p:domaine         "Peinture francaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_peinture_interieurs> ;
+        p:id              "FRM?Ryc" ;
+        p:matiere         "Huile_sur_bois"@fr ;
+        p:num_inventaire  "832.1.2" ;
+        p:titre           "Interieur rustique"@fr .
+
+<http://www.ex.fr/p#Allegorie de la Charite>
+        a                 "Peinture" ;
+        p:annee_creation  "1546"^^xsd:int ;
+        p:domaine         "Peinture francaise 16e siecle"@fr ;
+        p:est_regroupé    <TH_les_enfants> ;
+        p:id              "JLP?Cou" ;
+        p:matiere         "Huile sur bois"@fr ;
+        p:num_inventaire  "884.3.1" ;
+        p:titre           "Allegorie de la Charite"@fr .
+
+p:TH_le_Nu  a             p:Parcours_Thematique ;
+        rdfs:label        "TH_le_Nu" ;
+        p:Nom_thematique  "TH_le_Nu"@fr ;
+        p:est_exposé      <musee_Fabre> .
+
+p:Sculpture  rdfs:subClassOf  p:Oeuvre .
+
+<http://www.ex.fr/p#Henri IV enfant>
+        a                 "Sculpture" ;
+        p:annee_creation  "1946"^^xsd:int ;
+        p:domaine         "Sculpture française 19e siècle"@fr ;
+        p:est_regroupé    <TH_les_enfants> ;
+        p:id              "FJO/Bosi" ;
+        p:matiere         "Bronze argente"@fr ;
+        p:num_inventaire  "68.2.437" ;
+        p:titre           "Henri IV enfant"@fr .
+
+p:LEHMANN_Heinrich  a     "Peintre" ;
+        p:date_deces      "18 avril 1986" ;
+        p:date_naissance  "11 decembre 1911" ;
+        p:id              "HEI_Leh" ;
+        p:nom             "LEHMANN" ;
+        p:pays_naissance  "Allemagne" ;
+        p:peint           <Sainte Catherine d'Alexandrie portee au tombeau> ;
+        p:prenom          "Heinrich" .
+
+<http://www.ex.fr/p#Le_Chemin des Sables a Fontainebleau>
+        a                 "Peinture" ;
+        p:annee_creation  "1869"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr ;
+        p:est_regroupé    <TH_les_animaux> ;
+        p:id              "JJO/Lau" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "876.3.54" ;
+        p:titre           "Le_Chemin des Sables a Fontainebleau"@fr .
+
+<http://www.ex.fr/p#LOUDRY_Jacques Charles>
+        a                 "Peintre" ;
+        p:date_deces      "1778" ;
+        p:date_naissance  "1720" ;
+        p:id              "JCA_Lou" ;
+        p:nom             "LOUDRY" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Gibier, chien, fleurs et fruits> ;
+        p:prenom          "Jacques Charles" .
+
+<http://www.ex.fr/p#Clotilde de Surville>
+        a                 "Peinture" ;
+        p:annee_creation  "1853"^^xsd:int ;
+        p:domaine         "Peinture_francaise_19e_siecle"@fr ;
+        p:est_regroupé    <TH_ecrivains_lecteurs> ;
+        p:id              "EUG_Hil" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2005.4.1" ;
+        p:titre           "Clotilde de Surville"@fr .
+
+<http://www.ex.fr/p#BARYE_Louis Hector>
+        a                 "Sculpteur" ;
+        p:Créa            <Hercule portant le sanglier d'Erymanthe> , <Thesee combattant le Minotaure> , <Thesee combattant le centaure_Bienor> ;
+        p:date_deces      "25 juin 1875" ;
+        p:date_naissance  "24 septembre 1795" ;
+        p:id              "LHE/Bary" ;
+        p:nom             "BARYE" ;
+        p:pays_naissance  "France" ;
+        p:prenom          "Louis Hector" .
+
+p:MATISSE_Henri  a        "Peintre" ;
+        p:date_deces      "3 novembre 1954" ;
+        p:date_naissance  "15 decembre 1807" ;
+        p:id              "HEN?Mai" ;
+        p:nom             "MATISSE" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Nature morte aux couteaux noirs> ;
+        p:prenom          "Henri" .
+
+<http://www.ex.fr/p#Allegorie de la Prudence>
+        a                 "Peinture" ;
+        p:annee_creation  "1645"^^xsd:int ;
+        p:domaine         "Peinture francaise 17e siecle"@fr ;
+        p:est_regroupé    <TH_anges> ;
+        p:id              "SIM_Vou" ;
+        p:matiere         "Huile_sur_toile"@fr ;
+        p:num_inventaire  "837.1.98" ;
+        p:titre           "Allegorie de la Prudence"@fr .
+
+p:Musee  rdfs:subClassOf  rdfs:Class .
+
+<http://www.ex.fr/p#CASTELNAU_Alexandre Eugene>
+        a                 "Peintre" ;
+        p:date_deces      "2 novembre 1894" ;
+        p:date_naissance  "29 decembre 1827" ;
+        p:id              "AEU/Cas" ;
+        p:nom             "CASTELNAU" ;
+        p:pays_naissance  "France" ;
+        p:peint           <Les garrigues du pic Saint-Loup> ;
+        p:prenom          "Alexandre Eugene" .
+
+<http://www.ex.fr/p#MENGUE_Jean Marie>
+        a                 "Sculpteur" ;
+        p:Créa            <Icare> ;
+        p:date_deces      "24 septembre 1939" ;
+        p:date_naissance  "30 decembre 1855" ;
+        p:id              "JMA/Meng" ;
+        p:nom             "MENGUE" ;
+        p:pays_naissance  "France" ;
+        p:prenom          "Jean Marie" .

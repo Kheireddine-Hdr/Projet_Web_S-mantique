@@ -1,0 +1,1192 @@
+@prefix p:     <http://www.ex.fr/p#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wdt:   <http://www.wikidata.org/prop/direct/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+
+wd:Q209615  a             p:Peintre ;
+        rdfs:label        "Francisco de Zurbarán"@fr ;
+        p:Lieu_naissance  "Fuente de Cantos"@fr .
+
+wd:Q352438  a             p:Peintre ;
+        rdfs:label        "Adriaen van Ostade"@fr ;
+        p:Lieu_naissance  "Haarlem"@fr .
+
+wd:Q57631802  a           p:Peinture ;
+        rdfs:label        "Portrait du peintre Frans Francken l'Ancien"@fr ;
+        p:Annee_creation  "1615-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "833.1.1" .
+
+wd:Q56259011  a           p:Peinture ;
+        rdfs:label        "Tabagie - \"L'homme au chapeau blanc\""@fr ;
+        p:Annee_creation  "1644-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "836.4.66" .
+
+wd:Q1596281  a            p:Peintre ;
+        rdfs:label        "Marcellin Desboutin"@fr ;
+        p:Lieu_naissance  "Cérilly"@fr .
+
+wd:Q20023105  a           p:Peinture ;
+        rdfs:label        "Chasse au lion"@fr ;
+        p:Annee_creation  "1640-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "825.1.4" .
+
+wd:Q330854  a             p:Peintre ;
+        rdfs:label        "Abraham van Diepenbeeck"@fr ;
+        p:Lieu_naissance  "Bois-le-Duc"@fr .
+
+wd:Q57631894  a           p:Peinture ;
+        rdfs:label        "La Visitation"@fr ;
+        p:Annee_creation  "1510-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "D 872.1.3" .
+
+wd:Q2241666  a            p:Peintre ;
+        rdfs:label        "Pieter Boel"@fr ;
+        p:Lieu_naissance  "Anvers"@fr .
+
+wd:Q57596591  a           p:Peinture ;
+        rdfs:label        "Gibier et armes de chasse"@fr ;
+        p:Annee_creation  "1700-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "837.1.99" .
+
+wd:Q335927  a             p:Peintre ;
+        rdfs:label        "Gérard Dou"@fr ;
+        p:Lieu_naissance  "Leyde"@fr .
+
+wd:Q22662301  a           p:Peinture ;
+        rdfs:label        "Portrait de Bruyas"@fr ;
+        p:Annee_creation  "1854-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "876.3.22" .
+
+wd:Q57631852  a           p:Peinture ;
+        rdfs:label        "Halte de cavaliers"@fr ;
+        p:Annee_creation  "1660-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "837.1.56" .
+
+wd:Q19917500  a           p:Peinture ;
+        rdfs:label        "La Mosquée bleue à Tauris en Perse"@fr ;
+        p:Annee_creation  "1872-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "886.3.1" .
+
+wd:Q57596549  a           p:Peinture ;
+        rdfs:label        "Paysage d'Italie."@fr ;
+        p:Annee_creation  "1650-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "837.1.82" .
+
+wd:Q370567  a             p:Peintre ;
+        rdfs:label        "Jan van der Heyden"@fr ;
+        p:Lieu_naissance  "Gorinchem"@fr .
+
+wd:Q2066867  a            p:Peintre ;
+        rdfs:label        "Pedro de Campaña"@fr ;
+        p:Lieu_naissance  "Bruxelles"@fr .
+
+wd:Q95722879  a           p:Peinture ;
+        rdfs:label        "Couvercles de bouillon"@fr ;
+        p:Annee_creation  "1864-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "2009.3.1" .
+
+wd:Q3399505  a            p:Peinture ;
+        rdfs:label        "Portrait du médecin Alphonse Leroy"@fr ;
+        p:Annee_creation  "1783-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "829.1.1" .
+
+wd:Q105397732  a          p:Peinture ;
+        rdfs:label        "La Lamentation sur le Christ mort"@fr ;
+        p:Annee_creation  "1610-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "2012.10.1" .
+
+wd:Q66866479  a           p:Peinture ;
+        rdfs:label        "Portrait d’homme, dit l’homme aux rubans noirs"@fr ;
+        p:Annee_creation  "1650-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "836.2.1" .
+
+wd:Q184669  a             p:Peintre ;
+        rdfs:label        "Jean Ranc"@fr ;
+        p:Lieu_naissance  "Montpellier"@fr .
+
+wd:Q66425509  a           p:Peinture ;
+        rdfs:label        "Landscape with cattle herd by a river"@en ;
+        p:Annee_creation  "1665-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "825-1-6" .
+
+wd:Q1346044  a            p:Peintre ;
+        rdfs:label        "Jan Weenix"@fr ;
+        p:Lieu_naissance  "Amsterdam"@fr .
+
+wd:Q22662280  a           p:Peinture ;
+        rdfs:label        "Autoportrait au col rayé"@fr ;
+        p:Annee_creation  "1854-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "868.1.22" .
+
+wd:Q2564914  a            p:Peintre ;
+        rdfs:label        "Joseph-Benoît Suvée"@fr ;
+        p:Lieu_naissance  "Bruges"@fr .
+
+wd:Q3464453  a            p:Peinture ;
+        rdfs:label        "Sainte Agathe"@fr ;
+        p:Annee_creation  "1630-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "852.1.3" .
+
+wd:Q18756802  a           p:Peinture ;
+        rdfs:label        "Vénus victorieuse"@fr ;
+        p:Annee_creation  "1875-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "895.2.1" .
+
+wd:Q55083927  a           p:Peinture ;
+        rdfs:label        "Selfportrait of GIanlorenzo Bernini (Copy)"@en ;
+        p:Annee_creation  "1630-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "879.3.1" .
+
+wd:Q59894  a              p:Peintre ;
+        rdfs:label        "Laurent de La Hyre"@fr ;
+        p:Lieu_naissance  "Paris"@fr .
+
+wd:Q28946691  a           p:Peinture ;
+        rdfs:label        "Jeune Hollandaise versant à boire"@fr ;
+        p:Annee_creation  "1650-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "bois"@fr , "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836.4.69" .
+
+wd:Q677922  a             p:Peintre ;
+        rdfs:label        "Nicolaes van Verendael"@fr ;
+        p:Lieu_naissance  "Anvers"@fr .
+
+wd:Q14922848  a           p:Peinture ;
+        rdfs:label        "L'Enfileuse de perles"@fr ;
+        p:Annee_creation  "1658-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "836.4.39" .
+
+wd:Q315819  a             p:Peintre ;
+        rdfs:label        "Joseph Vernet"@fr ;
+        p:Lieu_naissance  "Avignon"@fr .
+
+wd:Q19923938  a           p:Peinture ;
+        rdfs:label        "Exercices militaires des Marocains"@fr ;
+        p:Annee_creation  "1832-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "868.1.37" .
+
+wd:Q928466  a             p:Peintre ;
+        rdfs:label        "Daniel Seghers"@fr ;
+        p:Lieu_naissance  "Anvers"@fr .
+
+p:Musee  rdfs:subClassOf  rdfs:Class .
+
+wd:Q875164  a             p:Peintre ;
+        rdfs:label        "Herman Van Swanevelt"@fr ;
+        p:Lieu_naissance  "Woerden"@fr .
+
+wd:Q330210  a             p:Peintre ;
+        rdfs:label        "Abraham van den Tempel"@fr ;
+        p:Lieu_naissance  "Leeuwarden"@fr .
+
+wd:Q57596494  a           p:Peinture ;
+        rdfs:label        "Sous-bois avec papillons autour d'un chardon"@fr ;
+        p:Annee_creation  "1667-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "837.1.55" .
+
+wd:Q66664826  a           p:Peinture ;
+        rdfs:label        "River landscape with peasants and cattle"@en ;
+        p:Annee_creation  "1685-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "825-1-160" .
+
+wd:Q28919949  a           p:Peinture ;
+        rdfs:label        "La kermesse de la Saint-Georges"@fr ;
+        p:Annee_creation  "1645-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836.4.65" .
+
+wd:Q95730067  a           p:Peinture ;
+        rdfs:label        "Portrait de Bazille"@fr ;
+        p:Annee_creation  "1864-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "45.8.1" .
+
+wd:Q20020029  a           p:Peinture ;
+        rdfs:label        "Les abords d'une foire"@fr ;
+        p:Annee_creation  "1774-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "837.1.91" .
+
+wd:Q310437  a             p:Peintre ;
+        rdfs:label        "Alexandre Cabanel"@fr ;
+        p:Lieu_naissance  "Montpellier"@fr .
+
+wd:Q964812  a             p:Peintre ;
+        rdfs:label        "François Marius Granet"@fr ;
+        p:Lieu_naissance  "Aix-en-Provence"@fr .
+
+wd:Q57596026  a           p:Peinture ;
+        rdfs:label        "Une femme de l'ilot de Schokland"@fr ;
+        p:Annee_creation  "1855-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "889.3.5" .
+
+wd:Q83155  a              p:Peintre ;
+        rdfs:label        "Jacques-Louis David"@fr ;
+        p:Lieu_naissance  "Paris"@fr .
+
+wd:Q41516051  a           p:Peinture ;
+        rdfs:label        "La pêche à l’épervier"@fr ;
+        p:Annee_creation  "1847-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "868.1.13" .
+
+wd:Q57596510  a           p:Peinture ;
+        rdfs:label        "Le Corsaire et le Juif"@fr ;
+        p:Annee_creation  "1660-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "837.1.100" .
+
+wd:Q47929907  a           p:Peinture ;
+        rdfs:label        "Coucher de soleil sous le Bosphore"@fr ;
+        p:Annee_creation  "1893-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "33.5.15" .
+
+wd:Q304411  a             p:Peintre ;
+        rdfs:label        "Melchior de Hondecoeter"@fr ;
+        p:Lieu_naissance  "Utrecht"@fr .
+
+p:musee_Fabre  a       p:Musee ;
+        rdfs:label     "musée Fabre"@fr ;
+        p:est_crée     "1825-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:geolocation  "Point(3.880191666 43.611736111)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+        p:nature       "musée d'art"@fr .
+
+wd:Q207298  a             p:Peintre ;
+        rdfs:label        "Frédéric Bazille"@fr ;
+        p:Lieu_naissance  "Montpellier"@fr .
+
+wd:Q50196621  a           p:Peinture ;
+        rdfs:label        "Le coup de l'étrier"@fr ;
+        p:Annee_creation  "1661-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836-4-76" .
+
+wd:Q255828  a             p:Peintre ;
+        rdfs:label        "Pieter Brueghel le Jeune"@fr ;
+        p:Lieu_naissance  "Bruxelles"@fr .
+
+wd:Q57631913  a           p:Peinture ;
+        rdfs:label        "Naissance de la Vierge (esquisse)."@fr ;
+        p:Annee_creation  "1778-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "78.4.1" .
+
+wd:Q296  a                p:Peintre ;
+        rdfs:label        "Claude Monet"@fr ;
+        p:Lieu_naissance  "Paris"@fr .
+
+wd:Q57398571  a           p:Peinture ;
+        rdfs:label        "Place devant un couvent"@fr ;
+        p:Annee_creation  "1660-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836.4.30" .
+
+wd:Q57596581  a           p:Peinture ;
+        rdfs:label        "Paysage avec ruines."@fr ;
+        p:Annee_creation  "1666-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "836.4.71" .
+
+wd:Q57631863  a           p:Peinture ;
+        rdfs:label        "Un arracheur de dents"@fr ;
+        p:Annee_creation  "1655-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "843.2" .
+
+wd:Q10730195  a           p:Peintre ;
+        rdfs:label        "Mattheus van Helmont"@fr ;
+        p:Lieu_naissance  "Anvers"@fr .
+
+wd:Q57596539  a           p:Peinture ;
+        rdfs:label        "Un port de mer."@fr ;
+        p:Annee_creation  "1675-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "823.1.3" .
+
+wd:Q71828467  a           p:Peinture ;
+        rdfs:label        "Madame Crozat"@fr ;
+        p:Annee_creation  "1741-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "839.2.1" .
+
+wd:Q6085069  a            p:Peintre ;
+        rdfs:label        "François Ryckhals"@fr ;
+        p:Lieu_naissance  "Middelbourg"@fr .
+
+wd:Q451489  a             p:Peintre ;
+        rdfs:label        "Antoine-Louis Barye"@fr ;
+        p:Lieu_naissance  "Paris"@fr .
+
+wd:Q17278812  a           p:Peinture ;
+        rdfs:label        "Montaigne visitant Le Tasse en prison"@fr ;
+        p:Annee_creation  "1820-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "825.1.125" .
+
+wd:Q3642171  a            p:Peinture ;
+        rdfs:label        "Bonjour Monsieur Courbet"@fr ;
+        p:Annee_creation  "1854-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "868.1.23" .
+
+wd:Q2707224  a            p:Peintre ;
+        rdfs:label        "Andrea Vaccaro"@fr ;
+        p:Lieu_naissance  "Naples"@fr .
+
+wd:Q981631  a             p:Peintre ;
+        rdfs:label        "Jan Both"@fr ;
+        p:Lieu_naissance  "Utrecht"@fr .
+
+wd:Q57596468  a           p:Peinture ;
+        rdfs:label        "La poule blanche"@fr ;
+        p:Annee_creation  "1660-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "837.1.39" .
+
+wd:Q66663657  a           p:Peinture ;
+        rdfs:label        "Hilly landscape with elegant company"@en ;
+        p:Annee_creation  "1685-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "825-1-159" .
+
+wd:Q50379355  a           p:Peinture ;
+        rdfs:label        "Bouquet de fleurs"@fr ;
+        p:Annee_creation  "1735-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836-4-31" .
+
+wd:Q94757794  a           p:Peinture ;
+        rdfs:label        "Ulysse et Néoptolème enlèvent à Philoctète l'arc et les flèches d'Héraclès"@fr ;
+        p:Annee_creation  "1800-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "D2007.7.1" .
+
+wd:Q3564176  a            p:Peinture ;
+        rdfs:label        "Vénus et Adonis"@fr ;
+        p:Annee_creation  "1626-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "825.1.171" .
+
+wd:Q50196729  a           p:Peinture ;
+        rdfs:label        "Marche d'armée"@fr ;
+        p:Annee_creation  "1661-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836-4-78" .
+
+wd:Q57596042  a           p:Peinture ;
+        rdfs:label        "Marine temps calme"@fr ;
+        p:Annee_creation  "1645-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "2008.3.1" .
+
+wd:Q28144  a              p:Peintre ;
+        rdfs:label        "Willem Kalf"@fr ;
+        p:Lieu_naissance  "Rotterdam"@fr .
+
+wd:Q184212  a             p:Peintre ;
+        rdfs:label        "Théodore Géricault"@fr ;
+        p:Lieu_naissance  "Rouen"@fr .
+
+wd:Q28065565  a           p:Peinture ;
+        rdfs:label        "Portrait d'Henri Carlier"@fr ;
+        p:Annee_creation  "1906-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "AM 2592 P" , "D2006.2.3" .
+
+wd:Q20087546  a           p:Peinture ;
+        rdfs:label        "Le Bord de mer à Palavas"@fr ;
+        p:Annee_creation  "1854-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "868.1.24" .
+
+wd:Q20963042  a           p:Peinture ;
+        rdfs:label        "Cascade dans un bois de chênes"@fr ;
+        p:Annee_creation  "1660-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836.4.54" .
+
+wd:Q38271142  a           p:Peintre ;
+        rdfs:label        "Jan Snellink (III)"@fr ;
+        p:Lieu_naissance  "Rotterdam"@fr .
+
+wd:Q57596242  a           p:Peinture ;
+        rdfs:label        "Deux muletiers à l'auberge."@fr ;
+        p:Annee_creation  "1658-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "836.4.15" .
+
+wd:Q23380  a              p:Peintre ;
+        rdfs:label        "Jean-Auguste-Dominique Ingres"@fr ;
+        p:Lieu_naissance  "Montauban"@fr .
+
+wd:Q57596300  a           p:Peinture ;
+        rdfs:label        "Intérieur de cuisine."@fr ;
+        p:Annee_creation  "1646-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "837.1.49" .
+
+wd:Q45205  a              p:Peintre ;
+        rdfs:label        "Raoul Dufy"@fr ;
+        p:Lieu_naissance  "Le Havre"@fr .
+
+wd:Q33477  a              p:Peintre ;
+        rdfs:label        "Eugène Delacroix"@fr ;
+        p:Lieu_naissance  "Saint-Maurice"@fr .
+
+wd:Q578224  a             p:Peintre ;
+        rdfs:label        "Jacob de Wet I"@fr ;
+        p:Lieu_naissance  "Haarlem"@fr .
+
+wd:Q80102815  a           p:Peinture ;
+        rdfs:label        "Le Petit Paresseux"@fr ;
+        p:Annee_creation  "1755-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "837.1.35" .
+
+wd:Q57596421  a           p:Peinture ;
+        rdfs:label        "Paysage avec des chasseurs"@fr ;
+        p:Annee_creation  "1660-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "836.4.79" .
+
+wd:Q71828470  a           p:Peinture ;
+        rdfs:label        "L'homme à la pipe"@fr ;
+        p:Annee_creation  "1848-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "868.1.18" .
+
+wd:Q15917669  a           p:Peinture ;
+        rdfs:label        "Sainte Marie l'Égyptienne."@fr ;
+        p:Annee_creation  "1641-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "837.1.27" .
+
+wd:Q576025  a             p:Peintre ;
+        rdfs:label        "Gerrit Berckheyde"@fr ;
+        p:Lieu_naissance  "Haarlem"@fr .
+
+wd:Q57596329  a           p:Peinture ;
+        rdfs:label        "Paysage au pont"@fr ;
+        p:Annee_creation  "1660-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "825.1.183" .
+
+wd:Q454671  a             p:Peintre ;
+        rdfs:label        "Philips Wouwerman"@fr ;
+        p:Lieu_naissance  "Haarlem"@fr .
+
+wd:Q4442468  a            p:Peinture ;
+        rdfs:label        "La Toilette"@fr ;
+        p:Annee_creation  "1869-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "18.1.2" .
+
+wd:Q355213  a             p:Peintre ;
+        rdfs:label        "Gabriel Metsu"@fr ;
+        p:Lieu_naissance  "Leyde"@fr .
+
+wd:Q95963190  a           p:Peinture ;
+        rdfs:label        "Vertumne et Pomone (Jean Ranc)"@fr ;
+        p:Annee_creation  "1800-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "64.3.1" .
+
+wd:Q21079548  a           p:Peinture ;
+        rdfs:label        "Paysage par temps d'orage"@fr ;
+        p:Annee_creation  "1649-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836-4-53" .
+
+wd:Q57596408  a           p:Peinture ;
+        rdfs:label        "Le repos devant l'auberge"@fr ;
+        p:Annee_creation  "1660-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "836.4.55" .
+
+wd:Q4233718  a            p:Peintre ;
+        rdfs:label        "anonyme"@fr ;
+        p:Lieu_naissance  "t2276055388" .
+
+wd:Q56880840  a           p:Peinture ;
+        rdfs:label        "La Lutte"@fr ;
+        p:Annee_creation  "1889-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "895.4.1" .
+
+wd:Q461464  a             p:Peintre ;
+        rdfs:label        "Eugène Carrière"@fr ;
+        p:Lieu_naissance  "Gournay-sur-Marne"@fr .
+
+wd:Q28100366  a           p:Peinture ;
+        rdfs:label        "Nature morte portugaise"@fr ;
+        p:Annee_creation  "1915-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "détrempe"@fr , "toile"@fr ;
+        p:Num_inventaire  "48.16.1" .
+
+wd:Q538840  a             p:Peintre ;
+        rdfs:label        "Abraham Hondius"@fr ;
+        p:Lieu_naissance  "Rotterdam"@fr .
+
+wd:Q2112735  a            p:Peintre ;
+        rdfs:label        "Willem van Diest"@fr ;
+        p:Lieu_naissance  "La Haye"@fr .
+
+wd:Q451771  a             p:Peintre ;
+        rdfs:label        "Amadeo de Souza-Cardoso"@fr ;
+        p:Lieu_naissance  "Mancelos"@fr .
+
+wd:Q41554  a              p:Peintre ;
+        rdfs:label        "Nicolas Poussin"@fr ;
+        p:Lieu_naissance  "Les Andelys"@fr .
+
+wd:Q28071017  a           p:Peintre ;
+        rdfs:label        "Hans de Jode"@fr ;
+        p:Lieu_naissance  "La Haye"@fr .
+
+wd:Q297838  a             p:Peintre ;
+        rdfs:label        "José de Ribera"@fr ;
+        p:Lieu_naissance  "Xàtiva"@fr .
+
+wd:Q2786992  a            p:Peinture ;
+        rdfs:label        "La Vue du village"@fr ;
+        p:Annee_creation  "1868-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "898.5.1" .
+
+wd:Q29168465  a           p:Peintre ;
+        rdfs:label        "Valentijn Bing"@fr ;
+        p:Lieu_naissance  "Amsterdam"@fr .
+
+wd:Q315996  a             p:Peintre ;
+        rdfs:label        "Jan van Goyen"@fr ;
+        p:Lieu_naissance  "Leyde"@fr .
+
+wd:Q51872447  a           p:Peinture ;
+        rdfs:label        "Portrait d'homme"@fr ;
+        p:Annee_creation  "1540-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "bois"@fr , "peinture à l'huile"@fr ;
+        p:Num_inventaire  "00.1.3" .
+
+wd:Q57596558  a           p:Peinture ;
+        rdfs:label        "Portrait de femme"@fr ;
+        p:Annee_creation  "1667-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "837.1.83" .
+
+p:Peinture  rdfs:subClassOf  rdfs:Class .
+
+wd:Q5171255  a            p:Peintre ;
+        rdfs:label        "Cornelis de Baellieur"@fr ;
+        p:Lieu_naissance  "Anvers"@fr .
+
+wd:Q22662239  a           p:Peinture ;
+        rdfs:label        "Le Passage du gué"@fr ;
+        p:Annee_creation  "1819-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "825.1.219" .
+
+wd:Q323932  a             p:Peintre ;
+        rdfs:label        "David Ryckaert III"@fr ;
+        p:Lieu_naissance  "Anvers"@fr .
+
+wd:Q35706153  a           p:Peinture ;
+        rdfs:label        "Jésus-Christ guérissant des malades au bord du lac de Génézareth"@fr ;
+        p:Annee_creation  "1705-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "2012.19.12" .
+
+p:Peintre  rdfs:subClassOf  rdfs:Class .
+
+wd:Q20017923  a           p:Peinture ;
+        rdfs:label        "Les Fagots"@fr ;
+        p:Annee_creation  "1670-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "836.4.3" .
+
+wd:Q50379332  a           p:Peinture ;
+        rdfs:label        "Nature morte aux fruits"@fr ;
+        p:Annee_creation  "1735-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836-4-32" .
+
+wd:Q94778566  a           p:Peinture ;
+        rdfs:label        "Martyr de sainte Agathe"@fr ;
+        p:Annee_creation  "1637-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "2013.16.1" .
+
+wd:Q420452  a             p:Peintre ;
+        rdfs:label        "Dirck van Santvoort"@fr ;
+        p:Lieu_naissance  "Amsterdam"@fr .
+
+wd:Q15874376  a           p:Peinture ;
+        rdfs:label        "L'archange Gabriel"@fr ;
+        p:Annee_creation  "1634-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "852.1.2" .
+
+wd:Q629856  a             p:Peintre ;
+        rdfs:label        "Johannes Lingelbach"@fr ;
+        p:Lieu_naissance  "Francfort-sur-le-Main"@fr .
+
+wd:Q15879724  a           p:Peinture ;
+        rdfs:label        "Jeune femme aux pivoines"@fr ;
+        p:Annee_creation  "1870-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "18.1.3" .
+
+wd:Q57596374  a           p:Peinture ;
+        rdfs:label        "Une Femme"@fr ;
+        p:Annee_creation  "1637-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "875.3.1" .
+
+wd:Q64775968  a           p:Peinture ;
+        rdfs:label        "Paysage au muletier"@fr ;
+        p:Annee_creation  "1644-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "832.1.1" .
+
+wd:Q1696398  a            p:Peintre ;
+        rdfs:label        "Pieter van Bloemen"@fr ;
+        p:Lieu_naissance  "Anvers"@fr .
+
+wd:Q50196927  a           p:Peinture ;
+        rdfs:label        "Ramasseurs de bois morts"@fr ;
+        p:Annee_creation  "1653-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836-4-77" .
+
+wd:Q57596603  a           p:Peinture ;
+        rdfs:label        "Vue du port de Ripa Grande."@fr ;
+        p:Annee_creation  "1670-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "825.1.223" .
+
+wd:Q22662276  a           p:Peinture ;
+        rdfs:label        "Portrait d'Alfred Bruyas"@fr ;
+        p:Annee_creation  "1853-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "868.1.21" .
+
+wd:Q57596361  a           p:Peinture ;
+        rdfs:label        "Guirlande de fleurs avec l'apparition de la Vierge-à-l'Enfant à St Léopold"@fr ;
+        p:Annee_creation  "1647-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "cuivre"@fr , "peinture à l'huile"@fr ;
+        p:Num_inventaire  "D 892.3.1" .
+
+wd:Q34618  a              p:Peintre ;
+        rdfs:label        "Gustave Courbet"@fr ;
+        p:Lieu_naissance  "Ornans"@fr .
+
+wd:Q105030548  a          p:Peinture ;
+        rdfs:label        "Paysage au pâtre jouant de la flûte"@fr ;
+        p:Annee_creation  "1647-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "837.1.50" .
+
+wd:Q346808  a             p:Peintre ;
+        rdfs:label        "Gerard ter Borch"@fr ;
+        p:Lieu_naissance  "Zwolle"@fr .
+
+wd:Q17492504  a           p:Peinture ;
+        rdfs:label        "La Voiture d'enfant"@fr ;
+        p:Annee_creation  "1877-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "D 33.5.1" .
+
+wd:Q2739274  a            p:Peintre ;
+        rdfs:label        "Leonello Spada"@fr ;
+        p:Lieu_naissance  "Bologne"@fr .
+
+wd:Q333369  a             p:Peintre ;
+        rdfs:label        "Alessandro Allori"@fr ;
+        p:Lieu_naissance  "Florence"@fr .
+
+wd:Q57596440  a           p:Peinture ;
+        rdfs:label        "Chasse au sanglier"@fr ;
+        p:Annee_creation  "1675-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "835.2.1" .
+
+wd:Q57631885  a           p:Peinture ;
+        rdfs:label        "Visitation, Adoration des Mages, Fuite en Égyte, Circoncision & Assomption"@fr ;
+        p:Annee_creation  "1543-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "836.4.29" .
+
+wd:Q20017918  a           p:Peinture ;
+        rdfs:label        "Bergers et Troupeau"@fr ;
+        p:Annee_creation  "1677-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "cuivre"@fr , "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836.4.2" .
+
+wd:Q15883617  a           p:Peinture ;
+        rdfs:label        "La marchande de harengs"@fr ;
+        p:Annee_creation  "1660-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "836.4.37" .
+
+wd:Q719666  a             p:Peintre ;
+        rdfs:label        "Karel Dujardin"@fr ;
+        p:Lieu_naissance  "Amsterdam"@fr .
+
+wd:Q65398  a              p:Peintre ;
+        rdfs:label        "Pierre Dulin"@fr ;
+        p:Lieu_naissance  "Paris"@fr .
+
+wd:Q367741  a             p:Peintre ;
+        rdfs:label        "Adriaen van de Velde"@fr ;
+        p:Lieu_naissance  "Amsterdam"@fr .
+
+wd:Q1362889  a            p:Peintre ;
+        rdfs:label        "James Pradier"@fr ;
+        p:Lieu_naissance  "Genève"@fr .
+
+wd:Q57596348  a           p:Peinture ;
+        rdfs:label        "Nature morte au vase avec fruits et fruits de mer"@fr ;
+        p:Annee_creation  "1659-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "837.1.38" .
+
+wd:Q70923347  a           p:Peinture ;
+        rdfs:label        "Vénus et l'Amour"@fr ;
+        p:Annee_creation  "1570-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "887.3.1" .
+
+wd:Q213612  a             p:Peintre ;
+        rdfs:label        "Jacob van Ruisdael"@fr ;
+        p:Lieu_naissance  "Haarlem"@fr .
+
+wd:Q28809643  a           p:Peinture ;
+        rdfs:label        "Paysage au château"@fr ;
+        p:Annee_creation  "1660-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836.4.61" .
+
+wd:Q1029257  a            p:Peintre ;
+        rdfs:label        "Camille Roqueplan"@fr ;
+        p:Lieu_naissance  "Mallemort"@fr .
+
+wd:Q57631872  a           p:Peinture ;
+        rdfs:label        "L'abreuvoir"@fr ;
+        p:Annee_creation  "1690-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "837.2.1" .
+
+wd:Q515222  a             p:Peintre ;
+        rdfs:label        "Frederik de Moucheron"@fr ;
+        p:Lieu_naissance  "Emden"@fr .
+
+wd:Q489437  a             p:Peintre ;
+        rdfs:label        "Joseph Aved"@fr ;
+        p:Lieu_naissance  "Douai"@fr .
+
+wd:Q22662271  a           p:Peinture ;
+        rdfs:label        "La Fileuse endormie"@fr ;
+        p:Annee_creation  "1853-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "868.1.20" .
+
+wd:Q15430631  a           p:Peintre ;
+        rdfs:label        "Hendrik Voogd"@fr ;
+        p:Lieu_naissance  "Amsterdam"@fr .
+
+wd:Q3588360  a            p:Peintre ;
+        rdfs:label        "Émile Boilvin"@fr ;
+        p:Lieu_naissance  "Metz"@fr .
+
+wd:Q57596314  a           p:Peinture ;
+        rdfs:label        "La source purgative."@fr ;
+        p:Annee_creation  "1647-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "825.1.153" .
+
+wd:Q527869  a             p:Peintre ;
+        rdfs:label        "Jan van Huysum"@fr ;
+        p:Lieu_naissance  "Amsterdam"@fr .
+
+wd:Q568575  a             p:Peintre ;
+        rdfs:label        "Jan Frans van Bloemen"@fr ;
+        p:Lieu_naissance  "Anvers"@fr .
+
+wd:Q57596285  a           p:Peinture ;
+        rdfs:label        "Country road through a forest with cattle and shepherds"@en ;
+        p:Annee_creation  "1671-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "836.4.49" .
+
+wd:Q349377  a             p:Peintre ;
+        rdfs:label        "Adam François van der Meulen"@fr ;
+        p:Lieu_naissance  "Bruxelles"@fr .
+
+wd:Q205863  a             p:Peintre ;
+        rdfs:label        "Jan Steen"@fr ;
+        p:Lieu_naissance  "Leiden"@fr .
+
+wd:Q2868852  a            p:Peinture ;
+        rdfs:label        "Atelier de la rue Furstenberg"@fr ;
+        p:Annee_creation  "1865-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "85.5.3" .
+
+wd:Q18384815  a           p:Peinture ;
+        rdfs:label        "Les Baigneuses"@fr ;
+        p:Annee_creation  "1853-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "868.1.19" .
+
+wd:Q13897790  a           p:Peinture ;
+        rdfs:label        "Portrait de Philippe-Laurent de Joubert"@fr ;
+        p:Annee_creation  "1790-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "836.5.1" .
+
+wd:Q49487219  a           p:Peinture ;
+        rdfs:label        "Three Cows in a Meadow"@en ;
+        p:Annee_creation  "1648-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836-4-47" .
+
+wd:Q57631838  a           p:Peinture ;
+        rdfs:label        "Allégorie de l'Autriche catholique attaquée par les protestants"@fr ;
+        p:Annee_creation  "1621-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "836.4.52" .
+
+wd:Q323617  a             p:Peintre ;
+        rdfs:label        "Cornelis Huysmans"@fr ;
+        p:Lieu_naissance  "Anvers"@fr .
+
+wd:Q2644710  a            p:Peintre ;
+        rdfs:label        "Adriaen Frans Boudewyns"@fr ;
+        p:Lieu_naissance  "Bruxelles"@fr .
+
+wd:Q69991477  a           p:Peinture ;
+        rdfs:label        "Landscape with fishermen's huts among trees"@en ;
+        p:Annee_creation  "1635-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "879-2-1" .
+
+wd:Q6688432  a            p:Peintre ;
+        rdfs:label        "Louis de Caullery"@fr ;
+        p:Lieu_naissance  "Caullery"@fr .
+
+wd:Q541976  a             p:Peintre ;
+        rdfs:label        "Jan Asselyn"@fr ;
+        p:Lieu_naissance  "Dieppe"@fr .
+
+wd:Q19917578  a           p:Peinture ;
+        rdfs:label        "Le Chemin des Sables à Fontainebleau, effet d'orage"@fr ;
+        p:Annee_creation  "1869-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "876.3.54" .
+
+wd:Q57628962  a           p:Peinture ;
+        rdfs:label        "Portrait de Lorenzo de Medicis"@fr ;
+        p:Annee_creation  "1550-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "bois"@fr , "peinture à l'huile"@fr ;
+        p:Num_inventaire  "837.1.72" .
+
+wd:Q330635  a             p:Peintre ;
+        rdfs:label        "Abraham Storck"@fr ;
+        p:Lieu_naissance  "Amsterdam"@fr .
+
+wd:Q57596393  a           p:Peinture ;
+        rdfs:label        "Un Homme"@fr ;
+        p:Annee_creation  "1630-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "876.3.6" .
+
+wd:Q514074  a             p:Peintre ;
+        rdfs:label        "Jan Wijnants"@fr ;
+        p:Lieu_naissance  "Haarlem"@fr .
+
+wd:Q959236  a             p:Peintre ;
+        rdfs:label        "Frans van Mieris de Oudere"@fr ;
+        p:Lieu_naissance  "Leyde"@fr .
+
+wd:Q29469965  a           p:Peinture ;
+        rdfs:label        "Comme les Vieux chantent, les enfants piaillent"@fr ;
+        p:Annee_creation  "1661-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836-4-56" .
+
+wd:Q57596522  a           p:Peinture ;
+        rdfs:label        "Paysage aux baigneurs"@fr ;
+        p:Annee_creation  "1656-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "D 59.2.1" .
+
+wd:Q17491735  a           p:Peinture ;
+        rdfs:label        "jardin en fleurs, à Sainte-Adresse"@fr ;
+        p:Annee_creation  "1866-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "D2006.3.2" , "MNR 216" .
+
+wd:Q693288  a             p:Peintre ;
+        rdfs:label        "Lorenzo Bartolini"@fr ;
+        p:Lieu_naissance  "Vaiano"@fr .
+
+wd:Q355406  a             p:Peintre ;
+        rdfs:label        "Paulus Potter"@fr ;
+        p:Lieu_naissance  "Enkhuizen"@fr .
+
+wd:Q148475  a             p:Peintre ;
+        rdfs:label        "Jean-Baptiste Camille Corot"@fr ;
+        p:Lieu_naissance  "Paris"@fr , "rue du Bac"@fr .
+
+wd:Q106864111  a          p:Peinture ;
+        rdfs:label        "Portrait d'Antoine Valedau"@fr ;
+        p:Annee_creation  "1809-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "D10.2" , "D10.2.1" .
+
+wd:Q50196349  a           p:Peinture ;
+        rdfs:label        "Marché aux chevaux"@fr ;
+        p:Annee_creation  "1661-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836-4-75" .
+
+wd:Q29861053  a           p:Peinture ;
+        rdfs:label        "A Man with Pen in Hand and a Maid-Servant"@en ;
+        p:Annee_creation  "1659-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "836-4-38" .
+
+wd:Q432266  a             p:Peintre ;
+        rdfs:label        "Willem Van de Velde le Jeune"@fr ;
+        p:Lieu_naissance  "Leyde"@fr .
+
+wd:Q57631812  a           p:Peinture ;
+        rdfs:label        "Rixe de paysans"@fr ;
+        p:Annee_creation  "1620-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "876.3.4" .
+
+wd:Q719990  a             p:Peintre ;
+        rdfs:label        "Auguste-Barthélemy Glaize"@fr ;
+        p:Lieu_naissance  "Montpellier"@fr .
+
+wd:Q709404  a             p:Peintre ;
+        rdfs:label        "Thomas Wyck"@fr ;
+        p:Lieu_naissance  "Beverwijk"@fr .
+
+wd:Q632846  a             p:Peintre ;
+        rdfs:label        "Nicolaes Eliaszoon Pickenoy"@fr ;
+        p:Lieu_naissance  "Amsterdam"@fr .
+
+wd:Q33978  a              p:Peintre ;
+        rdfs:label        "Robert Delaunay"@fr ;
+        p:Lieu_naissance  "Paris"@fr .
+
+wd:Q57631720  a           p:Peinture ;
+        rdfs:label        "Paysage au château"@fr ;
+        p:Annee_creation  "1660-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "825.1.8" .
+
+wd:Q1133621  a            p:Peintre ;
+        rdfs:label        "Cornelis de Heem"@fr ;
+        p:Lieu_naissance  "Leyde"@fr .
+
+wd:Q66739568  a           p:Peinture ;
+        rdfs:label        "Vénus demande à Vulcain des armes pour son fils Énée"@fr ;
+        p:Annee_creation  "1732-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "2012.19.20" .
+
+wd:Q29975364  a           p:Peinture ;
+        rdfs:label        "Kitchen scene with a woman and a boy with a mousetrap"@en ;
+        p:Annee_creation  "1650-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836-4-14" .
+
+wd:Q84570680  a           p:Peinture ;
+        rdfs:label        "River Landscape with the ruins of Huis te Merwede"@en ;
+        p:Annee_creation  "1700-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "836-4-7" .
+
+wd:Q466224  a             p:Peintre ;
+        rdfs:label        "Félix Ziem"@fr ;
+        p:Lieu_naissance  "Beaune"@fr .
+
+wd:Q339270  a             p:Peintre ;
+        rdfs:label        "Otto Marseus van Schrieck"@fr ;
+        p:Lieu_naissance  "Nimègue"@fr .
+
+wd:Q347139  a             p:Peintre ;
+        rdfs:label        "Jean-Baptiste Greuze"@fr ;
+        p:Lieu_naissance  "Tournus"@fr .
+
+wd:Q106751698  a          p:Peinture ;
+        rdfs:label        "Marine, plage avec figures"@fr ;
+        p:Annee_creation  "1830-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "895.7.28" .
+
+wd:Q2339054  a            p:Peintre ;
+        rdfs:label        "Claes Dircksz. van der Heck"@fr ;
+        p:Lieu_naissance  "Alkmaar"@fr .
+
+wd:Q726941  a             p:Peintre ;
+        rdfs:label        "François-Xavier Fabre"@fr ;
+        p:Lieu_naissance  "Montpellier"@fr .
+
+wd:Q710139  a             p:Peintre ;
+        rdfs:label        "Jules Laurens"@fr ;
+        p:Lieu_naissance  "Carpentras"@fr .
+
+wd:Q874770  a             p:Peintre ;
+        rdfs:label        "Eglon van der Neer"@fr ;
+        p:Lieu_naissance  "Amsterdam"@fr .
+
+wd:Q42296621  a           p:Peinture ;
+        rdfs:label        "église Saint Bavon"@fr ;
+        p:Annee_creation  "1690-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "838.1.1" .
+
+wd:Q18560543  a           p:Peintre ;
+        rdfs:label        "Adèle Romany"@fr ;
+        p:Lieu_naissance  "Paris"@fr .
+
+wd:Q711737  a             p:Peintre ;
+        rdfs:label        "Nicolaes Berchem"@fr ;
+        p:Lieu_naissance  "Haarlem"@fr .
+
+wd:Q860154  a             p:Peintre ;
+        rdfs:label        "Charles-Joseph Natoire"@fr ;
+        p:Lieu_naissance  "Nîmes"@fr .
+
+wd:Q553795  a             p:Peintre ;
+        rdfs:label        "Sébastien Bourdon"@fr ;
+        p:Lieu_naissance  "Montpellier"@fr .
+
+wd:Q207755  a             p:Peintre ;
+        rdfs:label        "Émile Friant"@fr ;
+        p:Lieu_naissance  "Dieuze"@fr .
+
+wd:Q57631878  a           p:Peinture ;
+        rdfs:label        "Halte de cavaliers devant une hôtellerie"@fr ;
+        p:Annee_creation  "1690-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "825.1.11" .
+
+wd:Q335022  a             p:Peintre ;
+        rdfs:label        "David Teniers le Jeune"@fr ;
+        p:Lieu_naissance  "Anvers"@fr .
+
+wd:Q19917505  a           p:Peinture ;
+        rdfs:label        "Paysage, souvenir d'Asie Mineure"@fr ;
+        p:Annee_creation  "1859-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "868.1.58" .
+
+wd:Q5599  a               p:Peintre ;
+        rdfs:label        "Pierre Paul Rubens"@fr ;
+        p:Lieu_naissance  "Siegen"@fr .
+
+wd:Q52151770  a           p:Peinture ;
+        rdfs:label        "Solitude"@fr ;
+        p:Annee_creation  "1866-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "868.1.26" .
+
+wd:Q19895125  a           p:Peinture ;
+        rdfs:label        "Phèdre"@fr ;
+        p:Annee_creation  "1880-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "880.2.1" .
+
+wd:Q64915618  a           p:Peinture ;
+        rdfs:label        "Luteplayer"@en ;
+        p:Annee_creation  "1675-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr ;
+        p:Num_inventaire  "837-1-68" .
+
+wd:Q979137  a             p:Peintre ;
+        rdfs:label        "Adam Pynacker"@fr ;
+        p:Lieu_naissance  "Schiedam"@fr , "Pijnacker"@fr , "Schiedam"@en .
+
+wd:Q21753901  a           p:Peinture ;
+        rdfs:label        "la Résurrection du Christ"@fr ;
+        p:Annee_creation  "1454-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "panneau de bois"@fr ;
+        p:Num_inventaire  "892.4.7" .
+
+wd:Q95726651  a           p:Peinture ;
+        rdfs:label        "Les Remparts d'Aigues-Mortes"@fr ;
+        p:Annee_creation  "1867-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "56.13.1" .
+
+wd:Q20020060  a           p:Peinture ;
+        rdfs:label        "Marine, temps calme"@fr ;
+        p:Annee_creation  "1745-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "836.4.73" .
+
+wd:Q2114370  a            p:Peintre ;
+        rdfs:label        "Jacob de Heusch"@fr ;
+        p:Lieu_naissance  "Utrecht"@fr .
+
+wd:Q720941  a             p:Peintre ;
+        rdfs:label        "Corneille de Lyon"@fr ;
+        p:Lieu_naissance  "La Haye"@fr .
+
+wd:Q2363367  a            p:Peintre ;
+        rdfs:label        "Joseph-Désiré Court"@fr ;
+        p:Lieu_naissance  "Rouen"@fr .
+
+wd:Q15874401  a           p:Peinture ;
+        rdfs:label        "Le Gâteau des rois"@fr ;
+        p:Annee_creation  "1774-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "836.4.27" .
+
+wd:Q57020495  a           p:Peinture ;
+        rdfs:label        "Aline la mulâtresse"@fr ;
+        p:Annee_creation  "1820-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "868.1.36" .
+
+wd:Q20899941  a           p:Peinture ;
+        rdfs:label        "Portrait de Charles Baudelaire"@fr ;
+        p:Annee_creation  "1848-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "876.3.21" .
+
+wd:Q57631844  a           p:Peinture ;
+        rdfs:label        "Vase de fleurs"@fr ;
+        p:Annee_creation  "1674-01-01T00:00:00Z"^^xsd:dateTime ;
+        p:Matiere         "peinture à l'huile"@fr , "toile"@fr ;
+        p:Num_inventaire  "837.1.90" .

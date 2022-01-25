@@ -1,0 +1,709 @@
+
+**************************************** Requetes Endpoint ******************************************************************************
+
+******************************************* tableau :1 *********************************************************************************
+
+tableau 01 : tout les peintres qui ont des oeuvres au musée FABRE et les informations les concernant :
+
+  " select ?Peintre ?PeintreLabel (year(?date_naissance) as ?birthyear)"
+	+ " ?lieu_naissanceLabel (year(?date_decès) as ?deathyear)"
+	+ " WHERE { ?item wdt:P195 wd:Q1519002 ;" 
+	+ " wdt:P170 ?Peintre ."
+	+ " ?Peintre wdt:P569 ?date_naissance ;"
+	+ " wdt:P19 ?lieu_naissance ;"
+	+ " wdt:P570 ?date_decès ."
+	+ " SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr, en' .}} ";
+
+-----------------------------------------------------------------------------------------------------------
+| Peintre       | PeintreLabel                       | birthyear | lieu_naissanceLabel        | deathyear |
+===========================================================================================================
+| wd:Q4233718   | "anonyme"@fr                       |           | "t2276011193"              |           |
+| wd:Q4233718   | "anonyme"@fr                       |           | "t2276011193"              |           |
+| wd:Q4233718   | "anonyme"@fr                       |           | "t2276011193"              |           |
+| wd:Q296       | "Claude Monet"@fr                  | 1840      | "Paris"@fr                 | 1926      |
+| wd:Q5599      | "Pierre Paul Rubens"@fr            | 1577      | "Siegen"@fr                | 1640      |
+| wd:Q5599      | "Pierre Paul Rubens"@fr            | 1577      | "Siegen"@fr                | 1640      |
+| wd:Q23380     | "Jean-Auguste-Dominique Ingres"@fr | 1780      | "Montauban"@fr             | 1867      |
+| wd:Q34618     | "Gustave Courbet"@fr               | 1819      | "Ornans"@fr                | 1877      |
+| wd:Q59894     | "Laurent de La Hyre"@fr            | 1606      | "Paris"@fr                 | 1656      |
+| wd:Q184212    | "Théodore Géricault"@fr            | 1791      | "Rouen"@fr                 | 1824      |
+| wd:Q184212    | "Théodore Géricault"@fr            | 1791      | "Rouen"@fr                 | 1824      |
+| wd:Q184669    | "Jean Ranc"@fr                     | 1674      | "Montpellier"@fr           | 1735      |
+| wd:Q207298    | "Frédéric Bazille"@fr              | 1841      | "Montpellier"@fr           | 1870      |
+| wd:Q207298    | "Frédéric Bazille"@fr              | 1841      | "Montpellier"@fr           | 1870      |
+| wd:Q255828    | "Pieter Brueghel le Jeune"@fr      | 1564      | "Bruxelles"@fr             | 1636      |
+| wd:Q255828    | "Pieter Brueghel le Jeune"@fr      | 1564      | "Bruxelles"@fr             | 1638      |
+| wd:Q255828    | "Pieter Brueghel le Jeune"@fr      | 1564      | "Bruxelles"@fr             | 1636      |
+| wd:Q255828    | "Pieter Brueghel le Jeune"@fr      | 1564      | "Bruxelles"@fr             | 1638      |
+| wd:Q315996    | "Jan van Goyen"@fr                 | 1596      | "Leyde"@fr                 | 1656      |
+| wd:Q323617    | "Cornelis Huysmans"@fr             | 1648      | "Anvers"@fr                | 1727      |
+| wd:Q323932    | "David Ryckaert III"@fr            | 1612      | "Anvers"@fr                | 1661      |
+| wd:Q323932    | "David Ryckaert III"@fr            | 1612      | "Anvers"@fr                | 1661      |
+| wd:Q323932    | "David Ryckaert III"@fr            | 1612      | "Anvers"@fr                | 1661      |
+| wd:Q323932    | "David Ryckaert III"@fr            | 1612      | "Anvers"@fr                | 1661      |
+| wd:Q323932    | "David Ryckaert III"@fr            | 1612      | "Anvers"@fr                | 1661      |
+| wd:Q323932    | "David Ryckaert III"@fr            | 1612      | "Anvers"@fr                | 1661      |
+| wd:Q333369    | "Alessandro Allori"@fr             | 1535      | "Florence"@fr              | 1607      |
+| wd:Q335022    | "David Teniers le Jeune"@fr        | 1610      | "Anvers"@fr                | 1690      |
+| wd:Q335022    | "David Teniers le Jeune"@fr        | 1610      | "Anvers"@fr                | 1690      |
+| wd:Q347139    | "Jean-Baptiste Greuze"@fr          | 1725      | "Tournus"@fr               | 1805      |
+| wd:Q349377    | "Adam François van der Meulen"@fr  | 1632      | "Bruxelles"@fr             | 1690      |
+| wd:Q352438    | "Adriaen van Ostade"@fr            | 1610      | "Haarlem"@fr               | 1685      |
+| wd:Q451489    | "Antoine-Louis Barye"@fr           | 1795      | "Paris"@fr                 | 1875      |
+| wd:Q489437    | "Joseph Aved"@fr                   | 1702      | "Douai"@fr                 | 1766      |
+| wd:Q553795    | "Sébastien Bourdon"@fr             | 1616      | "Montpellier"@fr           | 1671      |
+| wd:Q568575    | "Jan Frans van Bloemen"@fr         | 1662      | "Anvers"@fr                | 1749      |
+| wd:Q677922    | "Nicolaes van Verendael"@fr        | 1640      | "Anvers"@fr                | 1691      |
+| wd:Q709404    | "Thomas Wyck"@fr                   | 1616      | "Beverwijk"@fr             | 1677      |
+| wd:Q709404    | "Thomas Wyck"@fr                   | 1616      | "Beverwijk"@fr             | 1677      |
+| wd:Q711737    | "Nicolaes Berchem"@fr              | 1622      | "Haarlem"@fr               | 1683      |
+| wd:Q726941    | "François-Xavier Fabre"@fr         | 1766      | "Montpellier"@fr           | 1837      |
+| wd:Q860154    | "Charles-Joseph Natoire"@fr        | 1700      | "Nîmes"@fr                 | 1777      |
+| wd:Q860154    | "Charles-Joseph Natoire"@fr        | 1700      | "Nîmes"@fr                 | 1777      |
+| wd:Q874770    | "Eglon van der Neer"@fr            | 1634      | "Amsterdam"@fr             | 1703      |
+| wd:Q874770    | "Eglon van der Neer"@fr            | 1634      | "Amsterdam"@fr             | 1703      |
+| wd:Q874770    | "Eglon van der Neer"@fr            | 1635      | "Amsterdam"@fr             | 1703      |
+| wd:Q874770    | "Eglon van der Neer"@fr            | 1635      | "Amsterdam"@fr             | 1703      |
+| wd:Q981631    | "Jan Both"@fr                      | 1618      | "Utrecht"@fr               | 1652      |
+| wd:Q981631    | "Jan Both"@fr                      | 1618      | "Utrecht"@fr               | 1652      |
+| wd:Q1029257   | "Camille Roqueplan"@fr             | 1803      | "Mallemort"@fr             | 1855      |
+| wd:Q1029257   | "Camille Roqueplan"@fr             | 1803      | "Mallemort"@fr             | 1855      |
+| wd:Q1029257   | "Camille Roqueplan"@fr             | 1803      | "Mallemort"@fr             | 1855      |
+| wd:Q1346044   | "Jan Weenix"@fr                    | 1642      | "Amsterdam"@fr             | 1719      |
+| wd:Q1696398   | "Pieter van Bloemen"@fr            | 1657      | "Anvers"@fr                | 1720      |
+| wd:Q1696398   | "Pieter van Bloemen"@fr            | 1657      | "Anvers"@fr                | 1720      |
+| wd:Q2066867   | "Pedro de Campaña"@fr              | 1503      | "Bruxelles"@fr             | 1580      |
+| wd:Q2074586   | "Auguste Préault"@fr               | 1809      | "Paris"@fr                 | 1879      |
+| wd:Q2074586   | "Auguste Préault"@fr               | 1809      | "Paris"@fr                 | 1879      |
+| wd:Q2241666   | "Pieter Boel"@fr                   | 1622      | "Anvers"@fr                | 1674      |
+| wd:Q2241666   | "Pieter Boel"@fr                   | 1626      | "Anvers"@fr                | 1674      |
+| wd:Q2363367   | "Joseph-Désiré Court"@fr           | 1797      | "Rouen"@fr                 | 1865      |
+| wd:Q2564914   | "Joseph-Benoît Suvée"@fr           | 1743      | "Bruges"@fr                | 1807      |
+| wd:Q2644710   | "Adriaen Frans Boudewyns"@fr       | 1644      | "Bruxelles"@fr             | 1719      |
+| wd:Q2644710   | "Adriaen Frans Boudewyns"@fr       | 1644      | "Bruxelles"@fr             | 1719      |
+| wd:Q2707224   | "Andrea Vaccaro"@fr                | 1604      | "Naples"@fr                | 1670      |
+| wd:Q2739274   | "Leonello Spada"@fr                | 1576      | "Bologne"@fr               | 1622      |
+| wd:Q5171255   | "Cornelis de Baellieur"@fr         | 1607      | "Anvers"@fr                | 1671      |
+| wd:Q6085069   | "François Ryckhals"@fr             | 1600      | "Middelbourg"@fr           | 1647      |
+| wd:Q6085069   | "François Ryckhals"@fr             | 1609      | "Middelbourg"@fr           | 1647      |
+| wd:Q6688432   | "Louis de Caullery"@fr             | 1580      | "Caullery"@fr              | 1621      |
+| wd:Q10730195  | "Mattheus van Helmont"@fr          | 1623      | "Anvers"@fr                | 1679      |
+| wd:Q18560543  | "Adèle Romany"@fr                  | 1769      | "Paris"@fr                 | 1846      |
+| wd:Q106947279 | "Jean-Louis Journet"@fr            | 1720      | "Sumène"@fr                | 1789      |
+| wd:Q4233718   | "anonyme"@fr                       |           | "t2276011193"              |           |
+| wd:Q367741    | "Adriaen van de Velde"@fr          | 1636      | "Amsterdam"@fr             | 1672      |
+| wd:Q367741    | "Adriaen van de Velde"@fr          | 1636      | "Amsterdam"@fr             | 1672      |
+| wd:Q432266    | "Willem Van de Velde le Jeune"@fr  | 1633      | "Leyde"@fr                 | 1707      |
+| wd:Q1596281   | "Marcellin Desboutin"@fr           | 1823      | "Cérilly"@fr               | 1902      |
+| wd:Q2112735   | "Willem van Diest"@fr              | 1610      | "La Haye"@fr               | 1670      |
+| wd:Q2114370   | "Jacob de Heusch"@fr               | 1656      | "Utrecht"@fr               | 1701      |
+| wd:Q2114370   | "Jacob de Heusch"@fr               | 1656      | "Utrecht"@fr               | 1701      |
+| wd:Q2339054   | "Claes Dircksz. van der Heck"@fr   | 1595      | "Alkmaar"@fr               | 1649      |
+| wd:Q3588360   | "Émile Boilvin"@fr                 | 1845      | "Metz"@fr                  | 1899      |
+| wd:Q15430631  | "Hendrik Voogd"@fr                 | 1768      | "Amsterdam"@fr             | 1839      |
+| wd:Q28071017  | "Hans de Jode"@fr                  | 1630      | "La Haye"@fr               | 1663      |
+| wd:Q29168465  | "Valentijn Bing"@fr                | 1812      | "Amsterdam"@fr             | 1895      |
+| wd:Q38271142  | "Jan Snellink (III)"@fr            | 1640      | "Rotterdam"@fr             | 1700      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1620      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1620      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1620      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1620      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1620      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1620      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1621      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1621      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1621      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1621      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1621      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1621      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Pijnacker"@fr             | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@en              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@en              | 1673      |
+| wd:Q1133621   | "Cornelis de Heem"@fr              | 1631      | "Leyde"@fr                 | 1695      |
+| wd:Q1362889   | "James Pradier"@fr                 | 1790      | "Genève"@fr                | 1852      |
+| wd:Q959236    | "Frans van Mieris de Oudere"@fr    | 1635      | "Leyde"@fr                 | 1681      |
+| wd:Q964812    | "François Marius Granet"@fr        | 1775      | "Aix-en-Provence"@fr       | 1849      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1620      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1620      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1620      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1621      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1621      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1621      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@fr              | 1673      |
+| wd:Q979137    | "Adam Pynacker"@fr                 | 1622      | "Schiedam"@fr              | 1673      |
+| wd:Q296       | "Claude Monet"@fr                  | 1840      | "Paris"@fr                 | 1926      |
+| wd:Q28144     | "Willem Kalf"@fr                   | 1619      | "Rotterdam"@fr             | 1693      |
+| wd:Q28144     | "Willem Kalf"@fr                   | 1619      | "Rotterdam"@fr             | 1693      |
+| wd:Q28144     | "Willem Kalf"@fr                   | 1619      | "Rotterdam"@fr             | 1693      |
+| wd:Q28144     | "Willem Kalf"@fr                   | 1619      | "Rotterdam"@fr             | 1693      |
+| wd:Q33477     | "Eugène Delacroix"@fr              | 1798      | "Saint-Maurice"@fr         | 1863      |
+| wd:Q33477     | "Eugène Delacroix"@fr              | 1798      | "Saint-Maurice"@fr         | 1863      |
+| wd:Q33978     | "Robert Delaunay"@fr               | 1885      | "Paris"@fr                 | 1941      |
+| wd:Q33978     | "Robert Delaunay"@fr               | 1885      | "Paris"@fr                 | 1941      |
+| wd:Q34618     | "Gustave Courbet"@fr               | 1819      | "Ornans"@fr                | 1877      |
+| wd:Q34618     | "Gustave Courbet"@fr               | 1819      | "Ornans"@fr                | 1877      |
+| wd:Q34618     | "Gustave Courbet"@fr               | 1819      | "Ornans"@fr                | 1877      |
+| wd:Q34618     | "Gustave Courbet"@fr               | 1819      | "Ornans"@fr                | 1877      |
+| wd:Q34618     | "Gustave Courbet"@fr               | 1819      | "Ornans"@fr                | 1877      |
+| wd:Q34618     | "Gustave Courbet"@fr               | 1819      | "Ornans"@fr                | 1877      |
+| wd:Q34618     | "Gustave Courbet"@fr               | 1819      | "Ornans"@fr                | 1877      |
+| wd:Q34618     | "Gustave Courbet"@fr               | 1819      | "Ornans"@fr                | 1877      |
+| wd:Q34618     | "Gustave Courbet"@fr               | 1819      | "Ornans"@fr                | 1877      |
+| wd:Q41554     | "Nicolas Poussin"@fr               | 1594      | "Les Andelys"@fr           | 1665      |
+| wd:Q45205     | "Raoul Dufy"@fr                    | 1877      | "Le Havre"@fr              | 1953      |
+| wd:Q65398     | "Pierre Dulin"@fr                  | 1669      | "Paris"@fr                 | 1748      |
+| wd:Q83155     | "Jacques-Louis David"@fr           | 1748      | "Paris"@fr                 | 1825      |
+| wd:Q83155     | "Jacques-Louis David"@fr           | 1748      | "Paris"@fr                 | 1825      |
+| wd:Q148475    | "Jean-Baptiste Camille Corot"@fr   | 1796      | "Paris"@fr                 | 1875      |
+| wd:Q148475    | "Jean-Baptiste Camille Corot"@fr   | 1796      | "Paris"@fr                 | 1875      |
+| wd:Q148475    | "Jean-Baptiste Camille Corot"@fr   | 1796      | "rue du Bac"@fr            | 1875      |
+| wd:Q148475    | "Jean-Baptiste Camille Corot"@fr   | 1796      | "rue du Bac"@fr            | 1875      |
+| wd:Q205863    | "Jan Steen"@fr                     | 1626      | "Leiden"@fr                | 1679      |
+| wd:Q205863    | "Jan Steen"@fr                     | 1626      | "Leiden"@fr                | 1679      |
+| wd:Q207298    | "Frédéric Bazille"@fr              | 1841      | "Montpellier"@fr           | 1870      |
+| wd:Q207298    | "Frédéric Bazille"@fr              | 1841      | "Montpellier"@fr           | 1870      |
+| wd:Q207298    | "Frédéric Bazille"@fr              | 1841      | "Montpellier"@fr           | 1870      |
+| wd:Q207298    | "Frédéric Bazille"@fr              | 1841      | "Montpellier"@fr           | 1870      |
+| wd:Q207755    | "Émile Friant"@fr                  | 1863      | "Dieuze"@fr                | 1932      |
+| wd:Q209615    | "Francisco de Zurbarán"@fr         | 1598      | "Fuente de Cantos"@fr      | 1664      |
+| wd:Q213612    | "Jacob van Ruisdael"@fr            | 1628      | "Haarlem"@fr               | 1682      |
+| wd:Q213612    | "Jacob van Ruisdael"@fr            | 1628      | "Haarlem"@fr               | 1682      |
+| wd:Q213612    | "Jacob van Ruisdael"@fr            | 1628      | "Haarlem"@fr               | 1682      |
+| wd:Q213612    | "Jacob van Ruisdael"@fr            | 1628      | "Haarlem"@fr               | 1682      |
+| wd:Q213612    | "Jacob van Ruisdael"@fr            | 1628      | "Haarlem"@fr               | 1682      |
+| wd:Q213612    | "Jacob van Ruisdael"@fr            | 1628      | "Haarlem"@fr               | 1682      |
+| wd:Q297838    | "José de Ribera"@fr                | 1591      | "Xàtiva"@fr                | 1652      |
+| wd:Q297838    | "José de Ribera"@fr                | 1591      | "Xàtiva"@fr                | 1652      |
+| wd:Q304411    | "Melchior de Hondecoeter"@fr       | 1636      | "Utrecht"@fr               | 1695      |
+| wd:Q310437    | "Alexandre Cabanel"@fr             | 1823      | "Montpellier"@fr           | 1889      |
+| wd:Q310437    | "Alexandre Cabanel"@fr             | 1823      | "Montpellier"@fr           | 1889      |
+| wd:Q315819    | "Joseph Vernet"@fr                 | 1714      | "Avignon"@fr               | 1789      |
+| wd:Q315819    | "Joseph Vernet"@fr                 | 1714      | "Avignon"@fr               | 1789      |
+| wd:Q330210    | "Abraham van den Tempel"@fr        | 1622      | "Leeuwarden"@fr            | 1672      |
+| wd:Q330635    | "Abraham Storck"@fr                | 1644      | "Amsterdam"@fr             | 1708      |
+| wd:Q330635    | "Abraham Storck"@fr                | 1644      | "Amsterdam"@fr             | 1708      |
+| wd:Q330635    | "Abraham Storck"@fr                | 1644      | "Amsterdam"@fr             | 1708      |
+| wd:Q330635    | "Abraham Storck"@fr                | 1644      | "Amsterdam"@fr             | 1708      |
+| wd:Q330854    | "Abraham van Diepenbeeck"@fr       | 1596      | "Bois-le-Duc"@fr           | 1675      |
+| wd:Q335022    | "David Teniers le Jeune"@fr        | 1610      | "Anvers"@fr                | 1690      |
+| wd:Q335022    | "David Teniers le Jeune"@fr        | 1610      | "Anvers"@fr                | 1690      |
+| wd:Q335022    | "David Teniers le Jeune"@fr        | 1610      | "Anvers"@fr                | 1690      |
+| wd:Q335927    | "Gérard Dou"@fr                    | 1613      | "Leyde"@fr                 | 1675      |
+| wd:Q339270    | "Otto Marseus van Schrieck"@fr     | 1619      | "Nimègue"@fr               | 1678      |
+| wd:Q346808    | "Gerard ter Borch"@fr              | 1617      | "Zwolle"@fr                | 1681      |
+| wd:Q347139    | "Jean-Baptiste Greuze"@fr          | 1725      | "Tournus"@fr               | 1805      |
+| wd:Q355213    | "Gabriel Metsu"@fr                 | 1629      | "Leyde"@fr                 | 1667      |
+| wd:Q355213    | "Gabriel Metsu"@fr                 | 1629      | "Leyde"@fr                 | 1667      |
+| wd:Q355406    | "Paulus Potter"@fr                 | 1625      | "Enkhuizen"@fr             | 1654      |
+| wd:Q370567    | "Jan van der Heyden"@fr            | 1637      | "Gorinchem"@fr             | 1712      |
+| wd:Q420452    | "Dirck van Santvoort"@fr           | 1610      | "Amsterdam"@fr             | 1680      |
+| wd:Q451771    | "Amadeo de Souza-Cardoso"@fr       | 1887      | "Mancelos"@fr              | 1918      |
+| wd:Q454671    | "Philips Wouwerman"@fr             | 1619      | "Haarlem"@fr               | 1668      |
+| wd:Q454671    | "Philips Wouwerman"@fr             | 1619      | "Haarlem"@fr               | 1668      |
+| wd:Q454671    | "Philips Wouwerman"@fr             | 1619      | "Haarlem"@fr               | 1668      |
+| wd:Q454671    | "Philips Wouwerman"@fr             | 1619      | "Haarlem"@fr               | 1668      |
+| wd:Q461464    | "Eugène Carrière"@fr               | 1849      | "Gournay-sur-Marne"@fr     | 1906      |
+| wd:Q466224    | "Félix Ziem"@fr                    | 1821      | "Beaune"@fr                | 1911      |
+| wd:Q514074    | "Jan Wijnants"@fr                  | 1632      | "Haarlem"@fr               | 1684      |
+| wd:Q515222    | "Frederik de Moucheron"@fr         | 1633      | "Emden"@fr                 | 1686      |
+| wd:Q527869    | "Jan van Huysum"@fr                | 1682      | "Amsterdam"@fr             | 1749      |
+| wd:Q527869    | "Jan van Huysum"@fr                | 1682      | "Amsterdam"@fr             | 1749      |
+| wd:Q538840    | "Abraham Hondius"@fr               | 1631      | "Rotterdam"@fr             | 1691      |
+| wd:Q541976    | "Jan Asselyn"@fr                   | 1610      | "Dieppe"@fr                | 1652      |
+| wd:Q553795    | "Sébastien Bourdon"@fr             | 1616      | "Montpellier"@fr           | 1671      |
+| wd:Q576025    | "Gerrit Berckheyde"@fr             | 1638      | "Haarlem"@fr               | 1698      |
+| wd:Q576025    | "Gerrit Berckheyde"@fr             | 1638      | "Haarlem"@fr               | 1698      |
+| wd:Q578224    | "Jacob de Wet I"@fr                | 1610      | "Haarlem"@fr               | 1675      |
+| wd:Q578224    | "Jacob de Wet I"@fr                | 1610      | "Haarlem"@fr               | 1675      |
+| wd:Q629856    | "Johannes Lingelbach"@fr           | 1622      | "Francfort-sur-le-Main"@fr | 1674      |
+| wd:Q629856    | "Johannes Lingelbach"@fr           | 1622      | "Francfort-sur-le-Main"@fr | 1674      |
+| wd:Q632846    | "Nicolaes Eliaszoon Pickenoy"@fr   | 1588      | "Amsterdam"@fr             | 1654      |
+| wd:Q693288    | "Lorenzo Bartolini"@fr             | 1777      | "Vaiano"@fr                | 1850      |
+| wd:Q709404    | "Thomas Wyck"@fr                   | 1616      | "Beverwijk"@fr             | 1677      |
+| wd:Q709404    | "Thomas Wyck"@fr                   | 1616      | "Beverwijk"@fr             | 1677      |
+| wd:Q710139    | "Jules Laurens"@fr                 | 1825      | "Carpentras"@fr            | 1901      |
+| wd:Q710139    | "Jules Laurens"@fr                 | 1825      | "Carpentras"@fr            | 1901      |
+| wd:Q710139    | "Jules Laurens"@fr                 | 1825      | "Carpentras"@fr            | 1901      |
+| wd:Q711737    | "Nicolaes Berchem"@fr              | 1622      | "Haarlem"@fr               | 1683      |
+| wd:Q711737    | "Nicolaes Berchem"@fr              | 1622      | "Haarlem"@fr               | 1683      |
+| wd:Q719666    | "Karel Dujardin"@fr                | 1622      | "Amsterdam"@fr             | 1678      |
+| wd:Q719990    | "Auguste-Barthélemy Glaize"@fr     | 1807      | "Montpellier"@fr           | 1893      |
+| wd:Q720941    | "Corneille de Lyon"@fr             | 1500      | "La Haye"@fr               | 1575      |
+| wd:Q875164    | "Herman Van Swanevelt"@fr          | 1603      | "Woerden"@fr               | 1655      |
+| wd:Q928466    | "Daniel Seghers"@fr                | 1590      | "Anvers"@fr                | 1661      |
+-----------------------------------------------------------------------------------------------------------
+
+******************************************* tableau :2 *********************************************************************************
+
+tableau 02 : musée FABRE, année_creation, nature de musée :
+
+" SELECT ?s ?label ?o ?label_s (year(?year_creation) as ?annee_creation ) WHERE { bind(wd:Q1519002 as ?s) "
+				+ " ?s rdfs:label ?label ;  wdt:P31 ?o . "
+				+ " ?s wdt:P571 ?year_creation . " 
+				+ " ?o rdfs:label ?label_s filter(lang(?label) ='fr' && lang(?label_s) ='fr') }";
+
+-----------------------------------------------------------------------------------
+| s           | label            | o          | label_s          | annee_creation |
+===================================================================================
+| wd:Q1519002 | "musée Fabre"@fr | wd:Q207694 | "musée d'art"@fr | 1825           |
+-----------------------------------------------------------------------------------
+
+******************************************* tableau :3 *********************************************************************************
+tableau 03 : Peintures de Bazille FREDERIC :
+
+    " select ?item  ?itemLabel  where { ?item wdt:P31/wdt:P279* wd:Q3305213 . "
+		+  " ?item wdt:P170 wd:Q207298 . "
+		+  " SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr, en' .}}";
+
+-------------------------------------------------------------
+| item          | itemLabel                                 |
+=============================================================
+| wd:Q106468710 | "Fleurs"@fr                               |
+| wd:Q104881668 | "Woman in Moorish Costume"@en             |
+| wd:Q95726651  | "Les Remparts d'Aigues-Mortes"@fr         |
+| wd:Q95722981  | "Chailly"@en                              |
+| wd:Q95722972  | "Nude Woman from the Back"@en             |
+| wd:Q95722879  | "Couvercles de bouillon"@fr               |
+| wd:Q95691951  | "Reclining Nude"@en                       |
+| wd:Q95691912  | "Le chien Rita endormi"@fr                |
+| wd:Q95691902  | "Au jardin"@fr                            |
+| wd:Q95691819  | "Chailly - White Horse Inn"@en            |
+| wd:Q95691645  | "Study of Trees"@en                       |
+| wd:Q90319349  | "Two Figures in a Railroad Car"@en        |
+| wd:Q66845497  | "La Terrasse de Méric"@fr                 |
+| wd:Q64570446  | "Nature morte avec du poisson"@fr         |
+| wd:Q28042147  | "The Little Gardener"@en                  |
+| wd:Q20891094  | "Paysage au bord du Lez"@fr               |
+| wd:Q20890908  | "Autoportrait"@fr                         |
+| wd:Q20272269  | "Autoportrait"@fr                         |
+| wd:Q20264990  | "Landscape at Chailly"@en                 |
+| wd:Q20188736  | "Young Woman with Peonies"@en             |
+| wd:Q20188718  | "Edmond Maître"@en                        |
+| wd:Q20188701  | "les remparts d'Aigues-Mortes"@fr         |
+| wd:Q20188677  | "Edouard Blau"@en                         |
+| wd:Q19962601  | "L'Atelier de l'artiste, rue Visconti"@fr |
+| wd:Q19911989  | "Porte de la Reine à Aigues-Mortes"@fr    |
+| wd:Q17491549  | "forêt de Fontainebleau"@fr               |
+| wd:Q17490505  | "La Terrasse à Méric"@fr                  |
+| wd:Q17490504  | "La Tireuse de cartes"@fr                 |
+| wd:Q17490495  | "Le Pêcheur à l'épervier"@fr              |
+| wd:Q15879724  | "Jeune femme aux pivoines"@fr             |
+| wd:Q15877622  | "L'Atelier de la rue de la Condamine"@fr  |
+| wd:Q15876329  | "L'Ambulance improvisée"@fr               |
+| wd:Q12142552  | "Auguste Renoir"@fr                       |
+| wd:Q7439713   | "Scène d’été"@fr                          |
+| wd:Q4442468   | "La Toilette"@fr                          |
+| wd:Q3212360   | "La Robe rose"@fr                         |
+| wd:Q2868852   | "Atelier de la rue Furstenberg"@fr        |
+| wd:Q2786992   | "La Vue du village"@fr                    |
+| wd:Q325981    | "Réunion de famille"@fr                   |
+-------------------------------------------------------------
+
+******************************************* tableau :4 *********************************************************************************
+
+tableau 04 :toutes les sculptures de la collection musée FABRE 
+
+	" SELECT ?item ?itemLabel WHERE { ?item wdt:P195 wd:Q1519002 ."
+		+ " ?item wdt:P31 wd:Q860861 ."			
+		+ " SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr, en' .}}";
+
+-------------------------------------------------------
+| item          | itemLabel                           |
+=======================================================
+| wd:Q63993579  | "Thésée combattant le Minotaure"@fr |
+| wd:Q106947288 | "Bélisaire demandant l'aumône"@fr   |
+| wd:Q106948895 | "Jacques Coeur"@fr                  |
+-------------------------------------------------------
+
+******************************************* tableau :5 *********************************************************************************
+
+tableau 05 :les peintures de FREDERIC Bazille éxposées au musée FABRE ainsi que leurs date de creation :
+
+	" select ?item ?itemLabel (year(?year_creation) as ?annee_creation ) where { ?item wdt:P195 wd:Q1519002 . "
+		+ " ?item wdt:P31/wdt:P279* wd:Q3305213 ."
+		+ " ?item wdt:P170 wd:Q207298 . "
+		+ " ?item wdt:P571 ?year_creation . "
+		+ " SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr','en' .}}";
+
+----------------------------------------------------------------------
+| item         | itemLabel                          | annee_creation |
+======================================================================
+| wd:Q95726651 | "Les Remparts d'Aigues-Mortes"@fr  | 1867           |
+| wd:Q95722879 | "Couvercles de bouillon"@fr        | 1864           |
+| wd:Q15879724 | "Jeune femme aux pivoines"@fr      | 1870           |
+| wd:Q4442468  | "La Toilette"@fr                   | 1869           |
+| wd:Q2868852  | "Atelier de la rue Furstenberg"@fr | 1865           |
+| wd:Q2786992  | "La Vue du village"@fr             | 1868           |
+----------------------------------------------------------------------
+
+******************************************* tableau :6 *********************************************************************************
+
+tableau 06: les peintures de la collection musée FABRE exposées entre 1700 et 1850 :
+
+	" SELECT ?peinture ?peintureLabel (year(?year_creation) as ?annee_creation ) WHERE{ ?peinture wdt:P195 wd:Q1519002 ."
+		+ " ?peinture wdt:P31/wdt:P279* wd:Q3305213 ."
+		+ " ?peinture wdt:P571 ?year_creation ."
+		+ "  FILTER(YEAR(?year_creation)>= 1700 && YEAR(?year_creation)<= 1850)."
+		+ " SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr', 'en'.}} ";
+
+--------------------------------------------------------------------------------------------------------------------------
+| peinture      | peintureLabel                                                                         | annee_creation |
+==========================================================================================================================
+| wd:Q3399505   | "Portrait du médecin Alphonse Leroy"@fr                                               | 1783           |
+| wd:Q17278812  | "Montaigne visitant Le Tasse en prison"@fr                                            | 1820           |
+| wd:Q13897790  | "Portrait de Philippe-Laurent de Joubert"@fr                                          | 1790           |
+| wd:Q15874401  | "Le Gâteau des rois"@fr                                                               | 1774           |
+| wd:Q19923938  | "Exercices militaires des Marocains"@fr                                               | 1832           |
+| wd:Q20020029  | "Les abords d'une foire"@fr                                                           | 1774           |
+| wd:Q20020060  | "Marine, temps calme"@fr                                                              | 1745           |
+| wd:Q20899941  | "Portrait de Charles Baudelaire"@fr                                                   | 1848           |
+| wd:Q22662239  | "Le Passage du gué"@fr                                                                | 1819           |
+| wd:Q35706153  | "Jésus-Christ guérissant des malades au bord du lac de Génézareth"@fr                 | 1705           |
+| wd:Q41516051  | "La pêche à l’épervier"@fr                                                            | 1847           |
+| wd:Q50379332  | "Nature morte aux fruits"@fr                                                          | 1735           |
+| wd:Q50379355  | "Bouquet de fleurs"@fr                                                                | 1735           |
+| wd:Q57020495  | "Aline la mulâtresse"@fr                                                              | 1820           |
+| wd:Q57596591  | "Gibier et armes de chasse"@fr                                                        | 1700           |
+| wd:Q57631913  | "Naissance de la Vierge (esquisse)."@fr                                               | 1778           |
+| wd:Q66739568  | "Vénus demande à Vulcain des armes pour son fils Énée"@fr                             | 1732           |
+| wd:Q71828467  | "Madame Crozat"@fr                                                                    | 1741           |
+| wd:Q71828470  | "L'homme à la pipe"@fr                                                                | 1848           |
+| wd:Q80102815  | "Le Petit Paresseux"@fr                                                               | 1755           |
+| wd:Q84570680  | "River Landscape with the ruins of Huis te Merwede"@en                                | 1700           |
+| wd:Q95963190  | "Vertumne et Pomone (Jean Ranc)"@fr                                                   | 1800           |
+| wd:Q94757794  | "Ulysse et Néoptolème enlèvent à Philoctète l'arc et les flèches d'Héraclès"@fr       | 1800           |
+| wd:Q106303671 | "Louis XVI, Marie-Antoinette et le Dauphin se réfugiant à l'Assemblée législative"@fr | 1834           |
+| wd:Q106751698 | "Marine, plage avec figures"@fr                                                       | 1830           |
+| wd:Q106864111 | "Portrait d'Antoine Valedau"@fr                                                       | 1809           |
+--------------------------------------------------------------------------------------------------------------------------
+
+******************************************* tableau :7 *********************************************************************************
+
+tableau 07: les peintures de la collection musée FABRE qui commencent par la lettre 'C', ainsi que leur numéro d'inventaire :
+
+	" SELECT ?peinture ?peintureLabel ?num_inventaire WHERE{ ?peinture wdt:P195 wd:Q1519002 ."
+		+ " ?peinture wdt:P31/wdt:P279* wd:Q3305213 ;"
+		+ " wdt:P217 ?num_inventaire ; "
+		+ " rdfs:label ?peintureLabel . " 	
+		+ " FILTER(LANG(?peintureLabel) = 'fr'&& 'en' ). "
+		+ " FILTER(STRSTARTS(?peintureLabel, 'C')) . }";
+
+------------------------------------------------------------------------------------------
+| peinture     | peintureLabel                                        | num_inventaire   |
+==========================================================================================
+| wd:Q16038466 | "Corrida course de taureaux"@fr                      | "AM 4214 P (52)" |
+| wd:Q16038466 | "Corrida course de taureaux"@fr                      | "D65.2.4"        |
+| wd:Q20023105 | "Chasse au lion"@fr                                  | "825.1.4"        |
+| wd:Q20963042 | "Cascade dans un bois de chênes"@fr                  | "836.4.54"       |
+| wd:Q29469965 | "Comme les Vieux chantent, les enfants piaillent"@fr | "836-4-56"       |
+| wd:Q47929907 | "Coucher de soleil sous le Bosphore"@fr              | "33.5.15"        |
+| wd:Q57596440 | "Chasse au sanglier"@fr                              | "835.2.1"        |
+| wd:Q95722879 | "Couvercles de bouillon"@fr                          | "2009.3.1"       |
+------------------------------------------------------------------------------------------
+
+******************************************* tableau :8 *********************************************************************************
+
+tableau 08: les oeuvres de peintre Gustave COURBET qui terminent par la lettre 't', exposéesau musée FABRE ainsi que leurs numéro d'inventaire :
+	
+	" SELECT ?peinture ?peintureLabel ?num_inventaire WHERE{ ?peinture wdt:P195 wd:Q1519002 ."
+		+ " ?peinture wdt:P31/wdt:P279* wd:Q3305213 ."
+		+ " ?peinture wdt:P170 wd:Q34618 ;"
+		+ " wdt:P217 ?num_inventaire ; " 
+		+ " rdfs:label ?peintureLabel . " 	
+		+ " FILTER(LANG(?peintureLabel) = 'fr'&& 'en' ). "
+		+ " FILTER(STRENDS(?peintureLabel, 't')) . }";
+ 
+----------------------------------------------------------------
+| peinture    | peintureLabel                 | num_inventaire |
+================================================================
+| wd:Q3642171 | "Bonjour Monsieur Courbet"@fr | "868.1.23"     |
+----------------------------------------------------------------
+
+******************************************* tableau :9 *********************************************************************************
+
+tableau 09: toutes les peintures de la collection musée FABRE, leurs createur, leur année_creation leurs num_inventaire et la matière avac quoi elles sont peintent :
+
+	" select ?Peinture ?PeintureLabel ?creatorLabel (year(?year_creation) as ?annee_creation ) "
+		+ " ?num_inventaire ?matiereLabel WHERE { ?Peinture wdt:P195 wd:Q1519002 ;"
+		+ "  wdt:P31 wd:Q3305213 ;"
+		+ "  wdt:P170 ?creator ; "
+		+ "  wdt:P571 ?year_creation ; "
+		+ "  wdt:P217 ?num_inventaire ; "
+		+ "  wdt:P186 ?matiere ; "
+		+ " SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr, en' .}} ";
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Peinture      | PeintureLabel                                                                   | creatorLabel                      | annee_creation | num_inventaire | matiereLabel            |
+===================================================================================================================================================================================================
+| wd:Q57596591  | "Gibier et armes de chasse"@fr                                                  | "Jan Weenix"@fr                   | 1700           | "837.1.99"     | "peinture à l'huile"@fr |
+| wd:Q57596591  | "Gibier et armes de chasse"@fr                                                  | "Jan Weenix"@fr                   | 1700           | "837.1.99"     | "toile"@fr              |
+| wd:Q57596603  | "Vue du port de Ripa Grande."@fr                                                | "Thomas Wyck"@fr                  | 1670           | "825.1.223"    | "peinture à l'huile"@fr |
+| wd:Q57596603  | "Vue du port de Ripa Grande."@fr                                                | "Thomas Wyck"@fr                  | 1670           | "825.1.223"    | "panneau de bois"@fr    |
+| wd:Q57628962  | "Portrait de Lorenzo de Medicis"@fr                                             | "anonyme"@fr                      | 1550           | "837.1.72"     | "bois"@fr               |
+| wd:Q57628962  | "Portrait de Lorenzo de Medicis"@fr                                             | "anonyme"@fr                      | 1550           | "837.1.72"     | "peinture à l'huile"@fr |
+| wd:Q57631720  | "Paysage au château"@fr                                                         | "Jan Frans van Bloemen"@fr        | 1660           | "825.1.8"      | "peinture à l'huile"@fr |
+| wd:Q57631720  | "Paysage au château"@fr                                                         | "Jan Frans van Bloemen"@fr        | 1660           | "825.1.8"      | "toile"@fr              |
+| wd:Q57631802  | "Portrait du peintre Frans Francken l'Ancien"@fr                                | "Pierre Paul Rubens"@fr           | 1615           | "833.1.1"      | "peinture à l'huile"@fr |
+| wd:Q57631802  | "Portrait du peintre Frans Francken l'Ancien"@fr                                | "Pierre Paul Rubens"@fr           | 1615           | "833.1.1"      | "panneau de bois"@fr    |
+| wd:Q57631812  | "Rixe de paysans"@fr                                                            | "Pieter Brueghel le Jeune"@fr     | 1620           | "876.3.4"      | "peinture à l'huile"@fr |
+| wd:Q57631812  | "Rixe de paysans"@fr                                                            | "Pieter Brueghel le Jeune"@fr     | 1620           | "876.3.4"      | "panneau de bois"@fr    |
+| wd:Q57631838  | "Allégorie de l'Autriche catholique attaquée par les protestants"@fr            | "Pierre Paul Rubens"@fr           | 1621           | "836.4.52"     | "peinture à l'huile"@fr |
+| wd:Q57631838  | "Allégorie de l'Autriche catholique attaquée par les protestants"@fr            | "Pierre Paul Rubens"@fr           | 1621           | "836.4.52"     | "panneau de bois"@fr    |
+| wd:Q57631844  | "Vase de fleurs"@fr                                                             | "Nicolaes van Verendael"@fr       | 1674           | "837.1.90"     | "peinture à l'huile"@fr |
+| wd:Q57631844  | "Vase de fleurs"@fr                                                             | "Nicolaes van Verendael"@fr       | 1674           | "837.1.90"     | "toile"@fr              |
+| wd:Q57631852  | "Halte de cavaliers"@fr                                                         | "Adam François van der Meulen"@fr | 1660           | "837.1.56"     | "peinture à l'huile"@fr |
+| wd:Q57631852  | "Halte de cavaliers"@fr                                                         | "Adam François van der Meulen"@fr | 1660           | "837.1.56"     | "toile"@fr              |
+| wd:Q57631863  | "Un arracheur de dents"@fr                                                      | "David Ryckaert III"@fr           | 1655           | "843.2"        | "peinture à l'huile"@fr |
+| wd:Q57631863  | "Un arracheur de dents"@fr                                                      | "David Ryckaert III"@fr           | 1655           | "843.2"        | "panneau de bois"@fr    |
+| wd:Q57631872  | "L'abreuvoir"@fr                                                                | "Pieter van Bloemen"@fr           | 1690           | "837.2.1"      | "peinture à l'huile"@fr |
+| wd:Q57631872  | "L'abreuvoir"@fr                                                                | "Pieter van Bloemen"@fr           | 1690           | "837.2.1"      | "toile"@fr              |
+| wd:Q57631878  | "Halte de cavaliers devant une hôtellerie"@fr                                   | "Pieter van Bloemen"@fr           | 1690           | "825.1.11"     | "peinture à l'huile"@fr |
+| wd:Q57631878  | "Halte de cavaliers devant une hôtellerie"@fr                                   | "Pieter van Bloemen"@fr           | 1690           | "825.1.11"     | "toile"@fr              |
+| wd:Q57631885  | "Visitation, Adoration des Mages, Fuite en Égyte, Circoncision & Assomption"@fr | "anonyme"@fr                      | 1543           | "836.4.29"     | "peinture à l'huile"@fr |
+| wd:Q57631885  | "Visitation, Adoration des Mages, Fuite en Égyte, Circoncision & Assomption"@fr | "anonyme"@fr                      | 1543           | "836.4.29"     | "panneau de bois"@fr    |
+| wd:Q57631894  | "La Visitation"@fr                                                              | "Maître de 1518"@fr               | 1510           | "D 872.1.3"    | "peinture à l'huile"@fr |
+| wd:Q57631894  | "La Visitation"@fr                                                              | "Maître de 1518"@fr               | 1510           | "D 872.1.3"    | "panneau de bois"@fr    |
+| wd:Q57631913  | "Naissance de la Vierge (esquisse)."@fr                                         | "Joseph-Benoît Suvée"@fr          | 1778           | "78.4.1"       | "peinture à l'huile"@fr |
+| wd:Q57631913  | "Naissance de la Vierge (esquisse)."@fr                                         | "Joseph-Benoît Suvée"@fr          | 1778           | "78.4.1"       | "toile"@fr              |
+| wd:Q64775968  | "Paysage au muletier"@fr                                                        | "Jan Both"@fr                     | 1644           | "832.1.1"      | "peinture à l'huile"@fr |
+| wd:Q64915618  | "Luteplayer"@en                                                                 | "Adriaen van Ostade"@fr           | 1675           | "837-1-68"     | "peinture à l'huile"@fr |
+| wd:Q66425509  | "Landscape with cattle herd by a river"@en                                      | "Nicolaes Berchem"@fr             | 1665           | "825-1-6"      | "peinture à l'huile"@fr |
+| wd:Q66663657  | "Hilly landscape with elegant company"@en                                       | "Eglon van der Neer"@fr           | 1685           | "825-1-159"    | "peinture à l'huile"@fr |
+| wd:Q66663657  | "Hilly landscape with elegant company"@en                                       | "Adriaen Frans Boudewyns"@fr      | 1685           | "825-1-159"    | "peinture à l'huile"@fr |
+| wd:Q66664826  | "River landscape with peasants and cattle"@en                                   | "Eglon van der Neer"@fr           | 1685           | "825-1-160"    | "peinture à l'huile"@fr |
+| wd:Q66664826  | "River landscape with peasants and cattle"@en                                   | "Adriaen Frans Boudewyns"@fr      | 1685           | "825-1-160"    | "peinture à l'huile"@fr |
+| wd:Q66739568  | "Vénus demande à Vulcain des armes pour son fils Énée"@fr                       | "Charles-Joseph Natoire"@fr       | 1732           | "2012.19.20"   | "peinture à l'huile"@fr |
+| wd:Q66739568  | "Vénus demande à Vulcain des armes pour son fils Énée"@fr                       | "Charles-Joseph Natoire"@fr       | 1732           | "2012.19.20"   | "toile"@fr              |
+| wd:Q66866479  | "Portrait d’homme, dit l’homme aux rubans noirs"@fr                             | "Sébastien Bourdon"@fr            | 1650           | "836.2.1"      | "peinture à l'huile"@fr |
+| wd:Q66866479  | "Portrait d’homme, dit l’homme aux rubans noirs"@fr                             | "Sébastien Bourdon"@fr            | 1650           | "836.2.1"      | "toile"@fr              |
+| wd:Q69991477  | "Landscape with fishermen's huts among trees"@en                                | "Jan van Goyen"@fr                | 1635           | "879-2-1"      | "peinture à l'huile"@fr |
+| wd:Q70923347  | "Vénus et l'Amour"@fr                                                           | "Alessandro Allori"@fr            | 1570           | "887.3.1"      | "peinture à l'huile"@fr |
+| wd:Q70923347  | "Vénus et l'Amour"@fr                                                           | "Alessandro Allori"@fr            | 1570           | "887.3.1"      | "toile"@fr              |
+| wd:Q71828467  | "Madame Crozat"@fr                                                              | "Joseph Aved"@fr                  | 1741           | "839.2.1"      | "peinture à l'huile"@fr |
+| wd:Q71828467  | "Madame Crozat"@fr                                                              | "Joseph Aved"@fr                  | 1741           | "839.2.1"      | "toile"@fr              |
+| wd:Q71828470  | "L'homme à la pipe"@fr                                                          | "Gustave Courbet"@fr              | 1848           | "868.1.18"     | "peinture à l'huile"@fr |
+| wd:Q71828470  | "L'homme à la pipe"@fr                                                          | "Gustave Courbet"@fr              | 1848           | "868.1.18"     | "toile"@fr              |
+| wd:Q80102815  | "Le Petit Paresseux"@fr                                                         | "Jean-Baptiste Greuze"@fr         | 1755           | "837.1.35"     | "peinture à l'huile"@fr |
+| wd:Q80102815  | "Le Petit Paresseux"@fr                                                         | "Jean-Baptiste Greuze"@fr         | 1755           | "837.1.35"     | "toile"@fr              |
+| wd:Q84570680  | "River Landscape with the ruins of Huis te Merwede"@en                          | "anonyme"@fr                      | 1700           | "836-4-7"      | "peinture à l'huile"@fr |
+| wd:Q94757794  | "Ulysse et Néoptolème enlèvent à Philoctète l'arc et les flèches d'Héraclès"@fr | "François-Xavier Fabre"@fr        | 1800           | "D2007.7.1"    | "peinture à l'huile"@fr |
+| wd:Q94757794  | "Ulysse et Néoptolème enlèvent à Philoctète l'arc et les flèches d'Héraclès"@fr | "François-Xavier Fabre"@fr        | 1800           | "D2007.7.1"    | "toile"@fr              |
+| wd:Q94778566  | "Martyr de sainte Agathe"@fr                                                    | "Andrea Vaccaro"@fr               | 1637           | "2013.16.1"    | "peinture à l'huile"@fr |
+| wd:Q94778566  | "Martyr de sainte Agathe"@fr                                                    | "Andrea Vaccaro"@fr               | 1637           | "2013.16.1"    | "toile"@fr              |
+| wd:Q95722879  | "Couvercles de bouillon"@fr                                                     | "Frédéric Bazille"@fr             | 1864           | "2009.3.1"     | "peinture à l'huile"@fr |
+| wd:Q95722879  | "Couvercles de bouillon"@fr                                                     | "Frédéric Bazille"@fr             | 1864           | "2009.3.1"     | "toile"@fr              |
+| wd:Q95726651  | "Les Remparts d'Aigues-Mortes"@fr                                               | "Frédéric Bazille"@fr             | 1867           | "56.13.1"      | "peinture à l'huile"@fr |
+| wd:Q95726651  | "Les Remparts d'Aigues-Mortes"@fr                                               | "Frédéric Bazille"@fr             | 1867           | "56.13.1"      | "toile"@fr              |
+| wd:Q95730067  | "Portrait de Bazille"@fr                                                        | "Claude Monet"@fr                 | 1864           | "45.8.1"       | "peinture à l'huile"@fr |
+| wd:Q95963190  | "Vertumne et Pomone (Jean Ranc)"@fr                                             | "Jean Ranc"@fr                    | 1800           | "64.3.1"       | "peinture à l'huile"@fr |
+| wd:Q95963190  | "Vertumne et Pomone (Jean Ranc)"@fr                                             | "Jean Ranc"@fr                    | 1800           | "64.3.1"       | "toile"@fr              |
+| wd:Q105030548 | "Paysage au pâtre jouant de la flûte"@fr                                        | "Laurent de La Hyre"@fr           | 1647           | "837.1.50"     | "peinture à l'huile"@fr |
+| wd:Q105030548 | "Paysage au pâtre jouant de la flûte"@fr                                        | "Laurent de La Hyre"@fr           | 1647           | "837.1.50"     | "toile"@fr              |
+| wd:Q105397732 | "La Lamentation sur le Christ mort"@fr                                          | "Leonello Spada"@fr               | 1610           | "2012.10.1"    | "peinture à l'huile"@fr |
+| wd:Q105397732 | "La Lamentation sur le Christ mort"@fr                                          | "Leonello Spada"@fr               | 1610           | "2012.10.1"    | "toile"@fr              |
+| wd:Q106751698 | "Marine, plage avec figures"@fr                                                 | "Camille Roqueplan"@fr            | 1830           | "895.7.28"     | "peinture à l'huile"@fr |
+| wd:Q106751698 | "Marine, plage avec figures"@fr                                                 | "Camille Roqueplan"@fr            | 1830           | "895.7.28"     | "toile"@fr              |
+| wd:Q106864111 | "Portrait d'Antoine Valedau"@fr                                                 | "Adèle Romany"@fr                 | 1809           | "D10.2"        | "peinture à l'huile"@fr |
+| wd:Q106864111 | "Portrait d'Antoine Valedau"@fr                                                 | "Adèle Romany"@fr                 | 1809           | "D10.2.1"      | "peinture à l'huile"@fr |
+| wd:Q106864111 | "Portrait d'Antoine Valedau"@fr                                                 | "Adèle Romany"@fr                 | 1809           | "D10.2"        | "toile"@fr              |
+| wd:Q106864111 | "Portrait d'Antoine Valedau"@fr                                                 | "Adèle Romany"@fr                 | 1809           | "D10.2.1"      | "toile"@fr              |
+| wd:Q2786992   | "La Vue du village"@fr                                                          | "Frédéric Bazille"@fr             | 1868           | "898.5.1"      | "peinture à l'huile"@fr |
+| wd:Q2786992   | "La Vue du village"@fr                                                          | "Frédéric Bazille"@fr             | 1868           | "898.5.1"      | "toile"@fr              |
+| wd:Q2868852   | "Atelier de la rue Furstenberg"@fr                                              | "Frédéric Bazille"@fr             | 1865           | "85.5.3"       | "peinture à l'huile"@fr |
+| wd:Q2868852   | "Atelier de la rue Furstenberg"@fr                                              | "Frédéric Bazille"@fr             | 1865           | "85.5.3"       | "toile"@fr              |
+| wd:Q3399505   | "Portrait du médecin Alphonse Leroy"@fr                                         | "Jacques-Louis David"@fr          | 1783           | "829.1.1"      | "peinture à l'huile"@fr |
+| wd:Q3399505   | "Portrait du médecin Alphonse Leroy"@fr                                         | "Jacques-Louis David"@fr          | 1783           | "829.1.1"      | "toile"@fr              |
+| wd:Q3464453   | "Sainte Agathe"@fr                                                              | "Zizi"@fr                         | 1630           | "852.1.3"      | "peinture à l'huile"@fr |
+| wd:Q3464453   | "Sainte Agathe"@fr                                                              | "Zizi"@fr                         | 1630           | "852.1.3"      | "toile"@fr              |
+| wd:Q3564176   | "Vénus et Adonis"@fr                                                            | "Nicolas Poussin"@fr              | 1626           | "825.1.171"    | "peinture à l'huile"@fr |
+| wd:Q3564176   | "Vénus et Adonis"@fr                                                            | "Nicolas Poussin"@fr              | 1626           | "825.1.171"    | "toile"@fr              |
+| wd:Q3642171   | "Bonjour Monsieur Courbet"@fr                                                   | "Gustave Courbet"@fr              | 1854           | "868.1.23"     | "peinture à l'huile"@fr |
+| wd:Q3642171   | "Bonjour Monsieur Courbet"@fr                                                   | "Gustave Courbet"@fr              | 1854           | "868.1.23"     | "toile"@fr              |
+| wd:Q4442468   | "La Toilette"@fr                                                                | "Frédéric Bazille"@fr             | 1869           | "18.1.2"       | "peinture à l'huile"@fr |
+| wd:Q4442468   | "La Toilette"@fr                                                                | "Frédéric Bazille"@fr             | 1869           | "18.1.2"       | "toile"@fr              |
+| wd:Q13897790  | "Portrait de Philippe-Laurent de Joubert"@fr                                    | "Jacques-Louis David"@fr          | 1790           | "836.5.1"      | "peinture à l'huile"@fr |
+| wd:Q13897790  | "Portrait de Philippe-Laurent de Joubert"@fr                                    | "Jacques-Louis David"@fr          | 1790           | "836.5.1"      | "toile"@fr              |
+| wd:Q14922848  | "L'Enfileuse de perles"@fr                                                      | "Frans van Mieris de Oudere"@fr   | 1658           | "836.4.39"     | "peinture à l'huile"@fr |
+| wd:Q14922848  | "L'Enfileuse de perles"@fr                                                      | "Frans van Mieris de Oudere"@fr   | 1658           | "836.4.39"     | "panneau de bois"@fr    |
+| wd:Q15874376  | "L'archange Gabriel"@fr                                                         | "Francisco de Zurbarán"@fr        | 1634           | "852.1.2"      | "peinture à l'huile"@fr |
+| wd:Q15874376  | "L'archange Gabriel"@fr                                                         | "Francisco de Zurbarán"@fr        | 1634           | "852.1.2"      | "toile"@fr              |
+| wd:Q15874401  | "Le Gâteau des rois"@fr                                                         | "Jean-Baptiste Greuze"@fr         | 1774           | "836.4.27"     | "peinture à l'huile"@fr |
+| wd:Q15874401  | "Le Gâteau des rois"@fr                                                         | "Jean-Baptiste Greuze"@fr         | 1774           | "836.4.27"     | "toile"@fr              |
+| wd:Q15879724  | "Jeune femme aux pivoines"@fr                                                   | "Frédéric Bazille"@fr             | 1870           | "18.1.3"       | "peinture à l'huile"@fr |
+| wd:Q15879724  | "Jeune femme aux pivoines"@fr                                                   | "Frédéric Bazille"@fr             | 1870           | "18.1.3"       | "toile"@fr              |
+| wd:Q15883617  | "La marchande de harengs"@fr                                                    | "Gabriel Metsu"@fr                | 1660           | "836.4.37"     | "peinture à l'huile"@fr |
+| wd:Q15883617  | "La marchande de harengs"@fr                                                    | "Gabriel Metsu"@fr                | 1660           | "836.4.37"     | "panneau de bois"@fr    |
+| wd:Q15917669  | "Sainte Marie l'Égyptienne."@fr                                                 | "José de Ribera"@fr               | 1641           | "837.1.27"     | "peinture à l'huile"@fr |
+| wd:Q15917669  | "Sainte Marie l'Égyptienne."@fr                                                 | "José de Ribera"@fr               | 1641           | "837.1.27"     | "toile"@fr              |
+| wd:Q17278812  | "Montaigne visitant Le Tasse en prison"@fr                                      | "François Marius Granet"@fr       | 1820           | "825.1.125"    | "peinture à l'huile"@fr |
+| wd:Q17278812  | "Montaigne visitant Le Tasse en prison"@fr                                      | "François Marius Granet"@fr       | 1820           | "825.1.125"    | "toile"@fr              |
+| wd:Q17491735  | "jardin en fleurs, à Sainte-Adresse"@fr                                         | "Claude Monet"@fr                 | 1866           | "D2006.3.2"    | "peinture à l'huile"@fr |
+| wd:Q17491735  | "jardin en fleurs, à Sainte-Adresse"@fr                                         | "Claude Monet"@fr                 | 1866           | "MNR 216"      | "peinture à l'huile"@fr |
+| wd:Q17491735  | "jardin en fleurs, à Sainte-Adresse"@fr                                         | "Claude Monet"@fr                 | 1866           | "D2006.3.2"    | "toile"@fr              |
+| wd:Q17491735  | "jardin en fleurs, à Sainte-Adresse"@fr                                         | "Claude Monet"@fr                 | 1866           | "MNR 216"      | "toile"@fr              |
+| wd:Q17492504  | "La Voiture d'enfant"@fr                                                        | "Marcellin Desboutin"@fr          | 1877           | "D 33.5.1"     | "peinture à l'huile"@fr |
+| wd:Q17492504  | "La Voiture d'enfant"@fr                                                        | "Marcellin Desboutin"@fr          | 1877           | "D 33.5.1"     | "toile"@fr              |
+| wd:Q18384815  | "Les Baigneuses"@fr                                                             | "Gustave Courbet"@fr              | 1853           | "868.1.19"     | "peinture à l'huile"@fr |
+| wd:Q18384815  | "Les Baigneuses"@fr                                                             | "Gustave Courbet"@fr              | 1853           | "868.1.19"     | "toile"@fr              |
+| wd:Q18756802  | "Vénus victorieuse"@fr                                                          | "Alexandre Cabanel"@fr            | 1875           | "895.2.1"      | "peinture à l'huile"@fr |
+| wd:Q18756802  | "Vénus victorieuse"@fr                                                          | "Alexandre Cabanel"@fr            | 1875           | "895.2.1"      | "toile"@fr              |
+| wd:Q19895125  | "Phèdre"@fr                                                                     | "Alexandre Cabanel"@fr            | 1880           | "880.2.1"      | "peinture à l'huile"@fr |
+| wd:Q19895125  | "Phèdre"@fr                                                                     | "Alexandre Cabanel"@fr            | 1880           | "880.2.1"      | "toile"@fr              |
+| wd:Q19917500  | "La Mosquée bleue à Tauris en Perse"@fr                                         | "Jules Laurens"@fr                | 1872           | "886.3.1"      | "peinture à l'huile"@fr |
+| wd:Q19917500  | "La Mosquée bleue à Tauris en Perse"@fr                                         | "Jules Laurens"@fr                | 1872           | "886.3.1"      | "toile"@fr              |
+| wd:Q19917505  | "Paysage, souvenir d'Asie Mineure"@fr                                           | "Jules Laurens"@fr                | 1859           | "868.1.58"     | "peinture à l'huile"@fr |
+| wd:Q19917505  | "Paysage, souvenir d'Asie Mineure"@fr                                           | "Jules Laurens"@fr                | 1859           | "868.1.58"     | "toile"@fr              |
+| wd:Q19917578  | "Le Chemin des Sables à Fontainebleau, effet d'orage"@fr                        | "Jules Laurens"@fr                | 1869           | "876.3.54"     | "peinture à l'huile"@fr |
+| wd:Q19917578  | "Le Chemin des Sables à Fontainebleau, effet d'orage"@fr                        | "Jules Laurens"@fr                | 1869           | "876.3.54"     | "toile"@fr              |
+| wd:Q19923938  | "Exercices militaires des Marocains"@fr                                         | "Eugène Delacroix"@fr             | 1832           | "868.1.37"     | "peinture à l'huile"@fr |
+| wd:Q19923938  | "Exercices militaires des Marocains"@fr                                         | "Eugène Delacroix"@fr             | 1832           | "868.1.37"     | "toile"@fr              |
+| wd:Q20017918  | "Bergers et Troupeau"@fr                                                        | "Nicolaes Berchem"@fr             | 1677           | "836.4.2"      | "cuivre"@fr             |
+| wd:Q20017918  | "Bergers et Troupeau"@fr                                                        | "Nicolaes Berchem"@fr             | 1677           | "836.4.2"      | "peinture à l'huile"@fr |
+| wd:Q20017923  | "Les Fagots"@fr                                                                 | "Nicolaes Berchem"@fr             | 1670           | "836.4.3"      | "peinture à l'huile"@fr |
+| wd:Q20017923  | "Les Fagots"@fr                                                                 | "Nicolaes Berchem"@fr             | 1670           | "836.4.3"      | "panneau de bois"@fr    |
+| wd:Q20020029  | "Les abords d'une foire"@fr                                                     | "Joseph Vernet"@fr                | 1774           | "837.1.91"     | "peinture à l'huile"@fr |
+| wd:Q20020029  | "Les abords d'une foire"@fr                                                     | "Joseph Vernet"@fr                | 1774           | "837.1.91"     | "toile"@fr              |
+| wd:Q20020060  | "Marine, temps calme"@fr                                                        | "Joseph Vernet"@fr                | 1745           | "836.4.73"     | "peinture à l'huile"@fr |
+| wd:Q20020060  | "Marine, temps calme"@fr                                                        | "Joseph Vernet"@fr                | 1745           | "836.4.73"     | "toile"@fr              |
+| wd:Q20023105  | "Chasse au lion"@fr                                                             | "Jan Asselyn"@fr                  | 1640           | "825.1.4"      | "peinture à l'huile"@fr |
+| wd:Q20023105  | "Chasse au lion"@fr                                                             | "Jan Asselyn"@fr                  | 1640           | "825.1.4"      | "toile"@fr              |
+| wd:Q20087546  | "Le Bord de mer à Palavas"@fr                                                   | "Gustave Courbet"@fr              | 1854           | "868.1.24"     | "peinture à l'huile"@fr |
+| wd:Q20087546  | "Le Bord de mer à Palavas"@fr                                                   | "Gustave Courbet"@fr              | 1854           | "868.1.24"     | "toile"@fr              |
+| wd:Q20899941  | "Portrait de Charles Baudelaire"@fr                                             | "Gustave Courbet"@fr              | 1848           | "876.3.21"     | "peinture à l'huile"@fr |
+| wd:Q20899941  | "Portrait de Charles Baudelaire"@fr                                             | "Gustave Courbet"@fr              | 1848           | "876.3.21"     | "toile"@fr              |
+| wd:Q20963042  | "Cascade dans un bois de chênes"@fr                                             | "Jacob van Ruisdael"@fr           | 1660           | "836.4.54"     | "peinture à l'huile"@fr |
+| wd:Q21079548  | "Paysage par temps d'orage"@fr                                                  | "Jacob van Ruisdael"@fr           | 1649           | "836-4-53"     | "peinture à l'huile"@fr |
+| wd:Q21753901  | "la Résurrection du Christ"@fr                                                  | "Maître de Dreux Budé"@fr         | 1454           | "892.4.7"      | "peinture à l'huile"@fr |
+| wd:Q21753901  | "la Résurrection du Christ"@fr                                                  | "Maître de Dreux Budé"@fr         | 1454           | "892.4.7"      | "panneau de bois"@fr    |
+| wd:Q22662239  | "Le Passage du gué"@fr                                                          | "Hendrik Voogd"@fr                | 1819           | "825.1.219"    | "peinture à l'huile"@fr |
+| wd:Q22662239  | "Le Passage du gué"@fr                                                          | "Hendrik Voogd"@fr                | 1819           | "825.1.219"    | "toile"@fr              |
+| wd:Q22662271  | "La Fileuse endormie"@fr                                                        | "Gustave Courbet"@fr              | 1853           | "868.1.20"     | "peinture à l'huile"@fr |
+| wd:Q22662271  | "La Fileuse endormie"@fr                                                        | "Gustave Courbet"@fr              | 1853           | "868.1.20"     | "toile"@fr              |
+| wd:Q22662276  | "Portrait d'Alfred Bruyas"@fr                                                   | "Gustave Courbet"@fr              | 1853           | "868.1.21"     | "peinture à l'huile"@fr |
+| wd:Q22662276  | "Portrait d'Alfred Bruyas"@fr                                                   | "Gustave Courbet"@fr              | 1853           | "868.1.21"     | "toile"@fr              |
+| wd:Q22662280  | "Autoportrait au col rayé"@fr                                                   | "Gustave Courbet"@fr              | 1854           | "868.1.22"     | "peinture à l'huile"@fr |
+| wd:Q22662280  | "Autoportrait au col rayé"@fr                                                   | "Gustave Courbet"@fr              | 1854           | "868.1.22"     | "toile"@fr              |
+| wd:Q22662301  | "Portrait de Bruyas"@fr                                                         | "Gustave Courbet"@fr              | 1854           | "876.3.22"     | "peinture à l'huile"@fr |
+| wd:Q22662301  | "Portrait de Bruyas"@fr                                                         | "Gustave Courbet"@fr              | 1854           | "876.3.22"     | "toile"@fr              |
+| wd:Q28065565  | "Portrait d'Henri Carlier"@fr                                                   | "Robert Delaunay"@fr              | 1906           | "AM 2592 P"    | "peinture à l'huile"@fr |
+| wd:Q28065565  | "Portrait d'Henri Carlier"@fr                                                   | "Robert Delaunay"@fr              | 1906           | "D2006.2.3"    | "peinture à l'huile"@fr |
+| wd:Q28065565  | "Portrait d'Henri Carlier"@fr                                                   | "Robert Delaunay"@fr              | 1906           | "AM 2592 P"    | "toile"@fr              |
+| wd:Q28065565  | "Portrait d'Henri Carlier"@fr                                                   | "Robert Delaunay"@fr              | 1906           | "D2006.2.3"    | "toile"@fr              |
+| wd:Q28100366  | "Nature morte portugaise"@fr                                                    | "Robert Delaunay"@fr              | 1915           | "48.16.1"      | "détrempe"@fr           |
+| wd:Q28100366  | "Nature morte portugaise"@fr                                                    | "Robert Delaunay"@fr              | 1915           | "48.16.1"      | "toile"@fr              |
+| wd:Q28809643  | "Paysage au château"@fr                                                         | "David Teniers le Jeune"@fr       | 1660           | "836.4.61"     | "peinture à l'huile"@fr |
+| wd:Q28919949  | "La kermesse de la Saint-Georges"@fr                                            | "David Teniers le Jeune"@fr       | 1645           | "836.4.65"     | "peinture à l'huile"@fr |
+| wd:Q28946691  | "Jeune Hollandaise versant à boire"@fr                                          | "Gerard ter Borch"@fr             | 1650           | "836.4.69"     | "bois"@fr               |
+| wd:Q28946691  | "Jeune Hollandaise versant à boire"@fr                                          | "Gerard ter Borch"@fr             | 1650           | "836.4.69"     | "peinture à l'huile"@fr |
+| wd:Q29469965  | "Comme les Vieux chantent, les enfants piaillent"@fr                            | "Jan Steen"@fr                    | 1661           | "836-4-56"     | "peinture à l'huile"@fr |
+| wd:Q29861053  | "A Man with Pen in Hand and a Maid-Servant"@en                                  | "Gabriel Metsu"@fr                | 1659           | "836-4-38"     | "peinture à l'huile"@fr |
+| wd:Q29861053  | "A Man with Pen in Hand and a Maid-Servant"@en                                  | "Gabriel Metsu"@fr                | 1659           | "836-4-38"     | "panneau de bois"@fr    |
+| wd:Q29975364  | "Kitchen scene with a woman and a boy with a mousetrap"@en                      | "Gérard Dou"@fr                   | 1650           | "836-4-14"     | "peinture à l'huile"@fr |
+| wd:Q35706153  | "Jésus-Christ guérissant des malades au bord du lac de Génézareth"@fr           | "Pierre Dulin"@fr                 | 1705           | "2012.19.12"   | "peinture à l'huile"@fr |
+| wd:Q35706153  | "Jésus-Christ guérissant des malades au bord du lac de Génézareth"@fr           | "Pierre Dulin"@fr                 | 1705           | "2012.19.12"   | "toile"@fr              |
+| wd:Q57596558  | "Portrait de femme"@fr                                                          | "Abraham van den Tempel"@fr       | 1667           | "837.1.83"     | "peinture à l'huile"@fr |
+| wd:Q57596558  | "Portrait de femme"@fr                                                          | "Abraham van den Tempel"@fr       | 1667           | "837.1.83"     | "toile"@fr              |
+| wd:Q57596581  | "Paysage avec ruines."@fr                                                       | "Adriaen van de Velde"@fr         | 1666           | "836.4.71"     | "peinture à l'huile"@fr |
+| wd:Q57596581  | "Paysage avec ruines."@fr                                                       | "Adriaen van de Velde"@fr         | 1666           | "836.4.71"     | "toile"@fr              |
+| wd:Q41516051  | "La pêche à l’épervier"@fr                                                      | "Jean-Baptiste Camille Corot"@fr  | 1847           | "868.1.13"     | "peinture à l'huile"@fr |
+| wd:Q41516051  | "La pêche à l’épervier"@fr                                                      | "Jean-Baptiste Camille Corot"@fr  | 1847           | "868.1.13"     | "toile"@fr              |
+| wd:Q42296621  | "église Saint Bavon"@fr                                                         | "Gerrit Berckheyde"@fr            | 1690           | "838.1.1"      | "peinture à l'huile"@fr |
+| wd:Q47929907  | "Coucher de soleil sous le Bosphore"@fr                                         | "Félix Ziem"@fr                   | 1893           | "33.5.15"      | "peinture à l'huile"@fr |
+| wd:Q47929907  | "Coucher de soleil sous le Bosphore"@fr                                         | "Félix Ziem"@fr                   | 1893           | "33.5.15"      | "toile"@fr              |
+| wd:Q49487219  | "Three Cows in a Meadow"@en                                                     | "Paulus Potter"@fr                | 1648           | "836-4-47"     | "peinture à l'huile"@fr |
+| wd:Q50196349  | "Marché aux chevaux"@fr                                                         | "Philips Wouwerman"@fr            | 1661           | "836-4-75"     | "peinture à l'huile"@fr |
+| wd:Q50196621  | "Le coup de l'étrier"@fr                                                        | "Philips Wouwerman"@fr            | 1661           | "836-4-76"     | "peinture à l'huile"@fr |
+| wd:Q50196729  | "Marche d'armée"@fr                                                             | "Philips Wouwerman"@fr            | 1661           | "836-4-78"     | "peinture à l'huile"@fr |
+| wd:Q50196927  | "Ramasseurs de bois morts"@fr                                                   | "Philips Wouwerman"@fr            | 1653           | "836-4-77"     | "peinture à l'huile"@fr |
+| wd:Q50379332  | "Nature morte aux fruits"@fr                                                    | "Jan van Huysum"@fr               | 1735           | "836-4-32"     | "peinture à l'huile"@fr |
+| wd:Q50379355  | "Bouquet de fleurs"@fr                                                          | "Jan van Huysum"@fr               | 1735           | "836-4-31"     | "peinture à l'huile"@fr |
+| wd:Q51872447  | "Portrait d'homme"@fr                                                           | "Corneille de Lyon"@fr            | 1540           | "00.1.3"       | "bois"@fr               |
+| wd:Q51872447  | "Portrait d'homme"@fr                                                           | "Corneille de Lyon"@fr            | 1540           | "00.1.3"       | "peinture à l'huile"@fr |
+| wd:Q52151770  | "Solitude"@fr                                                                   | "Gustave Courbet"@fr              | 1866           | "868.1.26"     | "peinture à l'huile"@fr |
+| wd:Q52151770  | "Solitude"@fr                                                                   | "Gustave Courbet"@fr              | 1866           | "868.1.26"     | "toile"@fr              |
+| wd:Q55083927  | "Selfportrait of GIanlorenzo Bernini (Copy)"@en                                 | "anonyme"@fr                      | 1630           | "879.3.1"      | "huile"@fr              |
+| wd:Q55083927  | "Selfportrait of GIanlorenzo Bernini (Copy)"@en                                 | "anonyme"@fr                      | 1630           | "879.3.1"      | "toile"@fr              |
+| wd:Q56259011  | "Tabagie - \"L'homme au chapeau blanc\""@fr                                     | "David Teniers le Jeune"@fr       | 1644           | "836.4.66"     | "peinture à l'huile"@fr |
+| wd:Q56259011  | "Tabagie - \"L'homme au chapeau blanc\""@fr                                     | "David Teniers le Jeune"@fr       | 1644           | "836.4.66"     | "panneau de bois"@fr    |
+| wd:Q56880840  | "La Lutte"@fr                                                                   | "Émile Friant"@fr                 | 1889           | "895.4.1"      | "peinture à l'huile"@fr |
+| wd:Q56880840  | "La Lutte"@fr                                                                   | "Émile Friant"@fr                 | 1889           | "895.4.1"      | "toile"@fr              |
+| wd:Q57020495  | "Aline la mulâtresse"@fr                                                        | "Eugène Delacroix"@fr             | 1820           | "868.1.36"     | "peinture à l'huile"@fr |
+| wd:Q57020495  | "Aline la mulâtresse"@fr                                                        | "Eugène Delacroix"@fr             | 1820           | "868.1.36"     | "toile"@fr              |
+| wd:Q57398571  | "Place devant un couvent"@fr                                                    | "Jan van der Heyden"@fr           | 1660           | "836.4.30"     | "peinture à l'huile"@fr |
+| wd:Q57596026  | "Une femme de l'ilot de Schokland"@fr                                           | "Valentijn Bing"@fr               | 1855           | "889.3.5"      | "peinture à l'huile"@fr |
+| wd:Q57596026  | "Une femme de l'ilot de Schokland"@fr                                           | "Valentijn Bing"@fr               | 1855           | "889.3.5"      | "toile"@fr              |
+| wd:Q57596042  | "Marine temps calme"@fr                                                         | "Willem van Diest"@fr             | 1645           | "2008.3.1"     | "peinture à l'huile"@fr |
+| wd:Q57596042  | "Marine temps calme"@fr                                                         | "Willem van Diest"@fr             | 1645           | "2008.3.1"     | "panneau de bois"@fr    |
+| wd:Q57596242  | "Deux muletiers à l'auberge."@fr                                                | "Karel Dujardin"@fr               | 1658           | "836.4.15"     | "peinture à l'huile"@fr |
+| wd:Q57596242  | "Deux muletiers à l'auberge."@fr                                                | "Karel Dujardin"@fr               | 1658           | "836.4.15"     | "panneau de bois"@fr    |
+| wd:Q57596285  | "Country road through a forest with cattle and shepherds"@en                    | "Jan Snellink (III)"@fr           | 1671           | "836.4.49"     | "peinture à l'huile"@fr |
+| wd:Q57596285  | "Country road through a forest with cattle and shepherds"@en                    | "Jan Snellink (III)"@fr           | 1671           | "836.4.49"     | "panneau de bois"@fr    |
+| wd:Q57596300  | "Intérieur de cuisine."@fr                                                      | "Willem Kalf"@fr                  | 1646           | "837.1.49"     | "peinture à l'huile"@fr |
+| wd:Q57596300  | "Intérieur de cuisine."@fr                                                      | "Willem Kalf"@fr                  | 1646           | "837.1.49"     | "panneau de bois"@fr    |
+| wd:Q57596314  | "La source purgative."@fr                                                       | "Johannes Lingelbach"@fr          | 1647           | "825.1.153"    | "peinture à l'huile"@fr |
+| wd:Q57596314  | "La source purgative."@fr                                                       | "Johannes Lingelbach"@fr          | 1647           | "825.1.153"    | "toile"@fr              |
+| wd:Q57596329  | "Paysage au pont"@fr                                                            | "Frederik de Moucheron"@fr        | 1660           | "825.1.183"    | "peinture à l'huile"@fr |
+| wd:Q57596329  | "Paysage au pont"@fr                                                            | "Adam Pynacker"@fr                | 1660           | "825.1.183"    | "peinture à l'huile"@fr |
+| wd:Q57596329  | "Paysage au pont"@fr                                                            | "Frederik de Moucheron"@fr        | 1660           | "825.1.183"    | "toile"@fr              |
+| wd:Q57596329  | "Paysage au pont"@fr                                                            | "Adam Pynacker"@fr                | 1660           | "825.1.183"    | "toile"@fr              |
+| wd:Q57596348  | "Nature morte au vase avec fruits et fruits de mer"@fr                          | "Cornelis de Heem"@fr             | 1659           | "837.1.38"     | "peinture à l'huile"@fr |
+| wd:Q57596348  | "Nature morte au vase avec fruits et fruits de mer"@fr                          | "Cornelis de Heem"@fr             | 1659           | "837.1.38"     | "panneau de bois"@fr    |
+| wd:Q57596361  | "Guirlande de fleurs avec l'apparition de la Vierge-à-l'Enfant à St Léopold"@fr | "Abraham van Diepenbeeck"@fr      | 1647           | "D 892.3.1"    | "cuivre"@fr             |
+| wd:Q57596361  | "Guirlande de fleurs avec l'apparition de la Vierge-à-l'Enfant à St Léopold"@fr | "Daniel Seghers"@fr               | 1647           | "D 892.3.1"    | "cuivre"@fr             |
+| wd:Q57596361  | "Guirlande de fleurs avec l'apparition de la Vierge-à-l'Enfant à St Léopold"@fr | "Abraham van Diepenbeeck"@fr      | 1647           | "D 892.3.1"    | "peinture à l'huile"@fr |
+| wd:Q57596361  | "Guirlande de fleurs avec l'apparition de la Vierge-à-l'Enfant à St Léopold"@fr | "Daniel Seghers"@fr               | 1647           | "D 892.3.1"    | "peinture à l'huile"@fr |
+| wd:Q57596374  | "Une Femme"@fr                                                                  | "Dirck van Santvoort"@fr          | 1637           | "875.3.1"      | "peinture à l'huile"@fr |
+| wd:Q57596374  | "Une Femme"@fr                                                                  | "Dirck van Santvoort"@fr          | 1637           | "875.3.1"      | "panneau de bois"@fr    |
+| wd:Q57596393  | "Un Homme"@fr                                                                   | "Nicolaes Eliaszoon Pickenoy"@fr  | 1630           | "876.3.6"      | "peinture à l'huile"@fr |
+| wd:Q57596393  | "Un Homme"@fr                                                                   | "Nicolaes Eliaszoon Pickenoy"@fr  | 1630           | "876.3.6"      | "panneau de bois"@fr    |
+| wd:Q57596408  | "Le repos devant l'auberge"@fr                                                  | "Jan Steen"@fr                    | 1660           | "836.4.55"     | "peinture à l'huile"@fr |
+| wd:Q57596408  | "Le repos devant l'auberge"@fr                                                  | "Jan Steen"@fr                    | 1660           | "836.4.55"     | "panneau de bois"@fr    |
+| wd:Q57596421  | "Paysage avec des chasseurs"@fr                                                 | "Jan Wijnants"@fr                 | 1660           | "836.4.79"     | "peinture à l'huile"@fr |
+| wd:Q57596421  | "Paysage avec des chasseurs"@fr                                                 | "Jan Wijnants"@fr                 | 1660           | "836.4.79"     | "toile"@fr              |
+| wd:Q57596440  | "Chasse au sanglier"@fr                                                         | "Abraham Hondius"@fr              | 1675           | "835.2.1"      | "peinture à l'huile"@fr |
+| wd:Q57596440  | "Chasse au sanglier"@fr                                                         | "Abraham Hondius"@fr              | 1675           | "835.2.1"      | "toile"@fr              |
+| wd:Q57596468  | "La poule blanche"@fr                                                           | "Melchior de Hondecoeter"@fr      | 1660           | "837.1.39"     | "peinture à l'huile"@fr |
+| wd:Q57596468  | "La poule blanche"@fr                                                           | "Melchior de Hondecoeter"@fr      | 1660           | "837.1.39"     | "toile"@fr              |
+| wd:Q57596494  | "Sous-bois avec papillons autour d'un chardon"@fr                               | "Otto Marseus van Schrieck"@fr    | 1667           | "837.1.55"     | "peinture à l'huile"@fr |
+| wd:Q57596494  | "Sous-bois avec papillons autour d'un chardon"@fr                               | "Otto Marseus van Schrieck"@fr    | 1667           | "837.1.55"     | "toile"@fr              |
+| wd:Q57596510  | "Le Corsaire et le Juif"@fr                                                     | "Thomas Wyck"@fr                  | 1660           | "837.1.100"    | "peinture à l'huile"@fr |
+| wd:Q57596510  | "Le Corsaire et le Juif"@fr                                                     | "Thomas Wyck"@fr                  | 1660           | "837.1.100"    | "toile"@fr              |
+| wd:Q57596522  | "Paysage aux baigneurs"@fr                                                      | "Hans de Jode"@fr                 | 1656           | "D 59.2.1"     | "peinture à l'huile"@fr |
+| wd:Q57596522  | "Paysage aux baigneurs"@fr                                                      | "Hans de Jode"@fr                 | 1656           | "D 59.2.1"     | "toile"@fr              |
+| wd:Q57596539  | "Un port de mer."@fr                                                            | "Abraham Storck"@fr               | 1675           | "823.1.3"      | "peinture à l'huile"@fr |
+| wd:Q57596539  | "Un port de mer."@fr                                                            | "Abraham Storck"@fr               | 1675           | "823.1.3"      | "toile"@fr              |
+| wd:Q57596549  | "Paysage d'Italie."@fr                                                          | "Herman Van Swanevelt"@fr         | 1650           | "837.1.82"     | "peinture à l'huile"@fr |
+| wd:Q57596549  | "Paysage d'Italie."@fr                                                          | "Herman Van Swanevelt"@fr         | 1650           | "837.1.82"     | "toile"@fr              |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

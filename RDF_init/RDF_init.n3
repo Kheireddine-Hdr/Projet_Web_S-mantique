@@ -1,0 +1,1910 @@
+@prefix p:     <http://www.ex.fr/p#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ex.fr/p#Interieur_d'un_cabaret>
+        a                 p:Peinture ;
+        rdfs:label        "Interieur d'un cabaret" ;
+        p:annee_creation  "1666"^^xsd:int ;
+        p:domaine         "Peinture hollandaise 17e siècle"@fr , "Pittura olandese del XVII secolo"@it ;
+        p:matiere         "Oil_on_wood"@it , "Huile sur bois"@fr ;
+        p:num_inventaire  "836.4.41" ;
+        p:regroupee_dans  p:thematique_12 ;
+        p:titre_peinture  "Interieur d'un cabaret"@fr , "Interno di un cabaret"@it .
+
+p:Negresse  a             p:Peinture ;
+        rdfs:label        "La Negresse aux pivoines" ;
+        p:annee_creation  "1870"^^xsd:int ;
+        p:domaine         "Peinture_francaise_19e_siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "18.1.3" ;
+        p:regroupee_dans  p:thematique_4 ;
+        p:titre_peinture  "La negra con le peonie"@it , "La Negresse aux pivoines"@fr .
+
+p:COURBET_Gustave  a      p:Peintre ;
+        p:date_deces      "31 decembre 1877" ;
+        p:date_naissance  "10 mars 1819" ;
+        p:nom             "COURBET" ;
+        p:pays_naissance  "France"@fr , "Francia"@it ;
+        p:peint           p:Bonjour_M.Courbet , p:Palavas , p:Solitude_ruisseau_couvert , p:Baigneuses ;
+        p:prenom          "Gustave" .
+
+p:Gave_deborde  a         p:Peinture ;
+        rdfs:label        "Gave deborde" ;
+        p:annee_creation  "1865"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "2012.19.93" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "Ha dato overflow"@it , "Gave deborde"@fr .
+
+<http://www.ex.fr/p#Grand_Marche-l'eglise_Saint-Bavon>
+        a                 p:Peinture ;
+        rdfs:label        "Vue du Grand Marche et de l'eglise Saint-Bavon a Haarlem" ;
+        p:annee_creation  "1690"^^xsd:int ;
+        p:domaine         "Pittura olandese del XVII secolo"@it , "Peinture hollandaise 17e siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "838.1.1" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "Veduta delle Grand Marche e della Chiesa di San Bavone ad Haarlem"@it , "Vue du Grand Marche et de l'eglise Saint-Bavon a Haarlem"@fr .
+
+p:Frederic_de  a          p:Peintre ;
+        p:date_deces      "2 janvier 1686" ;
+        p:date_naissance  "1633"^^xsd:int ;
+        p:nom             "MOUCHERON" ;
+        p:pays_naissance  "Germania"@it , "Allemagne"@fr ;
+        p:peint           p:Paysage_au_pont ;
+        p:prenom          "Frederic de" .
+
+p:thematique_11  a        p:Parcours_Thematique ;
+        rdfs:label        "LES ANIMAUX" ;
+        p:Nom_thematique  "animali"@it , "LES ANIMAUX"@fr ;
+        p:est_exposee     p:musee_Fabre .
+
+p:Eve-serpent  a          p:Peinture ;
+        rdfs:label        "Eve tentee par le serpent" ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture francaise 19e siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "860.2.2" ;
+        p:regroupee_dans  p:thematique_9 ;
+        p:titre_peinture  "Eve tentee par le serpent"@fr , "Eva tentata dal serpente"@it .
+
+p:Paysage_avec_une_cascade
+        a                 p:Peinture ;
+        rdfs:label        "Paysage avec une cascade" ;
+        p:annee_creation  "1655 - 1660" ;
+        p:domaine         "Peinture hollandaise 17e siecle"@fr , "Pittura olandese del XVII secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "825.1.191" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "Paysage avec une cascade"@fr , "Paesaggio con cascata"@it .
+
+p:MILLET_Jean-Francois
+        a                 p:Peintre ;
+        p:date_deces      "20 janvier 1875" ;
+        p:date_naissance  "4 octobre 1814" ;
+        p:nom             "MILLET" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Offrande_a_Pan ;
+        p:prenom          "Jean-Francois" .
+
+p:Polypheme  a             p:Sculpture ;
+        rdfs:label         "Polypheme" ;
+        p:annee_creation   "1680 - 1681" ;
+        p:domaine          "Scultura francese del XVII secolo"@it , "Sculpture française 17e siècle"@fr ;
+        p:matiere          "Terracotta patinata"@it , "Terre cuite patinee"@fr ;
+        p:num_inventaire   "877.1.3" ;
+        p:regroupee_dans   p:thematique_3 ;
+        p:titre_sculpture  "Polypheme"@fr , "Polifemo"@it .
+
+p:POL_Christiaen_van  a   p:Peintre ;
+        p:date_deces      "21 mai 1813" ;
+        p:date_naissance  "14 mars 1752" ;
+        p:nom             "POL" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           p:Fleurs_et_fruits ;
+        p:prenom          "Christiaen van" .
+
+p:Vue_du_port  a          p:Peinture ;
+        rdfs:label        "Vue du port de Ripa Grande" ;
+        p:domaine         "Pittura olandese del XVII secolo"@it , "Peinture hollandaise 17e siecle"@fr ;
+        p:matiere         "Oil_on_wood"@it , "Huile sur bois"@fr ;
+        p:num_inventaire  "825.1.223" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  " Vue du port de Ripa Grande"@fr , "Veduta del porto di Ripa Grande"@it .
+
+<http://www.ex.fr/p#La_Mort_d'Abel>
+        a                 p:Peinture ;
+        rdfs:label        "La Mort d'Abel" ;
+        p:annee_creation  "1790"^^xsd:int ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture_francaise_18e_siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "825.1.60" ;
+        p:regroupee_dans  p:thematique_2 ;
+        p:titre_peinture  "La morte di Abele"@it , "La Mort d'Abel"@fr .
+
+p:TENIERS_David_le_Jeune
+        a                 p:Peintre ;
+        p:date_deces      "25 avril 1690" ;
+        p:date_naissance  "15 decembre 1610" ;
+        p:nom             "TENIERS" ;
+        p:pays_naissance  "Belgio"@it , "Belgique"@fr ;
+        p:peint           p:Tabagie_2 , p:Tabagie_1 ;
+        p:prenom          "David le Jeune" .
+
+p:Une_plage  a            p:Peinture ;
+        rdfs:label        "Une plage" ;
+        p:annee_creation  "1824"^^xsd:int ;
+        p:domaine         "Peinture anglaise 19e siecle"@fr , "Pittura inglese del XIX secolo"@it ;
+        p:matiere         "Oil_on_wood"@it , "Huile sur bois"@fr ;
+        p:num_inventaire  "876.3.13" ;
+        p:regroupee_dans  p:thematique_14 , p:thematique_7 ;
+        p:titre_peinture  "Une plage"@fr , "Una spiaggia"@it .
+
+<http://www.ex.fr/p#NEEFFS_Pieter_l'Ancien>
+        a                 p:Peintre ;
+        p:date_deces      "1656"^^xsd:int ;
+        p:date_naissance  "1578"^^xsd:int ;
+        p:nom             "NEEFFS" ;
+        p:pays_naissance  "Belgio"@it , "Belgique"@fr ;
+        p:peint           p:eglise_de_nuit ;
+        p:prenom          "Pieter l'Ancien" .
+
+p:Hilaire_Germain_Edgar
+        a                 p:Peintre ;
+        p:date_deces      "27 septembre 1917" ;
+        p:date_naissance  "19 juillet 1834" ;
+        p:nom             "DEGAS" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Une_nourrice ;
+        p:prenom          "Hilaire Germain Edgar" .
+
+p:thematique_6  a         p:Parcours_Thematique ;
+        rdfs:label        "ECRIVAINS ET LECTEURS" ;
+        p:Nom_thematique  "scrittori e lettori"@it , "ECRIVAINS ET LECTEURS"@fr ;
+        p:est_exposee     p:musee_Fabre .
+
+p:Hercule  a               p:Sculpture ;
+        rdfs:label         "Hercule portant le sanglier d'Erymanthe " ;
+        p:annee_creation   "1825"^^xsd:int ;
+        p:domaine          "Scultura francese del XIX secolo"@it , "Sculpture française 19e siècle"@fr ;
+        p:matiere          "Bronze"@fr , "Bronzo"@it ;
+        p:num_inventaire   "08.2.3" ;
+        p:regroupee_dans   p:thematique_3 ;
+        p:titre_sculpture  "Ercole che trasporta il cinghiale Erymanthian"@it , "Hercule portant le sanglier d'Erymanthe"@fr .
+
+p:Paul  a                 p:Peintre ;
+        p:date_deces      "9 janvier 1869" ;
+        p:date_naissance  "1803"^^xsd:int ;
+        p:nom             "HUET" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Gave_deborde , p:Effet_de_brouillard ;
+        p:prenom          "Paul" .
+
+p:Le_pont  a              p:Peinture ;
+        rdfs:label        "Le pont" ;
+        p:annee_creation  "1776"^^xsd:int ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture francaise 18e siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "837.1.76" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "il ponte"@it , "Le pont"@fr .
+
+p:Autoportrait_1  a       p:Peinture ;
+        rdfs:label        "Autoportrait" ;
+        p:annee_creation  "1726-1729" ;
+        p:domaine         "Peinture_francaise_18e_siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "830.1.1" ;
+        p:regroupee_dans  p:thematique_8 ;
+        p:titre_peinture  "Autoportrait"@fr , "Auto ritratto"@it .
+
+p:RUISDAEL_Jacob_van  a   p:Peintre ;
+        p:date_deces      "10 mars 1682" ;
+        p:date_naissance  "1628"^^xsd:int ;
+        p:nom             "RUISDAEL" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           p:Cascade , p:Paysage_avec_une_cascade ;
+        p:prenom          "Jacob van" .
+
+p:Jeune_femme-la_Toilette
+        a                 p:Peinture ;
+        rdfs:label        "Jeune femme a sa toilette" ;
+        p:annee_creation  "1824"^^xsd:int ;
+        p:domaine         "Peinture_francaise_19e_siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.70" ;
+        p:regroupee_dans  p:thematique_2 ;
+        p:titre_peinture  "Giovane donna alla sua toilette"@it , "Jeune femme a sa toilette"@fr .
+
+p:FABRE_Francois_Xavier
+        a                 p:Peintre ;
+        p:date_deces      "INCONNU" ;
+        p:date_naissance  "16 mars 1766" ;
+        p:nom             "Francois XAVIER" ;
+        p:pays_naissance  "France"@fr , "Francia"@it ;
+        p:peint           p:jeune_dessinatrice , p:La_mort_de_Narcisse , p:Suzanne_et_les_vieillards , p:Louise_de_Stolberg , p:Saint_Sebastien_expirant , p:Ulysse , p:Portrait_jeune_EdgarClarke , p:sculpteur_Antonio_Canova , p:Soldat_romain_au_repos , <http://www.ex.fr/p#La_Mort_d'Abel> ;
+        p:prenom          "FABRE" .
+
+p:Venus_et_Adonis  a      p:Peinture ;
+        rdfs:label        "Venus et Adonis. Paysage de Grottaferrata" ;
+        p:annee_creation  "1626"^^xsd:int ;
+        p:domaine         "Peinture_francaise_17e_siecle"@fr , "Pittura francese del XVII secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "825.1.171" ;
+        p:regroupee_dans  p:thematique_2 , p:thematique_3 ;
+        p:titre_peinture  "Venus et Adonis. Paysage de Grottaferrata"@fr , "Venere e Adone. Paesaggio di Grottaferrata"@it .
+
+p:Musee  rdfs:subClassOf  rdfs:Class .
+
+p:Jeune_Martyre_morte
+        a                 p:Peinture ;
+        rdfs:label        "Jeune Martyre morte (sainte Mustiole ?)" ;
+        p:domaine         "Pittura francese del XVII secolo"@it , "Peinture_francaise_17e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "852.2.1" ;
+        p:regroupee_dans  p:thematique_2 ;
+        p:titre_peinture  "Jeune Martyre morte (sainte Mustiole ?)"@fr , "Giovane martire morto (San Mustiole?)"@it .
+
+p:Academie_dite_-Hector-
+        a                 p:Peinture ;
+        rdfs:label        "Academie dite -Hector-" ;
+        p:annee_creation  "1778"^^xsd:int ;
+        p:domaine         "Peinture_francaise_18e_siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  " 851.1.1" ;
+        p:regroupee_dans  p:thematique_2 ;
+        p:titre_peinture  "Accademia chiamata -Hector-"@it , "Academie dite -Hector-"@fr .
+
+p:BOSIO_François_Joseph
+        a                 p:Sculpteur ;
+        p:a_cree          p:Henri_IV_enfant ;
+        p:date_deces      "1845"^^xsd:int ;
+        p:date_naissance  "1768"^^xsd:int ;
+        p:nom             "BOSIO" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:prenom          "Francois Joseph" .
+
+p:HOUDON_Jean_Antoine
+        a                 p:Sculpteur ;
+        p:a_cree          <http://www.ex.fr/p#L'Hiver> ;
+        p:date_deces      "15 juillet 1828" ;
+        p:date_naissance  "25 mars 1741" ;
+        p:nom             "HOUDON" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:prenom          "Jean Antoine" .
+
+p:Lion_au_serpent  a       p:Sculpture ;
+        rdfs:label         "Lion au serpent" ;
+        p:annee_creation   "1872"^^xsd:int ;
+        p:domaine          "Scultura francese del XIX secolo"@it , "Sculpture française 19e siècle"@fr ;
+        p:matiere          "Bronzo"@it , "Bronze"@fr ;
+        p:num_inventaire   "876.3.80" ;
+        p:regroupee_dans   p:thematique_11 ;
+        p:titre_sculpture  "Lion au serpent"@fr , "Leone con serpente"@it .
+
+p:thematique_14  a        p:Parcours_Thematique ;
+        rdfs:label        "EAU" ;
+        p:Nom_thematique  "l'acqua"@it , "L'EAU"@fr ;
+        p:est_exposee     p:musee_Fabre .
+
+p:marchande_harengs  rdfs:label  "La marchande de harengs" ;
+        p:annee_creation  "1660"^^xsd:int ;
+        p:domaine         "Pittura francese del XVII secolo"@it , "Peinture_francaise_17e_siecle"@fr ;
+        p:matiere         "Olio su tavola"@it , "Huile_sur_bois"@fr ;
+        p:num_inventaire  "836.4.37" ;
+        p:regroupee_dans  p:thematique_4 ;
+        p:titre_peinture  "Il mercante di aringhe"@it , "La marchande de harengs"@fr .
+
+p:Portrait_jeune_EdgarClarke
+        a                 p:Peinture ;
+        rdfs:label        "Portrait du jeune Edgar Clarke" ;
+        p:annee_creation  "1802"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr , "Pittura francese del XIX secolo"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2007.7.1" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "Ritratto del giovane Edgar Clarke"@it , "Portrait du jeune Edgar Clarke"@fr .
+
+p:Noel  a                 p:Peintre ;
+        p:date_deces      "5 juin 1781" ;
+        p:date_naissance  "1711"^^xsd:int ;
+        p:nom             "HALLE" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Agesilas_et_ses_enfants , p:mere_des_Gracques ;
+        p:prenom          "Noel" .
+
+p:Palavas  a              p:Peinture ;
+        rdfs:label        "Le Bord de mer a Palavas" ;
+        p:annee_creation  "1854"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "868.1.24" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "Il mare di Palavas"@it , "Le Bord de mer a Palavas"@fr .
+
+p:Ciel_et_Enfer  a        p:Peinture ;
+        rdfs:label        "Ciel et Enfer" ;
+        p:annee_creation  "1850"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture francaise 19e siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.76" ;
+        p:regroupee_dans  p:thematique_9 ;
+        p:titre_peinture  "Ciel et Enfer"@fr , "Paradiso e inferno"@it .
+
+<http://www.ex.fr/p#Venus_et_l'Amour>
+        a                 p:Peinture ;
+        rdfs:label        "Venus et l'Amour" ;
+        p:annee_creation  "1575-1580" , "1575 - 1580" ;
+        p:domaine         "Peinture_francaise_16e_siecle"@fr , "Peinture italienne 16e si�cle"@fr , "Pittura francese del XVI secolo"@it ;
+        p:matiere         "Huile_sur_bois"@fr , "Oil_on_wood"@it , "Olio su tavola"@it ;
+        p:num_inventaire  "887.3.1" ;
+        p:regroupee_dans  p:thematique_2 , p:thematique_9 ;
+        p:titre_peinture  "Venere e amore"@it , "Venus et l'Amour"@fr .
+
+p:thematique_1  a         p:Parcours_Thematique ;
+        rdfs:label        "PEINTURE INTERIEURES" ;
+        p:Nom_thematique  "pittura d'interni"@it , "PEINTURE D'INTERIEURS"@fr ;
+        p:est_exposee     p:musee_Fabre .
+
+p:Cascade  a              p:Peinture ;
+        rdfs:label        "Cascade dans un bois de chene" ;
+        p:annee_creation  "1660 - 1670" ;
+        p:domaine         "Peinture hollandaise 17e siecle"@fr , "Pittura olandese del XVII secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "836.4.54" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "Cascade dans un bois de chene"@fr , "Cascata in un bosco di querce"@it .
+
+p:musee_Fabre  a          p:Musee ;
+        rdfs:label        "Musee_Fabre" ;
+        p:Adresse         "39 Boulevard Bonne Nouvelle, 34000 Montpellier"^^xsd:String ;
+        p:date_ouverture  "3 Decembre 1828" ;
+        p:surface         "9200"^^xsd:int .
+
+p:Cheval-lion  a           p:Sculpture ;
+        rdfs:label         "Cheval surpris par un lion" ;
+        p:annee_creation   "1872 - 1874" ;
+        p:domaine          "Scultura francese del XIX secolo"@it , "Sculpture française 19e siècle"@fr ;
+        p:matiere          "Bronze"@fr , "Bronzo"@it ;
+        p:num_inventaire   "876.3.77" ;
+        p:regroupee_dans   p:thematique_11 ;
+        p:titre_sculpture  "Cavallo sorpreso da un leone"@it , "Cheval surpris par un lion"@fr .
+
+<http://www.ex.fr/p#L'Atelier_rue_de_Furstenberg>
+        a                 p:Peinture ;
+        rdfs:label        "L'Atelier de la rue de Furstenberg" ;
+        p:annee_creation  "1865-1866" ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture_francaise_19e_siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "85.5.3" ;
+        p:regroupee_dans  p:thematique_8 ;
+        p:titre_peinture  "Officina rue de Furstenberg"@it , "L'Atelier de la rue de Furstenberg"@fr .
+
+p:ALLORI_Alessandro  a    p:Peintre ;
+        p:date_deces      "22 septembre 1607" ;
+        p:date_naissance  "31 mai 1535" ;
+        p:nom             "ALLORI" ;
+        p:pays_naissance  "Italia"@it , "Italie"@fr ;
+        p:peint           <http://www.ex.fr/p#Venus_et_l'Amour> ;
+        p:prenom          "Alessandro" .
+
+p:GREUZE_Jean-Baptiste
+        a                 p:Peintre ;
+        p:date_deces      "4 mars 1805" ;
+        p:date_naissance  "21 aout 1725" ;
+        p:nom             "GREUZE" ;
+        p:pays_naissance  "Belgique"@fr , "Belgio"@it ;
+        p:peint           p:Le_gateau_des_rois , p:Le_Petit_paresseux , p:La_petite_Nanette ;
+        p:prenom          "Jean-Baptiste" .
+
+p:Philips  a              p:Peintre ;
+        p:date_deces      "19 mai 1668" ;
+        p:date_naissance  "24 mai 1619" ;
+        p:nom             "WOUWERMAN" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           p:Marche_aux_chevaux ;
+        p:prenom          "Philips" .
+
+p:Une_nourrice  a         p:Peinture ;
+        rdfs:label        "Une nourrice au jardin du Luxembourg" ;
+        p:annee_creation  "1872"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "58.3.1" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "Une nourrice au jardin du Luxembourg"@fr , "Una tata nel giardino del Lussemburgo"@it .
+
+p:Interieur_rustique  a   p:Peinture ;
+        rdfs:label        "Interieur rustique" ;
+        p:annee_creation  "1640"^^xsd:int ;
+        p:domaine         "Peinture_francaise_17e_siecle"@fr , "Pittura francese del XVII secolo"@it ;
+        p:matiere         "Huile_sur_bois"@fr , "Olio su tavola"@it ;
+        p:num_inventaire  "832.1.2" ;
+        p:regroupee_dans  p:thematique_1 ;
+        p:titre_peinture  "Interieur rustique"@fr , "Interni rustici"@it .
+
+p:METSU_Gabriel  a        p:Peintre ;
+        p:date_deces      "24 octobre 1667" ;
+        p:date_naissance  "janvier 1629" ;
+        p:nom             "METSU" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           p:marchande_harengs , p:Jeune_homme_ecrivant ;
+        p:prenom          "Gabriel" .
+
+p:thematique_9  a         p:Parcours_Thematique ;
+        rdfs:label        "LES MONSTRES" ;
+        p:Nom_thematique  "mostri"@it , "LES MONSTRES"@fr ;
+        p:est_exposee     p:musee_Fabre .
+
+p:RICHARD_Alexandre_Louis_Marie_Theodore
+        a                 p:Peintre ;
+        p:date_deces      "18 novembre 1859" ;
+        p:date_naissance  "24 novembre 1782" ;
+        p:nom             "RICHARD" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:ville_et_chateau_de_Pau ;
+        p:prenom          "Alexandre Louis Marie Theodore" .
+
+p:BARYE_Antoine_Louis
+        a                 p:Sculpteur ;
+        p:a_cree          p:Lion_au_serpent , p:Thesee , p:Cheval-lion , p:Hercule ;
+        p:date_deces      "25 juin 1875" ;
+        p:date_naissance  "24 septembre 1795" ;
+        p:nom             "BARYE" ;
+        p:pays_naissance  "France"@fr , "Francia"@it ;
+        p:prenom          "Antoine Louis" .
+
+p:Loth_et_ses_filles  a   p:Peinture ;
+        rdfs:label        "Loth et ses filles" ;
+        p:annee_creation  "1615"^^xsd:int ;
+        p:domaine         "Pittura italiano del XVII secolo"@it , "Peinture italienne 17e  siecle"@fr ;
+        p:matiere         "Huile_sur_cuivre"@fr , "Olio su rame"@it ;
+        p:num_inventaire  "836.4.1" ;
+        p:regroupee_dans  p:thematique_12 ;
+        p:titre_peinture  "Lot e le sue figlie"@it , "Loth et ses filles"@fr .
+
+p:DOLCI_Carlo  a          p:Peintre ;
+        p:date_deces      "17 janvier 1686" ;
+        p:date_naissance  "25 mai 1616" ;
+        p:nom             "DOLCI" ;
+        p:pays_naissance  "Italia"@it , "Italie"@fr ;
+        p:peint           p:La_Vierge_au_lys ;
+        p:prenom          "Carlo" .
+
+p:MATISSE_Henri  a        p:Peintre ;
+        p:date_deces      "3 novembre 1954" ;
+        p:date_naissance  "31 decembre 1869" ;
+        p:nom             "MATISSE" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Nature_morte ;
+        p:prenom          "Henri" .
+
+<http://www.ex.fr/p#L'alchimiste>
+        a                 p:Peinture ;
+        rdfs:label        "L'alchimiste" ;
+        p:domaine         "Pittura francese del XVII secolo"@it , "Peinture_francaise_17e_siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "895.7.54" ;
+        p:regroupee_dans  p:thematique_1 , p:thematique_10 ;
+        p:titre_peinture  "L'alchimiste"@fr , "L'alchimista"@it .
+
+p:COT_Pierre_Auguste  a   p:Peintre ;
+        p:date_deces      "2 aout 1883" ;
+        p:date_naissance  "17 fevrier 1837" ;
+        p:nom             "COT" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Mireil_a_Saint-Trophime ;
+        p:prenom          "Pierre Auguste" .
+
+p:Marine  a               p:Peinture ;
+        rdfs:label        "Marine, plage avec figures" , "Marine (\"La petite flotte\")" ;
+        p:annee_creation  "1830"^^xsd:int , "1657"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr , "Pittura olandese del XVII secolo"@it , "Pittura francese del XIX secolo"@it , "Peinture hollandaise 17e siecle"@fr ;
+        p:matiere         "Oil_on_wood"@it , "Huile sur bois"@fr ;
+        p:num_inventaire  "895.7.28" , "836.4.72" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "Marine (\"La piccola flotta \")"@it , "Marine (\"La petite flotte\")"@fr , "Marine, plage avec figures"@fr , "Marine, spiaggia con figure"@it .
+
+p:Baigneuses  a           p:Peinture ;
+        rdfs:label        "Les Baigneuses" , "Baigneuses pres d'une cascade en montagne" ;
+        p:annee_creation  "1853"^^xsd:int , "1770"^^xsd:int ;
+        p:domaine         "Peinture_francaise_19e_siecle"@fr , "Peinture suisse 18e siecle"@fr , "Pittura francese del XIX secolo"@it , "Pittura svizzera del XVIII secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "868.1.19" , "2012.19.34" ;
+        p:regroupee_dans  p:thematique_2 , p:thematique_14 ;
+        p:titre_peinture  "Les Baigneuses"@fr , "Nuotatori"@it , "Baigneuses pres d'une cascade en montagne"@fr , "Bagnanti vicino a una cascata in montagna"@it .
+
+p:Henri_IV_enfant  a       p:Sculpture ;
+        rdfs:label         "Henri IV enfant" ;
+        p:domaine          "Sculpture française 19e siècle"@fr , "Scultura francese del XIX secolo"@it ;
+        p:matiere          "Bronzo d argento"@it , "Bronze argente"@fr ;
+        p:num_inventaire   "68.2.437" ;
+        p:regroupee_dans   p:thematique_13 ;
+        p:titre_sculpture  "Figlio di Henri IV"@it , "Henri IV enfant"@fr .
+
+<http://www.ex.fr/p#L'Enfer_de_Dante>
+        a                 p:Peinture ;
+        rdfs:label        "L'Enfer de Dante" ;
+        p:annee_creation  "1846"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture francaise 19e siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "876.3.18" ;
+        p:regroupee_dans  p:thematique_9 ;
+        p:titre_peinture  "L'inferno di Dante"@it , "L'Enfer de Dante"@fr .
+
+p:Vase_de_fleurs  a       p:Peinture ;
+        rdfs:label        "Vase de fleurs" ;
+        p:annee_creation  "1674"^^xsd:int ;
+        p:domaine         "Peinture_francaise_17e_siecle"@fr , "Pittura francese del XVII secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "837.1.90" ;
+        p:regroupee_dans  p:thematique_4 ;
+        p:titre_peinture  "Vase de fleurs"@fr , "Vaso di fiori"@it .
+
+p:BAZILLE_Frederic  a     p:Peintre ;
+        p:date_deces      "28 novembre 1870" ;
+        p:date_naissance  "6 decembre 1841" ;
+        p:nom             "BAZILLE" ;
+        p:pays_naissance  "France"@fr , "Francia"@it ;
+        p:peint           <http://www.ex.fr/p#L'Atelier_rue_de_Furstenberg> , p:Petite_Italienne , p:Negresse , <http://www.ex.fr/p#Les_Remparts_d'Aigues-Mortes> , p:Fleurs , p:Etude_de_nu ;
+        p:prenom          "Frederic" .
+
+<http://www.ex.fr/p#La_voiture_d'enfant>
+        a                 p:Peinture ;
+        rdfs:label        "La voiture d'enfant" ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture francaise 19e siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "D33.5.1" ;
+        p:regroupee_dans  p:thematique_13 , p:thematique_10 ;
+        p:titre_peinture  "Carrozzina"@it , "La voiture d'enfant"@fr .
+
+<http://www.ex.fr/p#L'Enfance>
+        a                 p:Peinture ;
+        rdfs:label        "L'Enfance" ;
+        p:domaine         "Peinture francaise 18e siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "48.4.1" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "L'Enfance"@fr , "Infanzia"@it .
+
+p:Allegorie_de_la_Charite
+        a                 p:Peinture ;
+        rdfs:label        "Allegorie de la Charite" ;
+        p:annee_creation  "1540 - 1550" ;
+        p:domaine         "Pittura francese del XVI secolo"@it , "Peinture francaise 16e siecle"@fr ;
+        p:matiere         "Oil_on_wood"@it , "Huile sur bois"@fr ;
+        p:num_inventaire  "884.3.1" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "Allegoria della Carità"@it , "Allegorie de la Charite"@fr .
+
+p:Mireil_a_Saint-Trophime
+        a                 p:Peinture ;
+        rdfs:label        "Mireille faisant l'aumone a la sortie de Saint-Trophime" ;
+        p:annee_creation  "1882"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture_francaise_19e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "D897.3.1" ;
+        p:regroupee_dans  p:thematique_4 ;
+        p:titre_peinture  "Mireille fa l'elemosina all'uscita di Saint-Trophime"@it , "Mireille faisant l'aumone a la sortie de Saint-Trophime"@fr .
+
+p:HELMONT_Mattheus_van
+        a                 p:Peintre ;
+        p:date_deces      "1679"^^xsd:int ;
+        p:date_naissance  "1623"^^xsd:int ;
+        p:nom             "HELMONT" ;
+        p:pays_naissance  "Belgio"@it , "Belgique"@fr ;
+        p:peint           <http://www.ex.fr/p#L'alchimiste> ;
+        p:prenom          "Mattheus van" .
+
+<http://www.ex.fr/p#Les_Remparts_d'Aigues-Mortes>
+        a                 p:Peinture ;
+        rdfs:label        "Les Remparts d'Aigues-Mortes" ;
+        p:annee_creation  "1867"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "56.13.1" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "I bastioni di Aigues-Mortes"@it , "Les Remparts d'Aigues-Mortes"@fr .
+
+p:thematique_4  a         p:Parcours_Thematique ;
+        rdfs:label        "LES FLEURS" ;
+        p:Nom_thematique  "fiori"@it , "LES FLEURS"@fr ;
+        p:est_exposee     p:musee_Fabre .
+
+p:ROUSSEAU_Theodore  a    p:Peintre ;
+        p:date_deces      "22 decembre 1867" ;
+        p:date_naissance  "1812"^^xsd:int ;
+        p:nom             "ROUSSEAU" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:La_Mare ;
+        p:prenom          "Theodore" .
+
+p:DEMARNE_Jean-Louis  a   p:Peintre ;
+        p:date_deces      "24 mars 1829" ;
+        p:date_naissance  "1752"^^xsd:int ;
+        p:nom             "DEMARNE" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Enfance_de_Bacchus ;
+        p:prenom          "Jean-Louis dit Demarnette" .
+
+p:Tabagie_2  a            p:Peinture ;
+        rdfs:label        "Tabagie (\"Les amusements des matelots\")" ;
+        p:annee_creation  "1640"^^xsd:int ;
+        p:domaine         "Peinture_francaise_17e_siecle"@fr , "Pittura francese del XVII secolo"@it ;
+        p:matiere         "Olio su tavola"@it , "Huile_sur_bois"@fr ;
+        p:num_inventaire  "836.4.68" ;
+        p:regroupee_dans  p:thematique_12 ;
+        p:titre_peinture  "Tabaccheria (\"I divertimenti dei marinai\")"@it , "Tabagie (\"Les amusements des matelots\")"@fr .
+
+<http://www.ex.fr/p#Cours_d'eau>
+        a                 p:Peinture ;
+        rdfs:label        "Cours d'eau, effet du matin" ;
+        p:annee_creation  "1824"^^xsd:int ;
+        p:domaine         "Pittura inglese del XIX secolo"@it , "Peinture anglaise 19e siecle"@fr ;
+        p:matiere         "Oil_on_wood"@it , "Huile sur bois"@fr ;
+        p:num_inventaire  "876.3.12" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "Cours d'eau, effet du matin"@fr , "Stream, effetto mattutino"@it .
+
+p:Icare  a                 p:Sculpture ;
+        rdfs:label         "Icare" ;
+        p:annee_creation   "1887"^^xsd:int ;
+        p:domaine          "Sculpture française 19e siècle"@fr , "Scultura francese del XIX secolo"@it ;
+        p:matiere          "Marmo"@it , "Marbre"@fr ;
+        p:num_inventaire   "D889.2.1" ;
+        p:regroupee_dans   p:thematique_3 ;
+        p:titre_sculpture  "Icare"@fr , "Icaro"@it .
+
+p:GLAIZE_Auguste_Barthelemy
+        a                 p:Peintre ;
+        p:date_deces      "8 août 1893" ;
+        p:date_naissance  "15 decembre 1807" ;
+        p:nom             "GLAIZE" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Souvenir_des_Pyrenees ;
+        p:prenom          " Auguste Barthelemy" .
+
+p:COURT_Joseph_Desire
+        a                 p:Peintre ;
+        p:date_deces      "23 janvier 1865" ;
+        p:date_naissance  "14 septembre 1797" ;
+        p:nom             "COURT" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           <http://www.ex.fr/p#La_mort_d'Hippolyte> ;
+        p:prenom          "Joseph_Desire" .
+
+p:Etude_de_nu  a          p:Peinture ;
+        rdfs:label        "Etude de nu, dit Nu couche" ;
+        p:annee_creation  "1864"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture_francaise_19e_siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "18.1.1" ;
+        p:regroupee_dans  p:thematique_2 , p:thematique_4 ;
+        p:titre_peinture  "Etude de nu, dit Nu couche"@fr , "Studio nudo, dice Nu couch"@it .
+
+p:DUTILLEUX_Henri_Joseph_Constant
+        a                 p:Peintre ;
+        p:date_deces      "21 octobre 1865" ;
+        p:date_naissance  "1807"^^xsd:int ;
+        p:nom             "DUTILLEUX" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Gravelines ;
+        p:prenom          "Henri Joseph Constant" .
+
+p:Fleurs_et_fruits  a     p:Peinture ;
+        rdfs:label        "Fleurs et fruits dans un parc" ;
+        p:annee_creation  "1806"^^xsd:int ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture_francaise_18e_siecle"@fr ;
+        p:matiere         "Huile_sur_bois"@fr , "Olio su tavola"@it ;
+        p:num_inventaire  "895.7.52" ;
+        p:regroupee_dans  p:thematique_4 ;
+        p:titre_peinture  "Fleurs et fruits dans un parc"@fr , "Fiori e frutti in un parco"@it .
+
+p:SEGHERS_Daniel  a       p:Peintre ;
+        p:date_deces      "2 novembre 1661" ;
+        p:date_naissance  "3 decembre 1590" ;
+        p:nom             "SEGHERS" ;
+        p:pays_naissance  "Belgio"@it , "Belgique"@fr ;
+        p:peint           p:Guirlande ;
+        p:prenom          "Daniel" .
+
+p:Ariane  a               p:Peinture ;
+        rdfs:label        "Ariane dans l'ile de Naxos" ;
+        p:annee_creation  "1725"^^xsd:int ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture francaise 18e  siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "806.11" ;
+        p:regroupee_dans  p:thematique_12 ;
+        p:titre_peinture  "Arianna nell'isola di Naxos"@it , "Ariane dans l'ile de Naxos"@fr .
+
+p:sculpteur_Antonio_Canova
+        a                 p:Peinture ;
+        rdfs:label        "Portrait du sculpteur Antonio Canova" ;
+        p:annee_creation  "1812"^^xsd:int ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture_francaise_18e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "825.1.64" ;
+        p:regroupee_dans  p:thematique_8 ;
+        p:titre_peinture  "Ritratto dello scultore Antonio Canova"@it , "Portrait du sculpteur Antonio Canova"@fr .
+
+p:Oeuvre  rdfs:subClassOf  rdfs:Class .
+
+p:Souvenir_de_Gustave_Courbet
+        a                 p:Peinture ;
+        rdfs:label        "Souvenir de Gustave Courbet" ;
+        p:annee_creation  "1870"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "47.3.1" ;
+        p:regroupee_dans  p:thematique_12 ;
+        p:titre_peinture  "Ricordo di Gustave Courbet"@it , "Souvenir de Gustave Courbet"@fr .
+
+p:Paul_Marc_Joseph  a     p:Peintre ;
+        p:date_deces      "12 avril 1895" ;
+        p:date_naissance  "9 decembre 1808" ;
+        p:nom             "CHENAVARD" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           <http://www.ex.fr/p#L'Enfer_de_Dante> ;
+        p:prenom          "Paul Marc Joseph" .
+
+p:thematique_12  a        p:Parcours_Thematique ;
+        rdfs:label        "LE VIN" ;
+        p:Nom_thematique  "vino"@it , "LE VIN"@fr ;
+        p:est_exposee     p:musee_Fabre .
+
+<http://www.ex.fr/p#Place_d'Aix>
+        a                 p:Peinture ;
+        rdfs:label        "Place d'Aix, noire. Hommage a Auguste Chabaud" ;
+        p:annee_creation  "1977"^^xsd:int ;
+        p:domaine         "Peinture francaise 20e siecle"@fr , "Pittura francese del XX secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "82.3.26" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "Place d'Aix, noire. Hommage a Auguste Chabaud"@fr , "Place d'Aix, nero. Omaggio ad Auguste Chabaud"@it .
+
+p:Ulysse  a               p:Peinture ;
+        rdfs:label        "Le retour d'Ulysse" ;
+        p:annee_creation  "1779"^^xsd:int ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture_francaise_18e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2006.4.1" ;
+        p:titre_peinture  "Il ritorno di Odisseo"@it , "Le retour d'Ulysse"@fr .
+
+p:OSTADE_Adriaen_van  a   p:Peintre ;
+        p:date_deces      "2 mai 1685" ;
+        p:date_naissance  "10 decembre 1610" ;
+        p:nom             "OSTADE" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           <http://www.ex.fr/p#Interieur_d'un_cabaret> ;
+        p:prenom          "Adriaen van" .
+
+p:MENAGEOT_Francois-Guillaume
+        a                 p:Peintre ;
+        p:date_deces      "4 octobre 1816" ;
+        p:date_naissance  "9 juillet 1744" ;
+        p:nom             "MENAGEOT" ;
+        p:pays_naissance  "Regno Unito"@it , "Royaume-Uni"@fr ;
+        p:peint           p:Autoportrait ;
+        p:prenom          "Francois-Guillaume" .
+
+p:DELACROIX_Ferdinand_Victor_Eugene
+        a                 p:Peintre ;
+        p:date_deces      "13 aout 1863" ;
+        p:date_naissance  "26 avril 1798" ;
+        p:nom             "DELACROIX" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Michel-Ange , <http://www.ex.fr/p#Femmes_d'Alger> ;
+        p:prenom          "Ferdinand Victor Eugene" .
+
+p:Thesee  a                p:Sculpture ;
+        rdfs:label         "Thesee combattant le Minotaure" , "Thesee combattant le centaure Bienor" ;
+        p:annee_creation   "1874"^^xsd:int ;
+        p:domaine          "Scultura francese del XIX secolo"@it , "Sculpture française 19e siècle"@fr ;
+        p:matiere          "Bronzo"@it , "Bronze"@fr ;
+        p:num_inventaire   "876.3.73" , "876.3.72" ;
+        p:regroupee_dans   p:thematique_9 ;
+        p:titre_sculpture  "Teseo che combatte il Minotauro"@it , "Thesee combattant le Minotaure"@fr , "Teseo che combatte il centauro Bienor"@it , "Thesee combattant le centaure Bienor"@fr .
+
+p:Effet_de_brouillard
+        a                 p:Peinture ;
+        rdfs:label        "Une prise a Bas-Meudon - Effet de brouillard" ;
+        p:annee_creation  "1863"^^xsd:int ;
+        p:domaine         "Peinture fran�aise 19e siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "876.3.47" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "Un problema a Bas-Meudon - Effetto nebbia"@it , "Une prise a Bas-Meudon - Effet de brouillard"@fr .
+
+p:Souvenir_des_Pyrenees
+        a                 p:Peinture ;
+        rdfs:label        "Le Gouter champetre, Souvenir des Pyrenees" ;
+        p:annee_creation  "1851"^^xsd:int ;
+        p:domaine         "Dipinto italiano del XIX secolo"@it , "Peinture italienne 19e siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "38.5.1" ;
+        p:regroupee_dans  p:thematique_10 , p:thematique_12 , p:thematique_7 ;
+        p:titre_peinture  "The Country Snack, Souvenir dei Pirenei"@it , "Le Gouter champetre, Souvenir des Pyrenees"@fr .
+
+p:MENGUE_Jean_Marie  a    p:Sculpteur ;
+        p:a_cree          p:Icare ;
+        p:date_deces      "24 septembre 1939" ;
+        p:date_naissance  "30 décembre 1855 " ;
+        p:nom             "MENGUE" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:prenom          "Jean Marie" .
+
+p:DESHAYS_Jean-Baptiste
+        a                 p:Peintre ;
+        p:date_deces      " 10 fevrier 1765" ;
+        p:date_naissance  "1729"^^xsd:int ;
+        p:nom             "DESHAYS" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Hector_Venus ;
+        p:prenom          "Jean-Baptiste dit Le Romain" .
+
+<http://www.ex.fr/p#Gibier,chien,fleurs_et_fruits>
+        a                 p:Peinture ;
+        rdfs:label        "Gibier, chien, fleurs et fruits" ;
+        p:annee_creation  "1748"^^xsd:int ;
+        p:domaine         "Peinture_francaise_18e_siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2012.19.21" ;
+        p:regroupee_dans  p:thematique_4 ;
+        p:titre_peinture  "Gibier, chien, fleurs et fruits"@fr , "Selvaggina, cane, fiori e frutti"@it .
+
+p:BOURDON_Sebastien  a    p:Peintre ;
+        p:date_deces      "8 mai 1671" ;
+        p:date_naissance  "2 fevrier 1616" ;
+        p:nom             "BOURDON" ;
+        p:pays_naissance  "Francia"@fr , "France"@fr ;
+        p:peint           <http://www.ex.fr/p#L'Osteria> ;
+        p:prenom          "Sebastien" .
+
+p:OUDRY_Jacques-Charles
+        a                 p:Peintre ;
+        p:date_deces      "septembre 1778" ;
+        p:date_naissance  "1720"^^xsd:int ;
+        p:nom             "OUDRY" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           <http://www.ex.fr/p#Gibier,chien,fleurs_et_fruits> ;
+        p:prenom          "Jacques-Charles" .
+
+p:HEEM_Cornelis_de  a     p:Peintre ;
+        p:date_deces      "17 mai 1695" ;
+        p:date_naissance  "1631"^^xsd:int ;
+        p:nom             "HEEM" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           p:Nature_morte ;
+        p:prenom          "Cornelis de" .
+
+<http://www.ex.fr/p#l'auberge>
+        a                 p:Peinture ;
+        rdfs:label        "Deux muletiers a l'auberge" ;
+        p:annee_creation  "1658"^^xsd:int ;
+        p:domaine         "Pittura olandese del XVII secolo"@it , "Peinture hollandaise 17e siècle"@fr ;
+        p:matiere         "Huile sur bois"@fr , "Oil_on_wood"@it ;
+        p:num_inventaire  "836.4.15" ;
+        p:regroupee_dans  p:thematique_12 ;
+        p:titre_peinture  "Due mulattieri alla locanda"@it , "Deux muletiers a l'auberge"@fr .
+
+<http://www.ex.fr/p#L'Osteria>
+        a                 p:Peinture ;
+        rdfs:label        "L'Osteria au fumeur de pipe" ;
+        p:annee_creation  "1638 - 1642" ;
+        p:domaine         " Peinture française 17e siècle"@fr , "Pittura italiano del XVII secolo"@it ;
+        p:matiere         "Huile sur bois"@fr , "Oil_on_wood"@it ;
+        p:num_inventaire  "836.4.5" ;
+        p:regroupee_dans  p:thematique_12 ;
+        p:titre_peinture  "L'Osteria au fumeur de pipe"@fr , "L'Osteria del fumatore di pipa"@it .
+
+p:thematique_7  a         p:Parcours_Thematique ;
+        rdfs:label        "ETOFFES ET TISSUS" ;
+        p:Nom_thematique  "tessuti e tessuti"@it , "ETOFFES ET TISSUS"@fr ;
+        p:est_exposee     p:musee_Fabre .
+
+p:ROQUEPLAN_Camille_Joseph_Etienne
+        a                 p:Peintre ;
+        p:date_deces      "29 septembre 1855" ;
+        p:date_naissance  "1803"^^xsd:int ;
+        p:nom             "ROQUEPLAN" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Marine ;
+        p:prenom          "Camille Joseph Etienne" .
+
+p:Meleagre  a             p:Peinture ;
+        rdfs:label        "Meleagre tue le sanglier de Calydon" ;
+        p:annee_creation  "1704"^^xsd:int ;
+        p:domaine         "Peinture francaise 18e siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "2012.19.28" ;
+        p:regroupee_dans  p:thematique_9 , p:thematique_10 ;
+        p:titre_peinture  "Meleagre tue le sanglier de Calydon"@fr , "Meleagre uccide il cinghiale calidonio"@it .
+
+p:jeune_dessinatrice  a   p:Peinture ;
+        rdfs:label        "Portrait d'une jeune dessinatrice" ;
+        p:annee_creation  "1795"^^xsd:int ;
+        p:domaine         "Peinture_francaise_18e_siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "837.1.101" ;
+        p:regroupee_dans  p:thematique_8 ;
+        p:titre_peinture  "Ritratto di un giovane designer"@it , "Portrait d'une jeune dessinatrice"@fr .
+
+p:Peinture  rdfs:subClassOf  p:Oeuvre .
+
+p:Maurice  a              p:Peintre ;
+        p:date_deces      "25 novembre 1870" ;
+        p:date_naissance  "1870"^^xsd:int ;
+        p:nom             "DENIS" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Pauline_Denis ;
+        p:prenom          "Maurice" .
+
+p:Soldat_romain_au_repos
+        a                 p:Peinture ;
+        rdfs:label        "Soldat romain au repos, academie" ;
+        p:annee_creation  "1788"^^xsd:int ;
+        p:domaine         "Peinture_francaise_18e_siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "825.1.63" ;
+        p:regroupee_dans  p:thematique_2 ;
+        p:titre_peinture  "Soldat romain au repos, academie"@fr , "Soldato romano a riposo, accademia"@it .
+
+p:Nature_morte  a         p:Peinture ;
+        rdfs:label        "Nature morte de fruits et de fruits de mer" , "Nature morte aux couteaux noirs" ;
+        p:annee_creation  "1896"^^xsd:int , "1659"^^xsd:int ;
+        p:domaine         "Pittura fiamminga del XVII secolo"@it , "Pittura francese del XX secolo"@it , "Peinture francaise 20e siecle"@fr , "Peinture flamande 17e siècle"@fr ;
+        p:matiere         "Huile sur bois"@fr , "Huile_sur_toile sur bois"@fr , "Oil_on_wood"@it , "olio su tela"@it ;
+        p:num_inventaire  "837.1.38" , "D05.2.3" ;
+        p:regroupee_dans  p:thematique_12 ;
+        p:titre_peinture  "Nature morte aux couteaux noirs"@fr , "Nature morte de fruits et de fruits de mer"@fr , "Natura morta di frutta e frutti di mare"@it , "Natura morta con coltelli neri"@it .
+
+p:Peintre  rdfs:subClassOf  p:Artiste .
+
+p:Etude_academique  a     p:Peinture ;
+        rdfs:label        "Etude academique" ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture_francaise_18e_siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "837.1.93" ;
+        p:regroupee_dans  p:thematique_2 , p:thematique_3 ;
+        p:titre_peinture  "Etude academique"@fr , "Studio accademico"@it .
+
+<http://www.ex.fr/p#MONNOYER_Jean-Baptiste_l'Aine>
+        a                 p:Peintre ;
+        p:date_deces      "20 fevrier 1699" ;
+        p:date_naissance  "12 janvier 1636" ;
+        p:nom             "MONNOYER" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           <http://www.ex.fr/p#Fleurs,fruits_objets_d'art> ;
+        p:prenom          "Jean-Baptiste l'Aine" .
+
+p:La_Vierge_au_lys  a     p:Peinture ;
+        rdfs:label        "La Vierge au lys" ;
+        p:annee_creation  "1642"^^xsd:int ;
+        p:domaine         "Pittura francese del XVII secolo"@it , "Peinture_francaise_17e_siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "825.1.45" ;
+        p:regroupee_dans  p:thematique_4 , p:thematique_11 ;
+        p:titre_peinture  "La Vergine con il giglio"@it , "La Vierge au lys"@fr .
+
+p:Marcelin_Gilbert  a     p:Peintre ;
+        p:date_deces      "18 février 1902" ;
+        p:date_naissance  "26 aout 1823" ;
+        p:nom             "DESBOUTIN" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           <http://www.ex.fr/p#La_voiture_d'enfant> ;
+        p:prenom          "Marcelin Gilbert" .
+
+p:jeune_femme  a          p:Peinture ;
+        rdfs:label        "La jeune femme au verre de vin" ;
+        p:annee_creation  "1850"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.86" ;
+        p:regroupee_dans  p:thematique_12 ;
+        p:titre_peinture  "La jeune femme au verre de vin"@fr , "La giovane donna con il bicchiere di vino"@it .
+
+p:Michel-Ange  a          p:Peinture ;
+        rdfs:label        "Michel-Ange dans son atelier" ;
+        p:annee_creation  "1850"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture_francaise_19e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.40" ;
+        p:regroupee_dans  p:thematique_8 ;
+        p:titre_peinture  "Michelangelo nel suo studio"@it , "Michel-Ange dans son atelier"@fr .
+
+p:Sainte_Famille-saint_Jean-Baptiste
+        a                 p:Peinture ;
+        rdfs:label        "Sainte Famille avec saint Jean-Baptiste" ;
+        p:annee_creation  "1633"^^xsd:int ;
+        p:domaine         "Pittura francese del XVII secolo"@it , "Peinture francaise 17e siecle"@fr ;
+        p:matiere         "Oil_on_ardoise"@it , "Huile_sur_ardoise"@fr ;
+        p:num_inventaire  "2001.6.1" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "Sainte Famille avec saint Jean-Baptiste"@fr , "Sacra Famiglia con San Giovanni Battista"@it .
+
+p:La_petite_Nanette  a    p:Peinture ;
+        rdfs:label        "La petite Nanette" ;
+        p:annee_creation  "18e siecle - 18e siecle" ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture francaise 18e siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "836.4.26" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "Interieur de l'eglise souterraine de San Martino in Monte a Rome"@fr , "Interno della chiesa sotterranea di San Martino in Monte a Roma"@it .
+
+<http://www.ex.fr/p#L'Hiver>
+        a                  p:Sculpture ;
+        rdfs:label         "L'Hiver" ;
+        p:annee_creation   "1783"^^xsd:int ;
+        p:domaine          "Sculpture française 18e siècle"@fr , "Scultura francese del XVIII secolo"@it ;
+        p:matiere          "Marbre"@fr , "Marmo"@it ;
+        p:num_inventaire   "828.5.1" ;
+        p:regroupee_dans   p:thematique_2 ;
+        p:titre_sculpture  "L'Hiver"@fr , "Inverno"@it .
+
+p:DIAZ_DE_LA_PENA_Narcisse_Virgile
+        a                 p:Peintre ;
+        p:date_deces      "18 novembre 1876" ;
+        p:date_naissance  "20 aout 1807" ;
+        p:nom             "DIAZ DE LA PENA" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Fleurs ;
+        p:prenom          "Narcisse Virgile" .
+
+p:GUARDI_Francesco  a     p:Peintre ;
+        p:date_deces      "1 janvier 1793" ;
+        p:date_naissance  "1712"^^xsd:int ;
+        p:nom             "GUARDI" ;
+        p:pays_naissance  "Italia"@it , "Italie"@fr ;
+        p:peint           p:a_Venise ;
+        p:prenom          "Francesco" .
+
+p:LARGILLIERE_Nicolas_de
+        a                 p:Peintre ;
+        p:date_deces      "20 mars 1746" ;
+        p:date_naissance  "10 octobre 1656" ;
+        p:nom             "LARGILLIERE" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Autoportrait_1 ;
+        p:prenom          "Nicolas de" .
+
+p:Marche_aux_chevaux  a   p:Peinture ;
+        rdfs:label        "Marche aux chevaux" ;
+        p:annee_creation  "1660"^^xsd:int ;
+        p:domaine         "Peinture flamande 17e siecle"@fr , "Pittura fiamminga del XVII secolo"@it ;
+        p:matiere         "Huile sur bois"@fr , "Oil_on_wood"@it ;
+        p:num_inventaire  "836.4.75" ;
+        p:regroupee_dans  p:thematique_13 , p:thematique_11 , p:thematique_5 ;
+        p:titre_peinture  "Mercato dei cavalli"@it , "Marche aux chevaux"@fr .
+
+p:Jeune_femme  a          p:Peinture ;
+        rdfs:label        "Jeune femme assise devant la fenetre, dit l'Ete" ;
+        p:annee_creation  "1879"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture_francaise_19e_siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "07.5.1" ;
+        p:regroupee_dans  p:thematique_4 ;
+        p:titre_peinture  "Giovane donna seduta davanti alla finestra, dice estate"@it , "Jeune femme assise devant la fenetre, dit l'Ete"@fr .
+
+p:COROT_Jean_Baptiste_Camille
+        a                 p:Peintre ;
+        p:date_deces      " 22 fevrier 1875" ;
+        p:date_naissance  "1796"^^xsd:int ;
+        p:nom             "COROT" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:La_Peche ;
+        p:prenom          "Jean Baptiste Camille" .
+
+p:La_Mare  a              p:Peinture ;
+        rdfs:label        "La Mare" ;
+        p:annee_creation  "1850"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture francaise 19e siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.71" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "Lo stagno"@it , "La Mare"@fr .
+
+p:DAVID_Jacques-Louis
+        a                 p:Peintre ;
+        p:date_deces      "29 decembre 1825" ;
+        p:date_naissance  "30 aout 1748" ;
+        p:nom             "DAVID" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Academie_dite_-Hector- ;
+        p:prenom          "Jacques-Louis" .
+
+p:RYCKHALS_Francoys  a    p:Peintre ;
+        p:date_deces      "INCONNU" ;
+        p:date_naissance  "3 mai 1609" ;
+        p:nom             "RYCKHALS" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           p:Interieur_rustique ;
+        p:prenom          "Francoys" .
+
+p:Pygmalion_amoureux_de_sa_statue
+        a                 p:Peinture ;
+        rdfs:label        "Pygmalion amoureux de sa statue" ;
+        p:annee_creation  "1717"^^xsd:int ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture_francaise_18e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  " D55.1.1" ;
+        p:regroupee_dans  p:thematique_2 , p:thematique_8 ;
+        p:titre_peinture  "Pigmalione innamorato della sua statua"@it , "Pygmalion amoureux de sa statue"@fr .
+
+<http://www.ex.fr/p#vieux_chantent,enfants_piaillent>
+        a                 p:Peinture ;
+        rdfs:label        "Comme les vieux chantent, les enfants piaillent" ;
+        p:annee_creation  "1662"^^xsd:int ;
+        p:domaine         "Pittura francese del XVII secolo"@it , "Peinture_francaise_17e_siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "836.4.56" ;
+        p:regroupee_dans  p:thematique_13 , p:thematique_12 , p:thematique_5 , p:thematique_7 , p:thematique_11 , p:thematique_1 ;
+        p:titre_peinture  "Comme les vieux chantent, les enfants piaillent"@fr , "Mentre gli anziani cantano, i bambini strillano"@it .
+
+p:thematique_2  a         p:Parcours_Thematique ;
+        rdfs:label        "LE NU" ;
+        p:Nom_thematique  "il nudo"@it , "LE NU"@fr ;
+        p:est_exposee     p:musee_Fabre .
+
+p:Phedre  a               p:Peinture ;
+        rdfs:label        "Phedre" ;
+        p:annee_creation  "1880"^^xsd:int ;
+        p:domaine         "Peinture_francaise_19e_siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "880.2.1" ;
+        p:regroupee_dans  p:thematique_2 ;
+        p:titre_peinture  "Fedra"@it , "Phedre"@fr .
+
+p:Le_Petit_paresseux  a   p:Peinture ;
+        rdfs:label        "Le Petit paresseux" ;
+        p:annee_creation  "1755"^^xsd:int ;
+        p:domaine         "Peinture francaise 18e siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "837.1.35" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "Le Petit paresseux"@fr , "Il piccolo bradipo"@it .
+
+p:TASSAERT_Nicolas_Francois_Octave
+        a                 p:Peintre ;
+        p:date_deces      "24 avril 1874" ;
+        p:date_naissance  "26 juin 1800" ;
+        p:nom             "TASSAERT" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           <http://www.ex.fr/p#L'Abandonnee> , p:Ciel_et_Enfer , p:jeune_femme , <http://www.ex.fr/p#L'Atelier_du_peintre> , p:Bacchus_et_Erigone ;
+        p:prenom          "Nicolas Francois Octave" .
+
+p:GRANET_Francois_Marius
+        a                 p:Peintre ;
+        p:date_deces      "INCONNU" ;
+        p:date_naissance  "17 decembre 1775" ;
+        p:nom             "Francois_Marius" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           <http://www.ex.fr/p#l'eglise_San_Martino> , p:Montaigne ;
+        p:prenom          "GRANET" .
+
+p:DUJARDIN_Karel  a       p:Peintre ;
+        p:date_deces      "20 novembre 1678" ;
+        p:date_naissance  "27 septembre" ;
+        p:nom             "DUJARDIN" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           <http://www.ex.fr/p#l'auberge> ;
+        p:prenom          "Karel" .
+
+<http://www.ex.fr/p#l'eglise_San_Martino>
+        a                 p:Peinture ;
+        rdfs:label        "Interieur de l'eglise souterraine de San Martino in Monte a Rome" ;
+        p:annee_creation  "1802"^^xsd:int ;
+        p:domaine         "Peinture_francaise_19e_siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "825.1.126" ;
+        p:regroupee_dans  p:thematique_13 , p:thematique_1 ;
+        p:titre_peinture  "Interno della chiesa sotterranea di San Martino in Monte a Roma"@it , "Interieur de l'eglise souterraine de San Martino in Monte a Rome"@fr .
+
+p:GAUFFIER_Louis  a       p:Peintre ;
+        p:date_deces      "20 octobre 1801" ;
+        p:date_naissance  "10 juin 1762" ;
+        p:nom             "GAUFFIER" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Portrait_de_lady_Holland_avec_son_fils , p:Portrait_du_peintre_Van ;
+        p:prenom          "Louis" .
+
+p:Le_petit_Samuel  a      p:Peinture ;
+        rdfs:label        "Le petit Samuel en priere" ;
+        p:annee_creation  "1777"^^xsd:int ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture anglaise 18e siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "836.4.50" ;
+        p:regroupee_dans  p:thematique_13 , p:thematique_11 ;
+        p:titre_peinture  "Piccolo Samuele in preghiera"@it , "Le petit Samuel en priere"@fr .
+
+p:CABANEL_Alexandre  a    p:Peintre ;
+        p:date_deces      "23 janvier 1889" ;
+        p:date_naissance  "28 septembre 1823" ;
+        p:nom             "CABANEL" ;
+        p:pays_naissance  "France"@fr , "Francia"@it ;
+        p:peint           p:Albayde , p:Chiaruccia , p:Phedre ;
+        p:prenom          "Alexandre" .
+
+<http://www.ex.fr/p#La_mort_d'Hippolyte>
+        a                 p:Peinture ;
+        rdfs:label        "La mort d'Hippolyte" ;
+        p:annee_creation  "1825"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture francaise 19e siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "2004.5.1" ;
+        p:regroupee_dans  p:thematique_9 ;
+        p:titre_peinture  "La morte di Ippolita"@it , "La mort d'Hippolyte"@fr .
+
+p:Suzanne_et_les_vieillards
+        a                 p:Peinture ;
+        rdfs:label        "Suzanne et les vieillards" ;
+        p:annee_creation  "1791"^^xsd:int ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture_francaise_18e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "60.13.1" ;
+        p:regroupee_dans  p:thematique_2 ;
+        p:titre_peinture  "Suzanne e gli anziani"@it , "Suzanne et les vieillards"@fr .
+
+p:CAGNACCI_Guido_Canlassi
+        a                 p:Peintre ;
+        p:date_deces      "1663"^^xsd:int ;
+        p:date_naissance  "19 janvier 1601" ;
+        p:nom             "CAGNACCI" ;
+        p:pays_naissance  "Italia"@it , "Italie"@fr ;
+        p:peint           p:Jeune_Martyre_morte ;
+        p:prenom          "Guido Canlassi" .
+
+p:Saint_Sebastien_expirant
+        a                 p:Peinture ;
+        rdfs:label        "Saint Sebastien expirant" ;
+        p:annee_creation  "1789"^^xsd:int ;
+        p:domaine         "Peinture_francaise_18e_siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "825.1.62" ;
+        p:regroupee_dans  p:thematique_2 ;
+        p:titre_peinture  "San Sebastian in scadenza"@it , "Saint Sebastien expirant"@fr .
+
+p:thematique_10  a        p:Parcours_Thematique ;
+        rdfs:label        "ANGES" ;
+        p:Nom_thematique  "angeli"@it , "ANGES"@fr ;
+        p:est_exposee     p:musee_Fabre .
+
+p:Gravelines  a           p:Peinture ;
+        rdfs:label        "Le chenal de Gravelines" ;
+        p:annee_creation  "1862"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture francaise 19e siecle"@fr ;
+        p:matiere         "Huile sur bois"@fr , "Oil_on_wood"@it ;
+        p:num_inventaire  "876.3.32" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "Le chenal de Gravelines"@fr , "Il canale di Gravelines"@it .
+
+p:mere_des_Gracques  a    p:Peinture ;
+        rdfs:label        "Cornelie, mere des Gracques" ;
+        p:annee_creation  "1779"^^xsd:int ;
+        p:domaine         "Peinture francaise 18e siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "895.7.31" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "Cornelie, madre dei Gracchi"@it , "Cornelie, mere des Gracques"@fr .
+
+p:BENOUVILLE_Leon_Francois
+        a                 p:Peintre ;
+        p:date_deces      "16 fevrier 1859" ;
+        p:date_naissance  "30 mars 1821" ;
+        p:nom             "BENOUVILLE" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           <http://www.ex.fr/p#La_Colere_d'Achille> ;
+        p:prenom          "Leon Francois " .
+
+p:Artiste  rdfs:subClassOf  rdfs:Class .
+
+p:Parcours_Thematique
+        rdfs:subClassOf  rdfs:Class .
+
+p:DELORME_Pierre_Claude_Francois
+        a                 p:Peintre ;
+        p:date_deces      "1859"^^xsd:int ;
+        p:date_naissance  "1783"^^xsd:int ;
+        p:nom             "DELORME" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Eve-serpent ;
+        p:prenom          "Pierre_Claude_Fran�ois" .
+
+p:Paysage_au_pont  a      p:Peinture ;
+        rdfs:label        "Paysage au pont" ;
+        p:annee_creation  "1660 - 1665" ;
+        p:domaine         "Peinture hollandaise 17e siecle"@fr , "Pittura olandese del XVII secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "825.1.183" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "Paysage au pont"@fr , "Paesaggio al ponte"@it .
+
+p:ALBANI_Francesco  a     p:Peintre ;
+        p:date_deces      "4 octobre 1660" ;
+        p:date_naissance  "17 aout 1578" ;
+        p:nom             "ALBANI" ;
+        p:pays_naissance  "Italia"@it , "Italie"@fr ;
+        p:peint           p:Loth_et_ses_filles ;
+        p:prenom          "Francesco" .
+
+p:La_Peche  a             p:Peinture ;
+        rdfs:label        "La Peche a l'epervier" ;
+        p:annee_creation  "1847"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture francaise 19e siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.13" ;
+        p:regroupee_dans  p:thematique_5 , p:thematique_14 ;
+        p:titre_peinture  "La Peche a l'epervier"@fr , "Cast pesca con rete"@it .
+
+p:ROBERT_FLEURY_Joseph_Nicolas
+        a                 p:Peintre ;
+        p:date_naissance  "8 aout 1797" ;
+        p:nom             "ROBERT_FLEURY" ;
+        p:pays_naissance  "Germania"@it , "Allemagne"@fr ;
+        p:peint           p:Jeune_femme-la_Toilette ;
+        p:prenom          "Joseph Nicolas" .
+
+<http://www.ex.fr/p#La_Colere_d'Achille>
+        a                 p:Peinture ;
+        rdfs:label        "La Colere d'Achille" ;
+        p:annee_creation  "1847"^^xsd:int ;
+        p:domaine         "Peinture_francaise_19e_siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.1" ;
+        p:regroupee_dans  p:thematique_2 ;
+        p:titre_peinture  "La Colere d'Achille"@fr , "L'ira di Achille"@it .
+
+p:RAOUX_Jean  a           p:Peintre ;
+        p:date_deces      "10 fevrier 1734" ;
+        p:date_naissance  "12 juin 1677" ;
+        p:nom             "RAOUX" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           <http://www.ex.fr/p#L'Enfance> , p:Pygmalion_amoureux_de_sa_statue ;
+        p:prenom          "Jean" .
+
+p:La_souriciere  a        p:Peinture ;
+        rdfs:label        "La souriciere" ;
+        p:annee_creation  "1645 - 1650" , "1645-1650" ;
+        p:domaine         "Pittura francese del XVII secolo"@it , "Peinture_francaise_17e_siecle"@fr , "Peinture hollandaise 17e siecle"@fr ;
+        p:matiere         "Olio su tavola"@it , "Huile_sur_bois"@fr ;
+        p:num_inventaire  "836.4.14" ;
+        p:regroupee_dans  p:thematique_13 , p:thematique_1 ;
+        p:titre_peinture  "La trappola per topi"@it , "La souriciere"@fr .
+
+p:ville_et_chateau_de_Pau
+        a                 p:Peinture ;
+        rdfs:label        "Vue de la ville et du chateau de Pau" ;
+        p:annee_creation  "1844"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture_francaise_19e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "846.2.1" ;
+        p:regroupee_dans  p:thematique_8 ;
+        p:titre_peinture  "Vue de la ville et du chateau de Pau"@fr , "Vista della città e del castello di Pau"@it .
+
+p:DOU_Gerrit  a           p:Peintre ;
+        p:date_deces      "INCONNU" ;
+        p:date_naissance  "7 avril 1613" ;
+        p:nom             "DOU" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           p:La_souriciere ;
+        p:prenom          "Gerrit" .
+
+p:thematique_5  a         p:Parcours_Thematique ;
+        rdfs:label        "LES FRUITS" ;
+        p:Nom_thematique  "i frutti"@it , "LES FRUITS"@fr ;
+        p:est_exposee     p:musee_Fabre .
+
+p:Pauline_Denis  a        p:Peinture ;
+        rdfs:label        "Portrait de Pauline Denis" ;
+        p:domaine         "Pittura francese del XX secolo"@it , "Peinture francaise 20e siecle"@fr ;
+        p:matiere         "olio su cartone"@it , "Huile_sur_carton"@fr ;
+        p:num_inventaire  "95.10.2" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "Portrait de Pauline Denis"@fr , "Ritratto di Pauline Denis"@it .
+
+p:Albayde  a              p:Peinture ;
+        rdfs:label        "Albayde" ;
+        p:annee_creation  "1848"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture_francaise_19e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.7" ;
+        p:regroupee_dans  p:thematique_4 ;
+        p:titre_peinture  "Albayde"@it , "Albayde"@fr .
+
+p:Jeune_homme_ecrivant
+        a                 p:Peinture ;
+        rdfs:label        "Jeune homme ecrivant" ;
+        p:annee_creation  "1658-1660" ;
+        p:domaine         "Pittura francese del XVII secolo"@it , "Peinture_francaise_17e_siecle"@fr ;
+        p:matiere         "Huile_sur_bois"@fr , "Olio su tavola"@it ;
+        p:num_inventaire  "836.4.38" ;
+        p:regroupee_dans  p:thematique_1 ;
+        p:titre_peinture  "Jeune homme ecrivant"@fr , "Scrittura del giovane"@it .
+
+<http://www.ex.fr/p#Fleurs,fruits_objets_d'art>
+        a                 p:Peinture ;
+        rdfs:label        "Fleurs, fruits et objets d'art" ;
+        p:annee_creation  "1665"^^xsd:int ;
+        p:domaine         "Peinture_francaise_17e_siecle"@fr , "Pittura francese del XVII secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "2012.19.19" ;
+        p:regroupee_dans  p:thematique_4 , p:thematique_8 ;
+        p:titre_peinture  "Fleurs, fruits et objets d'art"@fr , "Fiori, frutti e oggetti d'arte"@it .
+
+p:BIMAR_Pierre_Charles_Henri
+        a                 p:Peintre ;
+        p:date_deces      "1886"^^xsd:int ;
+        p:date_naissance  "1827"^^xsd:int ;
+        p:nom             "BIMAR" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Souvenir_de_Gustave_Courbet ;
+        p:prenom          "Pierre Charles Henri" .
+
+p:POUSSIN_Nicolas  a      p:Peintre ;
+        p:date_deces      "19 novembre 1665" ;
+        p:date_naissance  "15 juin 1594" ;
+        p:nom             "POUSSIN" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Venus_et_Adonis ;
+        p:prenom          "Nicolas" .
+
+p:Gerrit  a               p:Peintre ;
+        p:date_deces      "14 juin 1698" ;
+        p:date_naissance  "1638"^^xsd:int , "7 avril 1613" ;
+        p:nom             "DOU" , "BERCKHEYDE" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           p:La_souriciere , <http://www.ex.fr/p#Grand_Marche-l'eglise_Saint-Bavon> ;
+        p:prenom          "Gerrit" .
+
+p:Enfance_de_Bacchus  a   p:Peinture ;
+        rdfs:label        "Enfance de Bacchus" ;
+        p:domaine         "Peinture francaise 18e siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "836.1.1" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "Enfance de Bacchus"@fr , "Infanzia di Bacco"@it .
+
+<http://www.ex.fr/p#VIEN_Joseph-Marie_l'Aine>
+        a                 p:Peintre ;
+        p:date_deces      "27 mars 1809" ;
+        p:date_naissance  "18 juin 1716" ;
+        p:nom             "VIEN" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Etude_academique ;
+        p:prenom          "Joseph-Marie l'Aine" .
+
+p:Portrait_de_lady_Holland_avec_son_fils
+        a                 p:Peinture ;
+        rdfs:label        "Portrait de lady Holland avec son fils" ;
+        p:annee_creation  "1794"^^xsd:int ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture francaise 18e siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "62.1.1" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "Ritratto di Lady Holland con suo figlio"@it , "Portrait de lady Holland avec son fils"@fr .
+
+p:Portrait_du_peintre_Van
+        a                 p:Peinture ;
+        rdfs:label        "Portrait du peintre Van Wyck Coklers" ;
+        p:annee_creation  "1797"^^xsd:int ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture_francaise_18e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "825.1.112" ;
+        p:regroupee_dans  p:thematique_8 ;
+        p:titre_peinture  "Portrait du peintre Van Wyck Coklers"@fr , "Ritratto del pittore Van Wyck Coklers"@it .
+
+p:Bouquet_de_fleurs  a    p:Peinture ;
+        rdfs:label        "Bouquet de fleurs" ;
+        p:annee_creation  "1730-1740" ;
+        p:domaine         "Peinture_francaise_18e_siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "Olio su rame"@it , "Huile_sur_cuivre"@fr ;
+        p:num_inventaire  "836.4.31" ;
+        p:regroupee_dans  p:thematique_4 ;
+        p:titre_peinture  "Mazzo di fiori"@it , "Bouquet de fleurs"@fr .
+
+p:Guirlande  a            p:Peinture ;
+        rdfs:label        "Guirlande avec l'Apparition de la Vierge a l'Enfant a saint Leopold" ;
+        p:annee_creation  "1647"^^xsd:int ;
+        p:domaine         "Pittura francese del XVII secolo"@it , "Peinture_francaise_17e_siecle"@fr ;
+        p:matiere         "Huile_sur_cuivre"@fr , "Olio su rame"@it ;
+        p:num_inventaire  "2012.19.50" ;
+        p:regroupee_dans  p:thematique_4 ;
+        p:titre_peinture  "Ghirlanda con l'Apparizione della Vergine e del Bambino a San Leopoldo"@it , "Guirlande avec l'Apparition de la Vierge a l'Enfant a saint Leopold"@fr .
+
+p:Le_gateau_des_rois  a   p:Peinture ;
+        rdfs:label        "Le gateau des rois" ;
+        p:annee_creation  "1774"^^xsd:int ;
+        p:domaine         "Peinture_francaise_18e_siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "836.4.27" ;
+        p:regroupee_dans  p:thematique_13 , p:thematique_1 ;
+        p:titre_peinture  "Le gateau des rois"@fr , "La torta dei re"@it .
+
+p:VEERENDAEL_Nicolaes_van
+        a                 p:Peintre ;
+        p:date_deces      "11 aout 1691" ;
+        p:date_naissance  "19 fevrier 1640" ;
+        p:nom             "VEERENDAEL" ;
+        p:pays_naissance  "Belgio"@it , "Belgique"@fr ;
+        p:peint           p:Vase_de_fleurs ;
+        p:prenom          "Nicolaes van" .
+
+p:Vincent  a              p:Peintre ;
+        p:date_deces      "VIVANT" ;
+        p:date_naissance  "1938"^^xsd:int ;
+        p:nom             "BIOULES" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           <http://www.ex.fr/p#Place_d'Aix> ;
+        p:prenom          "Vincent" .
+
+<http://www.ex.fr/p#L'Abandonnee>
+        a                 p:Peinture ;
+        rdfs:label        "L'Abandonnee" ;
+        p:annee_creation  "1852"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture francaise 19e siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "868.1.90" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "L'Abandonnee"@fr , "Gli abbandonati"@it .
+
+p:thematique_13  a        p:Parcours_Thematique ;
+        rdfs:label        "LES ENFANTS" ;
+        p:Nom_thematique  "i bambini"@it , "LES ENFANTS"@fr ;
+        p:est_exposee     p:musee_Fabre .
+
+p:Sculpture  rdfs:subClassOf  p:Oeuvre .
+
+p:Joshua_Sir  a           p:Peintre ;
+        p:date_deces      "23 fevrier 1792" ;
+        p:date_naissance  "16 juillet 1723" ;
+        p:nom             "REYNOLDS" ;
+        p:pays_naissance  "Regno Unito"@it , "Royaume-Uni"@fr ;
+        p:peint           p:Le_petit_Samuel ;
+        p:prenom          "Joshua Sir" .
+
+p:SCHUPPEN_Jacob_van  a   p:Peintre ;
+        p:date_deces      "29 janvier 1751" ;
+        p:date_naissance  "26 janvier 1670" ;
+        p:nom             "SCHUPPEN" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Meleagre ;
+        p:prenom          "Jacob_van" .
+
+p:a_Venise  a             p:Peinture ;
+        rdfs:label        "Vue du Grand Canal et du pont du Rialto a Venise" ;
+        p:annee_creation  "1770 - 1780" ;
+        p:domaine         "Dipinto italiano del XVIII secolo"@it , "Peinture italienne 18e siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "837.1.19" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "Vue du Grand Canal et du pont du Rialto a Venise"@fr , "Vista sul Canal Grande e sul Ponte di Rialto a Venezia"@it .
+
+p:VELDE_Willem_Van  a     p:Peintre ;
+        p:date_deces      "16 avril 1707" ;
+        p:date_naissance  "1633"^^xsd:int ;
+        p:nom             "VELDE" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           p:Marine ;
+        p:prenom          "Willem Van de le Jeune" .
+
+p:Sculpteur  rdfs:subClassOf  p:Artiste .
+
+p:TROY_Jean-Francois_de
+        a                 p:Peintre ;
+        p:date_deces      "26 janvier 1752" ;
+        p:date_naissance  "27 janvier 1679" ;
+        p:nom             "TROY" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Ariane ;
+        p:prenom          "Jean-Francois de" .
+
+p:Petite_Italienne  a     p:Peinture ;
+        rdfs:label        "Petite Italienne chanteuse des rues" ;
+        p:annee_creation  "1866"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2002.5.1" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "Piccolo cantante di strada italiano"@it , "Petite Italienne chanteuse des rues"@fr .
+
+<http://www.ex.fr/p#Femmes_d'Alger>
+        a                 p:Peinture ;
+        rdfs:label        "Femmes d_Alger dans leur interieur" ;
+        p:annee_creation  "1849"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture_francaise_19e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.38" ;
+        p:regroupee_dans  p:thematique_1 , p:thematique_3 ;
+        p:titre_peinture  "Femmes d_Alger dans leur interieur"@fr , "Le donne di Algeri nel loro interno"@it .
+
+<http://www.ex.fr/p#L'Atelier_du_peintre>
+        a                 p:Peinture ;
+        rdfs:label        "L'Atelier du peintre" ;
+        p:annee_creation  "1853"^^xsd:int ;
+        p:domaine         "Peinture_francaise_19e_siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.91" ;
+        p:regroupee_dans  p:thematique_8 ;
+        p:titre_peinture  "La bottega del pittore"@it , "L'Atelier du peintre"@fr .
+
+p:Bonjour_M.Courbet  a    p:Peinture ;
+        rdfs:label        "La Rencontre ou Bonjour M.Courbet" ;
+        p:annee_creation  "1854"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture_francaise_19e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.23" ;
+        p:regroupee_dans  p:thematique_4 , p:thematique_8 ;
+        p:titre_peinture  "La Rencontre ou Bonjour M.Courbet"@fr , "La riunione o Buongiorno signor Courbet"@it .
+
+p:Fleurs  a               p:Peinture ;
+        rdfs:label        "Fleurs" ;
+        p:annee_creation  "1869-1870" ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture_francaise_19e_siecle"@fr ;
+        p:matiere         "Olio su tela montata su cartoncino"@it , "olio su tela"@it , "Huile_sur_toile"@fr , "Huile_sur_toile maroufl�e sur carton"@fr ;
+        p:num_inventaire  "2004.13.2" , "868.1.31" ;
+        p:regroupee_dans  p:thematique_4 ;
+        p:titre_peinture  "Fiori"@it , "Fleurs"@fr .
+
+p:BONINGTON_Richard_Parkes
+        a                 p:Peintre ;
+        p:date_deces      "23 septembre 1828 " ;
+        p:date_naissance  "1802"^^xsd:int ;
+        p:nom             "BONINGTON" ;
+        p:pays_naissance  "Regno Unito"@fr , "Royaume-Uni"@fr ;
+        p:peint           p:Une_plage , <http://www.ex.fr/p#Cours_d'eau> ;
+        p:prenom          " Richard Parkes" .
+
+p:BERCHEM_Nicolaes  a     p:Peintre ;
+        p:date_deces      "18 fevrier 1683" ;
+        p:date_naissance  "1620"^^xsd:int ;
+        p:nom             "BERCHEM" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           p:Les_fagots ;
+        p:prenom          "Nicolaes" .
+
+p:Sainte_Marguerite  a    p:Peinture ;
+        rdfs:label        "Sainte Marguerite terrassant le dragon" ;
+        p:annee_creation  "1838"^^xsd:int ;
+        p:domaine         "Peinture francaise 19e siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "877.3.2" ;
+        p:regroupee_dans  p:thematique_9 ;
+        p:titre_peinture  "Sainte Marguerite terrassant le dragon"@fr , "Santa Margherita che uccide il drago"@it .
+
+p:thematique_8  a         p:Parcours_Thematique ;
+        rdfs:label        "LA VIE D'ARTISTE" ;
+        p:Nom_thematique  "la vita di un artista"@it , "LA VIE D'ARTISTE"@fr ;
+        p:est_exposee     p:musee_Fabre .
+
+p:Agesilas_et_ses_enfants
+        a                 p:Peinture ;
+        rdfs:label        "Agesilas jouant avec ses enfants" ;
+        p:annee_creation  "1779"^^xsd:int ;
+        p:domaine         "Peinture francaise 18e siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "895.7.32" ;
+        p:regroupee_dans  p:thematique_13 ;
+        p:titre_peinture  "Agesilaus gioca con i suoi figli"@it , "Agesilas jouant avec ses enfants"@fr .
+
+p:WIJCK_Thomas  a         p:Peintre ;
+        p:date_naissance  "1616"^^xsd:int ;
+        p:nom             "WIJCK" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           p:Vue_du_port ;
+        p:prenom          "Thomas" .
+
+p:La_mort_de_Narcisse
+        a                 p:Peinture ;
+        rdfs:label        "La mort de Narcisse, paysage historique" ;
+        p:annee_creation  "1814"^^xsd:int ;
+        p:domaine         "Peinture_francaise_19e_siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "825.1.59" ;
+        p:regroupee_dans  p:thematique_2 , p:thematique_14 , p:thematique_11 , p:thematique_4 ;
+        p:titre_peinture  "La mort de Narcisse, paysage historique"@fr , "La morte di Narciso, paesaggio storico"@it .
+
+p:Jean_le_Pere  a         p:Peintre ;
+        p:date_deces      "1589"^^xsd:int ;
+        p:date_naissance  "1490"^^xsd:int ;
+        p:nom             "COUSIN" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Allegorie_de_la_Charite ;
+        p:prenom          "Jean le Pere" .
+
+p:Montaigne  a            p:Peinture ;
+        rdfs:label        "Montaigne visitant le Tasse" ;
+        p:annee_creation  "1820"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture_francaise_19e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "825.1.125" ;
+        p:regroupee_dans  p:thematique_1 ;
+        p:titre_peinture  "Montaigne in visita alla Coppa"@it , "Montaigne visitant le Tasse"@fr .
+
+p:Les_fagots  a           p:Peinture ;
+        rdfs:label        "Les fagots" ;
+        p:annee_creation  "1670 - 1680" ;
+        p:domaine         "Peinture hollandaise 17e siecle"@fr , "Pittura olandese del XVII secolo"@it ;
+        p:matiere         "Huile sur bois"@fr , "Oil_on_wood"@it ;
+        p:num_inventaire  "836.4.3" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "I fasci"@it , "Les fagots"@fr .
+
+p:Pierre_Frederic  a      p:Peintre ;
+        p:date_deces      "13 janvier 1877" ;
+        p:date_naissance  "29 mars 1807" ;
+        p:nom             "PEYSON" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Sainte_Marguerite ;
+        p:prenom          "Pierre Frederic" .
+
+p:Jacques  a              p:Peintre ;
+        p:date_deces      "29 avril 1657" ;
+        p:date_naissance  "29 septembre 1596" ;
+        p:nom             "STELLA" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Sainte_Famille-saint_Jean-Baptiste ;
+        p:prenom          "Jacques" .
+
+p:Offrande_a_Pan  a       p:Peinture ;
+        rdfs:label        "Offrande a Pan" ;
+        p:annee_creation  "1845"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture_francaise_19e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.65" ;
+        p:regroupee_dans  p:thematique_4 ;
+        p:titre_peinture  "Offerta di padella"@it , "Offrande a Pan"@fr .
+
+p:Le_repos  a             p:Peinture ;
+        rdfs:label        "Le repos devant l'auberge" ;
+        p:annee_creation  "1660"^^xsd:int ;
+        p:domaine         "Peinture_francaise_17e_siecle"@fr , "Pittura francese del XVII secolo"@it ;
+        p:matiere         "Olio su tavola"@it , "Huile_sur_bois"@fr ;
+        p:num_inventaire  "836.4.55" ;
+        p:regroupee_dans  p:thematique_12 ;
+        p:titre_peinture  "Le repos devant l'auberge"@fr , "Riposare davanti alla locanda"@it .
+
+p:Solitude_ruisseau_couvert
+        a                 p:Peinture ;
+        rdfs:label        "Solitude ou le ruisseau couvert" ;
+        p:annee_creation  "1866"^^xsd:int ;
+        p:domaine         "Pittura francese del XIX secolo"@it , "Peinture francaise 19e siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "868.1.26" ;
+        p:regroupee_dans  p:thematique_14 ;
+        p:titre_peinture  "La solitudine o il ruscello coperto"@it , "Solitude ou le ruisseau couvert"@fr .
+
+p:STEEN_Jan_Havicksz  a   p:Peintre ;
+        p:date_deces      "3 fevrier 1679" ;
+        p:date_naissance  "1626"^^xsd:int ;
+        p:nom             "STEEN" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           p:Le_repos , <http://www.ex.fr/p#vieux_chantent,enfants_piaillent> ;
+        p:prenom          "Jan Havicksz" .
+
+p:Louise_de_Stolberg  a   p:Peinture ;
+        rdfs:label        "Portrait de Louise de Stolberg, comtesse d'Albany" ;
+        p:annee_creation  "1796"^^xsd:int ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture_francaise_18e_siecle"@fr ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "825.1.89" ;
+        p:regroupee_dans  p:thematique_8 ;
+        p:titre_peinture  "Portrait de Louise de Stolberg, comtesse d'Albany"@fr , "Ritratto di Louise de Stolberg, contessa di Albany"@it .
+
+p:Chauve-souris  a         p:Sculpture ;
+        rdfs:label         "La Chauve-souris" ;
+        p:annee_creation   "1946"^^xsd:int ;
+        p:domaine          "Scultura francese del XX secolo"@it , "Sculpture française 20e siècle"@fr ;
+        p:matiere          "Bronzo naturale pulito"@it , "Bronze naturel nettoye"@fr ;
+        p:num_inventaire   "96.10.1" ;
+        p:regroupee_dans   p:thematique_9 ;
+        p:titre_sculpture  "La Chauve-souris"@fr , "Il pipistrello"@it .
+
+p:HUYSUM_Jan_van  a       p:Peintre ;
+        p:date_deces      "8 fevrier 1749" ;
+        p:date_naissance  "15 avril 1682" ;
+        p:nom             "HUYSUM" ;
+        p:pays_naissance  "Olanda"@it , "Pays-Bas"@fr ;
+        p:peint           p:Bouquet_de_fleurs ;
+        p:prenom          "Jan van" .
+
+p:MORISOT_Berthe_Marie_Pauline
+        a                 p:Peintre ;
+        p:date_deces      "2 mars 1895" ;
+        p:date_naissance  "14 janvier 1841" ;
+        p:nom             "MORISOT" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Jeune_femme ;
+        p:prenom          "Berthe Marie Pauline" .
+
+p:RICHIER_Germaine  a     p:Sculpteur ;
+        p:a_cree          p:Chauve-souris ;
+        p:date_deces      "31 juillet 1959" ;
+        p:date_naissance  "16 septembre 1902" ;
+        p:nom             "RICHIER" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:prenom          "Germaine" .
+
+p:thematique_3  a         p:Parcours_Thematique ;
+        rdfs:label        "LES HEROS" ;
+        p:Nom_thematique  "eroi"@it , "LES HEROS"@fr ;
+        p:est_exposee     p:musee_Fabre .
+
+p:Bacchus_et_Erigone  a   p:Peinture ;
+        rdfs:label        "Bacchus et Erigone" ;
+        p:annee_creation  "1858"^^xsd:int ;
+        p:domaine         "Peinture_francaise_19e_siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "33.5.12" ;
+        p:regroupee_dans  p:thematique_2 ;
+        p:titre_peinture  "Bacco ed Erigone"@it , "Bacchus et Erigone"@fr .
+
+p:CLEVE_Corneille_van
+        a                 p:Sculpteur ;
+        p:a_cree          p:Polypheme ;
+        p:date_deces      "30 décembre 1732" ;
+        p:date_naissance  "10 juin 1645" ;
+        p:nom             "CLEVE" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:prenom          "Corneille van" .
+
+p:Tabagie_1  a            p:Peinture ;
+        rdfs:label        "Tabagie (\"L'homme au chapeau blanc\")" ;
+        p:annee_creation  "1644-1645" ;
+        p:domaine         "Peinture_francaise_17e_siecle"@fr , "Pittura francese del XVII secolo"@it ;
+        p:matiere         "Olio su tavola"@it , "Huile_sur_bois"@fr ;
+        p:num_inventaire  "836.4.66" ;
+        p:regroupee_dans  p:thematique_1 ;
+        p:titre_peinture  "Tabaccheria (\\ \"L'uomo con il cappello bianco \\"@it , "Tabagie (\\\"L'homme au chapeau blanc\\"@fr .
+
+p:Chiaruccia  a           p:Peinture ;
+        rdfs:label        "Chiaruccia" ;
+        p:annee_creation  "1848"^^xsd:int ;
+        p:domaine         "Peinture_francaise_19e_siecle"@fr , "Pittura francese del XIX secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "868.1.6" ;
+        p:regroupee_dans  p:thematique_4 ;
+        p:titre_peinture  "Chiaruccia"@fr , "Chiaruccia"@it .
+
+p:eglise_de_nuit  a       p:Peinture ;
+        rdfs:label        "Interieur d_une eglise de nuit" ;
+        p:annee_creation  "1630-1640" ;
+        p:domaine         "Peinture_francaise_17e_siecle"@fr , "Pittura francese del XVII secolo"@it ;
+        p:matiere         "Olio su tavola"@it , "Huile_sur_bois"@fr ;
+        p:num_inventaire  "837.1.66" ;
+        p:regroupee_dans  p:thematique_1 ;
+        p:titre_peinture  "Interno di una chiesa di notte"@it , "Interieur d_une eglise de nuit"@fr .
+
+p:Caspar  a               p:Peintre ;
+        p:date_deces      "6 octobre 1783" ;
+        p:date_naissance  "1735"^^xsd:int ;
+        p:nom             "WOLF" ;
+        p:pays_naissance  "svizzero"@it , "suisse"@fr ;
+        p:peint           p:Baigneuses ;
+        p:prenom          "Caspar" .
+
+p:Autoportrait  a         p:Peinture ;
+        rdfs:label        "Autoportrait" ;
+        p:annee_creation  "1797"^^xsd:int ;
+        p:domaine         "Pittura francese del XVIII secolo"@it , "Peinture_francaise_18e_siecle"@fr ;
+        p:matiere         "Huile_sur_toile"@fr , "olio su tela"@it ;
+        p:num_inventaire  "62.1.2" ;
+        p:regroupee_dans  p:thematique_8 ;
+        p:titre_peinture  "Auto ritratto"@it , "Autoportrait"@fr .
+
+p:ROBERT_Hubert  a        p:Peintre ;
+        p:date_deces      "15 avril 1808" ;
+        p:date_naissance  "1733"^^xsd:int ;
+        p:nom             "ROBERT" ;
+        p:pays_naissance  "Francia"@it , "France"@fr ;
+        p:peint           p:Le_pont ;
+        p:prenom          "Hubert" .
+
+p:Hector_Venus  a         p:Peinture ;
+        rdfs:label        "Hector expose sur les rives du Scamandre apres avoir ete tue par Achille et traine a son char ; Venus preserve son corps de la corruption" ;
+        p:annee_creation  "1759"^^xsd:int ;
+        p:domaine         "Peinture francaise 18e siecle"@fr , "Pittura francese del XVIII secolo"@it ;
+        p:matiere         "olio su tela"@it , "Huile_sur_toile"@fr ;
+        p:num_inventaire  "2012.19.11" ;
+        p:regroupee_dans  p:thematique_14 , p:thematique_10 ;
+        p:titre_peinture  "Ettore si esibì sulle rive dello Scamandro dopo essere stato ucciso da Achille e trascinato sul suo carro; Venere preserva il suo corpo dalla corruzione"@it , "Hector expose sur les rives du Scamandre apres avoir ete tue par Achille et traine a son char ; Venus preserve son corps de la corruption"@fr .
